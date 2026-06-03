@@ -1,0 +1,84 @@
+{
+  "project_id": "1751329c-152c-42dd-822d-ad62f1328c01",
+  "generated_at": "2026-06-03T04:28:54.666685Z",
+  "total_records": 1000,
+  "columns": [
+    {
+      "column_name": "order_id",
+      "type": "string",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "d49db341-93c2-4988-a102-9667346c8566",
+        "adcaa4a2-c53d-4aab-9e04-588878b204ac",
+        "05791d0d-1d94-48b7-996a-8d2dc7995d50"
+      ]
+    },
+    {
+      "column_name": "timestamp",
+      "type": "string",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "2026-06-03T02:44:03.663779",
+        "2026-06-01T17:34:54.329794",
+        "2026-06-02T22:18:03.296256"
+      ]
+    },
+    {
+      "column_name": "customer_id",
+      "type": "integer",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "2516",
+        "3299",
+        "1816"
+      ]
+    },
+    {
+      "column_name": "product_category",
+      "type": "string",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "Alimentos",
+        "Casa",
+        "Moda"
+      ]
+    },
+    {
+      "column_name": "price",
+      "type": "float",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "17.06",
+        "59.87",
+        "97.44"
+      ]
+    },
+    {
+      "column_name": "quantity",
+      "type": "integer",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "2",
+        "5",
+        "1"
+      ]
+    },
+    {
+      "column_name": "store_location",
+      "type": "string",
+      "description": "",
+      "nullable": false,
+      "sample_values": [
+        "Borges dos Dourados",
+        "Caldeira Alegre",
+        "Viana"
+      ]
+    }
+  ]
+}
