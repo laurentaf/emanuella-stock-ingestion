@@ -103,10 +103,12 @@ def save_raw_json(data: list[dict], filepath: str) -> str:
 def transform_inventory(json_path: str) -> pd.DataFrame:
     """
     Carrega o JSON persistido do disco, loga quantas linhas foram carregadas
-    e seleciona as colunas chave para análise de forecast de estoque.
+    e seleciona as colunas para análise de forecast de estoque.
 
-    Colunas de saída:
+    Colunas de saída (7 colunas = todas as colunas da API):
+        - order_id: identificador único do pedido
         - timestamp: data/hora do pedido (para séries temporais)
+        - customer_id: identificador do cliente
         - product_category: categoria do produto (dimensão de análise)
         - price: preço unitário
         - quantity: quantidade (métrica principal para forecast)
@@ -116,10 +118,12 @@ def transform_inventory(json_path: str) -> pd.DataFrame:
         json_path: Caminho do arquivo JSON gerado no Estágio 1.
 
     Returns:
-        pd.DataFrame: DataFrame com as colunas transformadas.
+        pd.DataFrame: DataFrame com todas as colunas transformadas.
     """
     KEY_COLUMNS = [
+        "order_id",
         "timestamp",
+        "customer_id",
         "product_category",
         "price",
         "quantity",
@@ -166,32 +170,19 @@ def save_staging_csv(df: pd.DataFrame, filepath: str) -> None:
 # Estágio 3: Artefatos para dbt
 # =============================================================================
 
-def generate_metadata(data: list[dict]) -> list[dict]:
+def generate_metadata_from_df(df: pd.DataFrame) -> list[dict]:
     """
-    Gera o schema simples dos dados no formato:
-    [
-        {
-            "column_name": "nome_da_coluna",
-            "name": "Nome Amigavel",
-            "type": "tipo_do_dado"
-        },
-        ...
-    ]
+    Gera o schema simples a partir de um DataFrame ja transformado,
+    garantindo que o metadata reflita EXATAMENTE as colunas do CSV final.
 
-    Schema simples (coluna/nome/tipo) para consumo pelo dbt e
-    documentacao automatica.
+    Schema: coluna/nome/tipo — formato simples para consumo pelo dbt.
 
     Args:
-        data: Lista de dicionarios com os dados.
+        df: DataFrame apos transformacao (mesmo que vai para o CSV).
 
     Returns:
         list[dict]: Schema simplificado das colunas.
     """
-    if not data:
-        return []
-
-    df = pd.DataFrame(data)
-
     COLUMN_NAMES = {
         "order_id": "ID do Pedido",
         "timestamp": "Data do Pedido",
@@ -284,13 +275,11 @@ def main():
     # Estagio 3: Gerar metadados APOS salvar o CSV
     # ------------------------------------------------------------------
     print("\n--- Estagio 3: Artefatos para dbt ---")
-    # Recarrega o JSON bruto do disco para gerar metadata completa
-    with open(json_path, "r", encoding="utf-8") as f:
-        raw_from_disk = json.load(f)
-
-    metadata = generate_metadata(raw_from_disk)
+    # Metadata gerado a partir do DataFrame TRANSFORMADO (df_transformed)
+    # para garantir consistencia com as colunas do CSV final
+    metadata = generate_metadata_from_df(df_transformed)
     metadata_path = os.path.join(DATA_DIR, "inventory_metadata.json")
-    save_metadata(metadata, metadata_path, len(raw_from_disk))
+    save_metadata(metadata, metadata_path, len(df_transformed))
 
     print("\n[OK] Pipeline completo (3 estagios)!")
     print(f"   JSON bruto:    {json_path}")

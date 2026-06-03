@@ -1,1001 +1,1001 @@
-timestamp,product_category,price,quantity,store_location
-2026-06-02 16:18:28.998484,Casa,83.81,4,Nunes
-2026-06-03 01:30:21.400626,Alimentos,11.45,3,Ferreira
-2026-06-02 08:52:20.153308,Eletrônicos,56.32,5,Araújo da Prata
-2026-06-01 18:11:26.310043,Casa,22.91,5,Cassiano de Caldeira
-2026-06-01 14:17:34.133276,Alimentos,96.52,5,da Mata
-2026-06-01 01:50:44.967092,Casa,35.26,5,Silveira
-2026-06-02 11:16:31.008198,Alimentos,35.14,1,da Rosa
-2026-06-02 13:51:56.903425,Moda,74.62,5,Melo do Galho
-2026-06-03 02:19:30.453528,Casa,52.63,5,Moreira do Oeste
-2026-06-01 09:17:04.351769,Alimentos,52.75,4,Novais dos Dourados
-2026-06-01 09:39:29.588638,Moda,70.6,2,Cavalcante
-2026-06-02 03:50:34.723508,Eletrônicos,16.29,4,Viana
-2026-06-01 00:08:05.906355,Eletrônicos,53.96,3,Pacheco
-2026-06-01 12:51:51.777471,Eletrônicos,24.6,2,Novais
-2026-06-02 16:52:21.887465,Casa,40.93,5,Viana das Pedras
-2026-06-01 10:06:23.774196,Alimentos,44.6,3,Pastor
-2026-06-01 17:08:20.858965,Alimentos,30.89,5,Pimenta
-2026-06-02 00:56:35.112706,Moda,30.09,2,Casa Grande
-2026-06-01 18:43:44.476545,Moda,32.4,2,Rodrigues de Câmara
-2026-06-01 11:00:11.040182,Casa,38.52,3,Souza
-2026-06-02 08:14:48.593688,Moda,53.6,3,Guerra de Minas
-2026-06-01 14:43:01.446368,Casa,13.91,2,Marques
-2026-06-02 19:25:26.243883,Eletrônicos,58.27,4,Siqueira do Oeste
-2026-06-03 00:17:28.235820,Casa,78.54,2,Alves
-2026-06-01 05:50:27.501732,Alimentos,50.88,3,Almeida do Campo
-2026-06-02 02:38:38.918483,Casa,52.96,1,Abreu do Campo
-2026-06-02 06:16:17.143950,Eletrônicos,50.82,4,Gomes
-2026-06-01 04:14:48.828652,Eletrônicos,2.84,3,Monteiro
-2026-06-02 05:00:49.622823,Casa,34.6,3,Moraes de Viana
-2026-06-02 20:19:11.902020,Eletrônicos,34.03,2,da Cunha
-2026-06-01 03:19:54.840520,Alimentos,90.06,1,Dias
-2026-06-02 07:55:19.237588,Alimentos,65.66,1,das Neves de Minas
-2026-06-01 20:28:44.317966,Moda,17.99,1,Leão
-2026-06-01 03:49:10.446920,Eletrônicos,96.53,2,Nascimento
-2026-06-01 18:15:59.858677,Alimentos,19.68,4,Fonseca da Praia
-2026-06-02 09:50:10.706905,Alimentos,76.6,2,da Conceição
-2026-06-01 09:59:36.995558,Eletrônicos,50.01,5,Guerra de Andrade
-2026-06-01 18:11:51.472384,Moda,12.87,5,Pires de Barros
-2026-06-02 06:16:05.170274,Eletrônicos,52.3,2,Souza Verde
-2026-06-01 00:34:29.105464,Moda,68.94,1,Rios de Minas
-2026-06-02 18:23:39.210961,Casa,36.66,2,Novaes dos Dourados
-2026-06-01 16:54:47.089949,Moda,11.62,2,Garcia do Galho
-2026-06-01 11:36:13.075812,Alimentos,71.62,5,Brito de Minas
-2026-06-02 04:02:30.644034,Alimentos,18.96,1,Casa Grande
-2026-06-02 02:21:08.790829,Alimentos,47.71,2,Pinto das Pedras
-2026-06-02 13:26:05.662473,Casa,64.55,5,Fonseca
-2026-06-01 02:28:33.853662,Alimentos,43.87,2,Viana Verde
-2026-06-02 22:31:13.489347,Moda,83.76,2,Moura
-2026-06-01 11:33:21.273341,Eletrônicos,9.89,4,Nascimento do Oeste
-2026-06-01 12:33:31.820770,Eletrônicos,24.48,2,Guerra
-2026-06-01 22:37:02.777755,Alimentos,77.1,1,Araújo do Norte
-2026-06-03 00:35:17.451084,Moda,99.71,4,da Rocha
-2026-06-01 12:15:58.408715,Eletrônicos,36.36,1,Caldeira
-2026-06-01 16:08:00.106923,Casa,85.42,5,Cavalcante das Pedras
-2026-06-02 07:07:26.542093,Casa,67.46,4,da Mata da Prata
-2026-06-02 06:05:41.826191,Moda,14.12,4,Sousa das Flores
-2026-06-02 18:51:48.844062,Eletrônicos,30.44,2,Vieira de Cunha
-2026-06-01 03:34:47.085946,Eletrônicos,54.4,1,das Neves do Galho
-2026-06-01 03:09:11.272053,Casa,77.56,4,da Costa
-2026-06-01 22:01:20.735743,Casa,25.7,2,Almeida
-2026-06-02 06:25:07.900799,Eletrônicos,34.39,1,Rezende
-2026-06-01 05:37:20.718302,Moda,14.59,4,Caldeira Paulista
-2026-06-02 02:11:48.922283,Moda,37.84,2,Cirino Grande
-2026-06-02 22:44:17.057812,Casa,7.55,1,Dias Alegre
-2026-06-02 06:40:01.114350,Eletrônicos,17.79,4,Rocha do Sul
-2026-06-02 21:03:37.562662,Alimentos,65.83,3,Nascimento
-2026-06-02 22:50:14.264118,Eletrônicos,74.66,4,Martins de Siqueira
-2026-06-02 23:37:11.750520,Alimentos,62.52,4,Aparecida do Sul
-2026-06-03 03:37:09.383472,Alimentos,34.04,2,Albuquerque de Moura
-2026-06-01 11:16:55.666558,Alimentos,12.66,2,Sousa de Minas
-2026-06-02 17:43:21.070424,Casa,35.43,2,Teixeira de Minas
-2026-06-01 04:12:31.174902,Alimentos,26.04,4,da Costa Paulista
-2026-06-02 01:40:20.474822,Casa,57.67,3,Câmara de Teixeira
-2026-06-03 01:47:03.546901,Casa,88.76,1,Melo das Flores
-2026-06-01 04:06:21.690546,Alimentos,55.37,3,Gonçalves
-2026-06-02 09:03:31.662061,Moda,93.98,1,Cavalcanti
-2026-06-01 12:29:55.060897,Alimentos,32.06,1,Casa Grande Alegre
-2026-06-01 13:59:23.598672,Casa,89.12,3,Rodrigues
-2026-06-02 10:31:57.871312,Alimentos,21.48,1,Fogaça
-2026-06-01 04:19:51.710700,Casa,23.81,2,Guerra do Galho
-2026-06-01 15:20:40.423403,Moda,41.98,5,Rezende do Oeste
-2026-06-02 20:49:29.044148,Moda,78.61,4,das Neves
-2026-06-02 00:31:50.813687,Eletrônicos,51.27,2,Cavalcanti
-2026-06-01 20:49:00.169280,Moda,15.06,5,Albuquerque
-2026-06-01 18:32:42.040933,Eletrônicos,36.73,2,Novais do Campo
-2026-06-03 01:39:56.959567,Casa,49.92,2,Freitas de Jesus
-2026-06-02 06:34:50.038815,Moda,38.88,4,Moreira
-2026-06-02 19:14:03.031425,Moda,64.37,5,Casa Grande
-2026-06-01 00:57:07.875918,Casa,52.97,1,da Paz
-2026-06-01 08:23:56.103308,Eletrônicos,34.83,5,Casa Grande Alegre
-2026-06-03 01:40:06.507197,Moda,29.26,3,Casa Grande
-2026-06-03 04:17:23.624871,Casa,73.95,2,Fernandes
-2026-06-02 10:34:05.854391,Eletrônicos,98.08,4,Alves de Minas
-2026-06-01 04:25:20.954480,Alimentos,88.15,2,Cavalcanti da Serra
-2026-06-02 05:16:22.219171,Alimentos,59.17,1,da Mota
-2026-06-01 03:46:21.044720,Alimentos,20.6,2,Lima de Carvalho
-2026-06-01 19:51:41.806133,Moda,88.12,4,Caldeira dos Dourados
-2026-06-02 18:03:36.563257,Eletrônicos,45.68,2,Camargo da Praia
-2026-06-02 23:42:53.869633,Moda,94.41,5,Pires da Mata
-2026-06-02 00:45:05.889155,Alimentos,77.82,5,Silva Alegre
-2026-06-02 19:40:28.380663,Casa,49.13,4,Pacheco do Oeste
-2026-06-01 15:12:12.740760,Casa,68.83,5,Souza das Flores
-2026-06-01 00:39:52.689362,Eletrônicos,77.71,2,Campos do Sul
-2026-06-01 00:51:13.883434,Casa,81.2,3,da Rosa
-2026-06-01 16:36:37.010262,Eletrônicos,34.12,1,Duarte de Goiás
-2026-06-02 19:26:33.047278,Moda,96.78,1,Siqueira
-2026-06-01 19:48:03.555901,Casa,60.94,1,Moura
-2026-06-02 00:41:14.638577,Moda,29.94,3,Pimenta do Oeste
-2026-06-02 08:15:52.540851,Casa,3.12,1,Nunes
-2026-06-02 11:57:34.020180,Eletrônicos,96.3,3,Lima Verde
-2026-06-02 19:13:28.460503,Alimentos,4.65,3,Cassiano
-2026-06-02 16:45:16.498970,Moda,56.38,3,Marques de da Paz
-2026-06-02 21:46:41.980575,Alimentos,17.14,3,Rocha da Serra
-2026-06-01 18:51:55.192607,Casa,69.75,5,Rodrigues da Praia
-2026-06-02 17:07:02.312644,Moda,24.52,5,Abreu Alegre
-2026-06-02 05:20:36.633061,Casa,81.61,2,Ferreira de Porto
-2026-06-02 01:52:46.540351,Casa,36.32,5,Araújo de Ribeiro
-2026-06-03 00:42:46.798185,Casa,22.72,3,Novais de Lima
-2026-06-01 17:24:26.004815,Eletrônicos,16.26,1,Pacheco do Norte
-2026-06-02 16:40:46.976004,Casa,22.92,3,Fonseca de Melo
-2026-06-01 04:52:46.176809,Alimentos,33.9,1,Ribeiro do Norte
-2026-06-02 23:21:24.913706,Casa,98.93,2,Vasconcelos do Campo
-2026-06-01 09:59:38.002797,Casa,66.4,2,Guerra
-2026-06-01 01:09:34.014317,Moda,98.95,1,Lima de Montenegro
-2026-06-02 03:04:28.232093,Casa,78.94,1,Marques
-2026-06-01 21:56:04.810054,Moda,97.64,2,Almeida
-2026-06-03 01:19:23.915118,Casa,80.18,5,Cavalcante
-2026-06-02 03:41:13.601725,Casa,12.54,3,Sousa do Amparo
-2026-06-02 18:26:58.424521,Alimentos,72.5,3,Rodrigues
-2026-06-02 06:38:19.333779,Moda,37.93,4,Pinto dos Dourados
-2026-06-03 04:08:02.913144,Moda,78.28,4,Correia Paulista
-2026-06-02 23:04:44.926060,Moda,19.12,3,Andrade dos Dourados
-2026-06-02 17:34:06.236591,Eletrônicos,17.88,3,Cavalcante de Minas
-2026-06-01 05:54:15.650623,Eletrônicos,82.31,1,Aragão
-2026-06-02 10:05:54.329483,Alimentos,79.79,4,Cardoso
-2026-06-01 13:25:40.416380,Alimentos,43.47,5,Borges do Sul
-2026-06-02 04:57:07.732131,Alimentos,79.4,3,Barbosa
-2026-06-01 12:17:50.743664,Alimentos,13.48,2,da Cruz
-2026-06-02 01:23:50.737887,Casa,89.33,4,Azevedo Grande
-2026-06-02 08:00:36.505390,Eletrônicos,52.26,3,Barbosa
-2026-06-02 00:04:18.956223,Alimentos,32.51,2,da Luz da Praia
-2026-06-01 19:24:57.364856,Eletrônicos,87.01,1,Peixoto
-2026-06-01 15:33:00.527964,Casa,42.52,1,Moreira
-2026-06-03 03:23:35.514812,Alimentos,84.44,2,Vargas
-2026-06-02 00:55:45.968742,Alimentos,48.73,5,Rios de Porto
-2026-06-01 22:31:35.744152,Eletrônicos,92.19,3,Monteiro
-2026-06-02 07:51:03.878086,Alimentos,4.01,2,Carvalho da Serra
-2026-06-02 01:24:51.606233,Casa,0.44,2,Gomes da Praia
-2026-06-01 10:12:19.788777,Alimentos,23.19,5,Borges
-2026-06-01 18:55:32.431227,Eletrônicos,59.4,5,Gonçalves
-2026-06-02 12:22:06.576543,Casa,99.63,5,da Mata
-2026-06-02 06:10:03.861177,Casa,53.12,5,Montenegro de Costa
-2026-06-01 10:35:21.631869,Alimentos,40.93,4,Peixoto
-2026-06-02 00:48:04.776370,Moda,88.1,2,da Luz Grande
-2026-06-01 14:00:40.956000,Moda,44.2,5,Alves
-2026-06-01 22:42:52.451471,Casa,50.52,5,Vasconcelos Grande
-2026-06-01 23:17:04.650680,Alimentos,98.91,3,Novais das Flores
-2026-06-01 21:25:31.926547,Casa,62.52,2,Rios
-2026-06-02 20:10:48.896947,Eletrônicos,2.92,4,Pacheco Verde
-2026-06-02 15:31:35.467750,Moda,87.26,3,Nogueira de Goiás
-2026-06-03 04:36:17.173045,Alimentos,54.27,2,Macedo das Pedras
-2026-06-01 15:50:38.823022,Moda,73.57,4,da Mota
-2026-06-02 07:29:43.264347,Moda,90.55,5,Sales
-2026-06-02 00:57:38.422592,Moda,47.58,1,Sá de Costa
-2026-06-03 02:51:24.824778,Casa,21.62,2,Nogueira
-2026-06-01 01:40:57.458278,Moda,42.55,1,Aparecida Grande
-2026-06-03 00:48:19.588510,Eletrônicos,1.34,1,Siqueira
-2026-06-02 04:42:51.482980,Eletrônicos,98.05,5,Cavalcanti
-2026-06-02 17:56:14.677019,Eletrônicos,15.35,5,Gomes da Praia
-2026-06-03 02:28:29.430756,Moda,48.51,5,Cassiano do Sul
-2026-06-01 19:46:20.434680,Alimentos,83.95,1,Montenegro
-2026-06-01 20:09:49.041564,Alimentos,23.06,5,Vargas
-2026-06-02 00:17:58.302122,Moda,67.05,4,Dias
-2026-06-02 17:59:23.440343,Moda,7.88,5,Caldeira Paulista
-2026-06-01 22:20:21.825736,Moda,78.09,1,Garcia da Serra
-2026-06-02 22:02:20.588580,Eletrônicos,71.82,5,Monteiro de da Mata
-2026-06-01 00:39:11.227537,Casa,42.74,1,Aragão
-2026-06-01 00:45:57.135443,Eletrônicos,60.94,1,Araújo
-2026-06-02 09:56:38.182781,Eletrônicos,5.59,2,Azevedo do Oeste
-2026-06-02 03:00:30.545801,Alimentos,59.84,1,Araújo
-2026-06-02 03:11:22.756773,Alimentos,32.25,1,da Luz Alegre
-2026-06-02 11:15:13.972203,Eletrônicos,30.07,3,Nogueira de da Rocha
-2026-06-02 10:06:18.431472,Casa,29.55,5,da Cunha do Sul
-2026-06-01 13:09:01.612885,Alimentos,51.9,4,Novaes do Amparo
-2026-06-02 19:26:41.927905,Alimentos,44.91,2,Campos de Câmara
-2026-06-01 12:48:59.258122,Alimentos,9.43,3,Guerra do Norte
-2026-06-02 00:20:02.816455,Eletrônicos,32.88,1,Montenegro de Montenegro
-2026-06-02 16:13:59.454246,Casa,77.62,5,Pimenta
-2026-06-01 19:41:32.973154,Alimentos,46.06,3,Santos do Amparo
-2026-06-01 05:18:21.472305,Casa,83.71,1,Mendes do Norte
-2026-06-02 21:44:19.270064,Alimentos,31.36,5,da Rosa de Moura
-2026-06-02 04:46:38.863742,Eletrônicos,71.39,5,Castro das Flores
-2026-06-02 06:37:34.839404,Alimentos,2.87,3,Nascimento de Araújo
-2026-06-02 23:44:52.343216,Alimentos,78.3,4,Pinto
-2026-06-01 13:17:13.107471,Casa,32.1,2,Lopes
-2026-06-02 03:51:39.761964,Eletrônicos,96.77,2,Mendes
-2026-06-02 14:01:42.044126,Eletrônicos,38.22,5,Cardoso de Araújo
-2026-06-01 11:00:01.789016,Moda,43.61,2,Machado
-2026-06-02 18:41:39.549696,Moda,3.44,2,da Rosa da Prata
-2026-06-02 20:43:11.040946,Eletrônicos,48.69,4,Rodrigues
-2026-06-02 14:13:24.491180,Casa,89.16,1,Carvalho
-2026-06-02 02:16:19.459716,Moda,10.94,1,Barros de Minas
-2026-06-01 15:09:10.827535,Alimentos,80.93,3,Mendonça
-2026-06-02 02:42:28.042109,Eletrônicos,42.97,5,Fernandes da Mata
-2026-06-02 13:42:59.306544,Eletrônicos,44.37,4,Ramos
-2026-06-01 21:00:18.520065,Casa,75.0,5,Rocha
-2026-06-02 02:06:44.311718,Moda,98.3,4,Correia de Rocha
-2026-06-02 12:08:56.003685,Casa,82.39,4,Machado de Minas
-2026-06-01 15:24:20.873051,Casa,92.56,5,da Cruz
-2026-06-01 12:15:20.596327,Eletrônicos,80.6,5,Nascimento
-2026-06-02 20:59:48.515645,Casa,29.26,3,Sá
-2026-06-02 07:55:01.103733,Eletrônicos,85.55,5,Abreu do Amparo
-2026-06-02 01:54:16.966687,Alimentos,75.69,4,Mendes
-2026-06-01 10:50:21.776035,Casa,26.73,4,da Costa Verde
-2026-06-01 08:10:47.511724,Casa,69.45,5,Jesus de Alves
-2026-06-01 05:33:30.634208,Alimentos,2.55,5,Moura de Peixoto
-2026-06-02 03:54:22.645914,Eletrônicos,23.05,5,Cavalcanti das Pedras
-2026-06-01 07:51:40.001752,Moda,99.52,4,Melo
-2026-06-02 09:32:54.707188,Eletrônicos,47.68,2,Mendonça
-2026-06-02 13:31:05.046470,Alimentos,31.39,4,Rezende
-2026-06-02 10:15:51.948400,Moda,99.01,4,Rodrigues
-2026-06-01 22:57:07.880565,Moda,81.46,4,das Neves
-2026-06-02 19:15:07.049097,Casa,41.78,5,Carvalho das Flores
-2026-06-02 07:35:38.279982,Eletrônicos,59.48,2,Santos do Oeste
-2026-06-02 18:20:11.762973,Moda,55.46,5,Ferreira de Vasconcelos
-2026-06-02 16:19:02.597749,Alimentos,89.66,4,Alves
-2026-06-02 16:42:41.076345,Eletrônicos,57.73,3,da Costa do Sul
-2026-06-02 01:20:06.915426,Moda,17.78,3,Nascimento de Minas
-2026-06-02 21:52:14.563933,Moda,15.95,3,da Conceição
-2026-06-02 18:58:15.969275,Casa,82.43,5,Peixoto
-2026-06-02 16:13:01.629499,Eletrônicos,69.91,3,Oliveira
-2026-06-02 16:20:40.115506,Eletrônicos,71.38,1,Barros Paulista
-2026-06-03 01:33:44.271863,Moda,43.76,2,Viana
-2026-06-02 04:23:30.262261,Moda,4.24,4,Marques
-2026-06-01 12:42:55.426760,Moda,40.3,4,Ferreira
-2026-06-02 21:19:48.486127,Eletrônicos,17.1,3,Lima de Porto
-2026-06-01 03:31:38.753449,Alimentos,10.95,4,da Rocha de Pinto
-2026-06-01 21:48:18.884003,Alimentos,44.69,1,Correia de Lima
-2026-06-01 15:59:41.453092,Casa,15.03,3,da Paz Verde
-2026-06-02 02:09:58.008434,Alimentos,62.55,5,Pacheco da Mata
-2026-06-01 09:41:26.618637,Casa,22.19,1,Cavalcante
-2026-06-02 14:43:39.810935,Moda,13.55,3,Sampaio Alegre
-2026-06-01 14:04:23.025845,Alimentos,5.72,5,Carvalho
-2026-06-02 08:02:54.761193,Alimentos,36.19,3,Casa Grande das Pedras
-2026-06-02 11:52:27.000949,Casa,91.52,2,Nascimento
-2026-06-02 08:35:53.687811,Eletrônicos,84.77,2,Marques
-2026-06-01 01:07:36.997737,Alimentos,60.19,2,Lopes
-2026-06-01 02:28:52.236832,Alimentos,53.3,5,da Rosa da Mata
-2026-06-01 07:38:09.832297,Moda,76.07,4,Montenegro
-2026-06-02 17:33:31.527839,Eletrônicos,50.2,1,Mendes das Pedras
-2026-06-01 19:01:08.998042,Alimentos,88.5,5,da Conceição
-2026-06-01 04:24:55.503952,Eletrônicos,30.48,1,Almeida
-2026-06-02 06:09:30.625547,Moda,76.99,3,da Cruz
-2026-06-03 00:17:21.583627,Eletrônicos,45.21,1,Costa da Serra
-2026-06-03 01:08:13.984842,Casa,81.98,3,Lopes dos Dourados
-2026-06-02 11:07:26.400518,Casa,62.75,5,Moura
-2026-06-02 02:53:04.404017,Eletrônicos,91.3,5,Ramos de Teixeira
-2026-06-01 06:37:23.078234,Moda,39.23,4,Pacheco
-2026-06-02 06:07:58.425433,Alimentos,53.21,1,Guerra
-2026-06-02 10:33:28.786247,Moda,86.04,4,Campos de Andrade
-2026-06-02 04:25:35.877947,Eletrônicos,17.88,5,Nunes
-2026-06-02 16:29:54.647568,Moda,66.14,3,Porto da Praia
-2026-06-03 01:29:39.807249,Moda,25.25,4,Martins
-2026-06-02 08:42:45.228100,Casa,26.5,4,Monteiro do Norte
-2026-06-03 01:56:35.390069,Casa,46.49,4,Cirino
-2026-06-02 01:29:44.465859,Alimentos,14.54,4,Abreu de Minas
-2026-06-01 05:59:36.250221,Moda,1.28,3,Fogaça Alegre
-2026-06-01 13:24:33.214806,Alimentos,74.97,3,Monteiro de Azevedo
-2026-06-02 15:37:21.347634,Moda,71.75,1,Guerra de Dias
-2026-06-01 07:19:12.237698,Moda,32.18,1,Nunes do Amparo
-2026-06-01 04:38:49.474079,Alimentos,33.6,5,Cassiano do Sul
-2026-06-01 18:27:32.130999,Eletrônicos,10.75,4,Machado de Montenegro
-2026-06-01 11:29:48.935759,Moda,22.72,5,Aparecida
-2026-06-01 05:19:21.660125,Casa,95.86,1,Novais do Amparo
-2026-06-03 02:44:21.041865,Moda,70.45,2,Santos da Praia
-2026-06-02 20:16:20.303584,Moda,77.62,3,Ramos da Mata
-2026-06-02 12:45:46.010960,Eletrônicos,46.32,1,da Mata
-2026-06-03 01:22:12.215348,Alimentos,82.71,4,Duarte de Minas
-2026-06-01 11:40:19.418302,Moda,80.09,1,Câmara
-2026-06-02 02:11:21.282979,Eletrônicos,43.47,1,da Cunha do Sul
-2026-06-01 01:20:22.740094,Alimentos,78.38,3,da Conceição de Freitas
-2026-06-02 10:45:47.529574,Moda,13.69,1,Santos
-2026-06-01 02:50:07.722347,Alimentos,76.41,2,Almeida
-2026-06-02 01:22:11.637302,Casa,38.25,4,das Neves
-2026-06-01 12:32:18.847136,Casa,37.37,3,Gomes
-2026-06-02 03:23:43.905112,Casa,77.34,2,Abreu do Galho
-2026-06-01 02:05:40.075552,Casa,65.89,2,Fogaça do Oeste
-2026-06-01 03:38:12.843479,Alimentos,97.48,5,Andrade
-2026-06-02 13:10:22.493486,Eletrônicos,27.95,2,Cavalcante Paulista
-2026-06-02 05:26:25.248379,Moda,77.43,1,das Neves
-2026-06-02 07:11:51.467672,Eletrônicos,32.86,2,Aparecida
-2026-06-01 22:50:52.778645,Moda,34.91,2,Cirino
-2026-06-02 16:39:38.483724,Alimentos,44.24,2,Vieira
-2026-06-01 11:33:41.524316,Eletrônicos,76.77,3,Aragão Verde
-2026-06-02 01:45:31.786767,Eletrônicos,37.02,4,Cavalcanti Paulista
-2026-06-02 11:55:10.463725,Alimentos,43.94,3,das Neves
-2026-06-02 03:21:12.700920,Casa,54.88,1,Pastor
-2026-06-01 13:10:02.556621,Moda,47.95,5,Nascimento
-2026-06-01 09:12:22.323597,Casa,32.2,2,Mendonça de das Neves
-2026-06-01 15:22:15.733855,Casa,3.47,2,Garcia do Galho
-2026-06-01 06:57:07.804872,Casa,14.05,3,Pires Grande
-2026-06-01 17:58:37.885857,Casa,9.93,4,da Rocha Alegre
-2026-06-03 01:08:54.672560,Alimentos,93.63,5,Barros
-2026-06-02 22:16:25.137759,Alimentos,87.94,4,Vieira de Brito
-2026-06-02 16:42:10.357681,Moda,71.33,4,Cavalcante
-2026-06-01 19:05:23.496428,Casa,42.71,1,da Costa
-2026-06-02 21:49:21.009597,Moda,38.82,5,Sampaio
-2026-06-01 01:13:37.536442,Eletrônicos,42.6,2,Fonseca
-2026-06-02 03:40:53.204629,Moda,8.15,1,Vasconcelos
-2026-06-02 00:17:36.691074,Eletrônicos,70.84,4,Montenegro
-2026-06-02 04:15:28.992299,Moda,0.13,2,Caldeira
-2026-06-02 18:26:33.919892,Eletrônicos,84.45,5,Costa
-2026-06-01 19:49:23.322137,Eletrônicos,69.24,1,Teixeira de Minas
-2026-06-02 11:21:33.914554,Alimentos,77.45,5,Vargas
-2026-06-02 11:04:58.503219,Alimentos,62.82,1,da Mota do Campo
-2026-06-02 02:47:08.451771,Casa,49.32,3,Andrade
-2026-06-01 19:23:45.278606,Moda,73.85,2,Viana Grande
-2026-06-02 18:40:33.472642,Eletrônicos,3.14,5,Sales
-2026-06-01 12:40:28.707533,Moda,77.55,3,Lopes de das Neves
-2026-06-01 12:59:03.085446,Eletrônicos,40.92,2,Nogueira
-2026-06-01 20:58:24.606299,Eletrônicos,29.14,1,Nunes do Galho
-2026-06-03 03:14:28.393009,Alimentos,61.07,4,Pimenta de Cavalcante
-2026-06-01 23:55:11.564520,Casa,53.44,3,Oliveira
-2026-06-02 08:34:04.561160,Eletrônicos,28.74,5,Vargas de Pacheco
-2026-06-01 00:19:16.026469,Alimentos,98.2,5,Pereira
-2026-06-01 06:57:37.259918,Eletrônicos,83.1,3,Rocha
-2026-06-01 23:31:56.021274,Casa,99.35,5,da Rosa de Albuquerque
-2026-06-02 05:08:50.360394,Alimentos,61.26,1,Sousa da Serra
-2026-06-02 07:28:09.111637,Eletrônicos,11.87,5,Dias de Correia
-2026-06-02 06:14:09.394762,Alimentos,19.49,5,Martins
-2026-06-01 03:38:00.747743,Moda,63.52,1,Gonçalves da Prata
-2026-06-01 20:54:31.910507,Casa,14.88,3,Caldeira de Barbosa
-2026-06-02 11:21:13.658780,Casa,21.48,3,Costela de Viana
-2026-06-03 01:32:43.792336,Moda,45.34,3,da Rosa Alegre
-2026-06-03 01:54:40.986053,Alimentos,60.06,1,Barros de Minas
-2026-06-01 21:25:47.778890,Eletrônicos,46.99,5,Duarte da Praia
-2026-06-03 02:28:10.468039,Eletrônicos,65.41,2,Martins
-2026-06-01 01:28:18.777330,Moda,51.2,3,da Rosa
-2026-06-02 07:09:34.953126,Casa,44.22,3,da Rocha
-2026-06-02 20:43:30.460904,Casa,72.49,5,Gomes da Prata
-2026-06-02 03:04:04.065779,Casa,40.57,3,Montenegro de Sousa
-2026-06-02 19:34:48.669685,Alimentos,18.82,5,Fonseca
-2026-06-02 05:09:26.475762,Alimentos,84.89,5,da Luz de Santos
-2026-06-02 10:28:30.683835,Casa,55.44,1,da Conceição
-2026-06-01 08:50:58.474419,Moda,9.29,5,Aparecida
-2026-06-03 03:36:41.261202,Casa,99.52,5,Correia
-2026-06-02 09:35:58.964573,Alimentos,41.24,4,Guerra
-2026-06-02 12:40:05.252516,Eletrônicos,84.35,3,Martins das Pedras
-2026-06-01 07:34:58.142375,Casa,34.24,1,Nogueira do Campo
-2026-06-01 15:46:12.141549,Eletrônicos,45.86,2,Rodrigues de Pereira
-2026-06-02 10:02:24.519812,Moda,75.95,5,Abreu do Norte
-2026-06-01 18:47:50.879941,Casa,3.3,2,Câmara
-2026-06-02 01:20:32.962817,Eletrônicos,74.47,5,Rocha
-2026-06-01 13:14:47.761297,Alimentos,88.98,1,Nunes
-2026-06-01 12:12:14.067876,Eletrônicos,21.97,3,Macedo de Porto
-2026-06-02 16:25:32.148355,Eletrônicos,1.45,1,Lima da Serra
-2026-06-03 03:33:33.738417,Eletrônicos,98.52,1,Sá
-2026-06-02 21:38:04.476011,Moda,63.65,2,Nascimento Alegre
-2026-06-02 08:20:00.661129,Casa,38.67,4,Nogueira
-2026-06-02 00:32:06.581830,Eletrônicos,0.95,2,Cavalcante
-2026-06-02 11:40:36.131201,Alimentos,93.66,1,da Cruz
-2026-06-02 01:07:42.015823,Casa,6.21,5,Sales de Goiás
-2026-06-02 09:16:41.357563,Casa,68.84,1,Montenegro Grande
-2026-06-02 04:09:48.513397,Casa,40.17,5,Brito
-2026-06-02 10:10:00.785559,Casa,46.11,5,Rodrigues Verde
-2026-06-02 19:38:59.484462,Casa,76.22,5,Nunes
-2026-06-01 04:03:19.263949,Alimentos,58.57,3,Camargo
-2026-06-01 19:57:30.898374,Moda,9.04,1,Pacheco
-2026-06-03 01:14:16.614551,Eletrônicos,33.04,5,Leão
-2026-06-01 19:13:24.535470,Alimentos,38.33,4,Machado
-2026-06-03 03:53:04.833106,Alimentos,36.29,2,Silveira
-2026-06-03 03:55:58.353047,Casa,25.27,5,Moreira de Goiás
-2026-06-01 00:07:56.914567,Moda,43.21,5,da Rosa Verde
-2026-06-02 15:08:20.547399,Moda,65.04,1,Macedo do Norte
-2026-06-02 12:03:23.405156,Alimentos,20.86,5,Mendes da Prata
-2026-06-02 18:17:13.868556,Alimentos,27.01,5,Silveira
-2026-06-01 00:12:46.571476,Casa,58.53,4,Oliveira
-2026-06-01 05:01:33.266034,Casa,22.84,3,Melo
-2026-06-01 04:47:36.373403,Moda,47.67,2,Montenegro do Galho
-2026-06-01 23:02:19.992171,Eletrônicos,73.29,3,Costela
-2026-06-02 11:15:02.284240,Casa,5.98,5,Almeida do Amparo
-2026-06-02 14:37:02.997167,Moda,4.58,2,Moreira de Guerra
-2026-06-02 17:07:29.834134,Moda,85.23,4,Montenegro
-2026-06-01 07:50:16.146231,Moda,22.7,3,Silva Verde
-2026-06-02 18:52:06.954042,Moda,10.15,1,Ramos
-2026-06-01 21:32:16.046724,Eletrônicos,6.5,5,Campos
-2026-06-01 07:20:49.598096,Casa,81.24,5,Martins
-2026-06-03 01:43:22.576862,Moda,66.13,1,Nogueira
-2026-06-01 15:37:26.568245,Moda,88.08,3,Andrade
-2026-06-01 06:21:52.664551,Alimentos,11.87,5,Pinto dos Dourados
-2026-06-02 18:20:44.071529,Eletrônicos,93.07,3,Lopes da Praia
-2026-06-01 08:31:55.972784,Alimentos,14.12,2,Moreira
-2026-06-01 20:51:03.269799,Casa,15.05,3,Lima
-2026-06-02 12:39:15.851214,Casa,69.05,1,das Neves
-2026-06-02 00:52:11.421202,Moda,48.16,5,Castro de Vieira
-2026-06-02 12:26:06.908602,Casa,68.18,4,Vieira
-2026-06-01 01:26:35.866168,Moda,3.05,5,Martins de Minas
-2026-06-02 03:06:09.747243,Casa,0.05,5,Pereira
-2026-06-02 19:47:50.922831,Alimentos,54.25,4,Cirino do Galho
-2026-06-01 09:18:01.202866,Casa,15.88,5,Cunha dos Dourados
-2026-06-01 23:42:17.331815,Moda,50.61,2,Mendes de Araújo
-2026-06-01 00:21:04.947351,Moda,64.07,5,Fonseca de Ferreira
-2026-06-02 14:08:08.388746,Moda,7.47,5,Aragão
-2026-06-03 03:52:18.238523,Eletrônicos,20.28,2,Machado de Nascimento
-2026-06-02 22:30:24.332171,Moda,52.11,4,Castro das Flores
-2026-06-01 00:42:56.662840,Alimentos,75.8,3,Moura
-2026-06-02 03:26:22.521946,Casa,23.18,4,Vasconcelos de Porto
-2026-06-01 01:30:39.957496,Alimentos,75.26,2,Moura das Pedras
-2026-06-01 16:44:41.408914,Alimentos,50.28,3,Moreira
-2026-06-03 03:53:37.493824,Casa,26.66,2,Porto
-2026-06-02 05:49:27.618157,Alimentos,68.69,1,Alves
-2026-06-02 19:20:33.129846,Alimentos,12.5,3,Carvalho Verde
-2026-06-02 14:12:33.486777,Casa,61.1,5,Rocha de Goiás
-2026-06-01 12:15:58.999710,Eletrônicos,87.83,5,Pastor
-2026-06-01 05:39:36.207160,Moda,20.41,3,Silva de da Costa
-2026-06-01 14:28:06.517219,Casa,14.95,1,Melo
-2026-06-02 20:20:45.093539,Casa,61.24,5,da Mota Paulista
-2026-06-02 20:57:39.675354,Alimentos,78.23,4,Cardoso
-2026-06-02 23:03:55.467850,Eletrônicos,20.11,5,Mendonça de Cardoso
-2026-06-01 13:56:09.832664,Moda,53.52,1,das Neves
-2026-06-01 07:02:30.626991,Alimentos,25.11,3,Cardoso de Nascimento
-2026-06-02 13:35:54.549416,Moda,55.03,3,Farias de Fogaça
-2026-06-02 02:32:07.148661,Moda,54.55,1,Duarte do Norte
-2026-06-01 07:44:00.911691,Alimentos,81.91,3,Lopes do Campo
-2026-06-02 07:00:53.488613,Eletrônicos,34.66,2,Pereira de da Cunha
-2026-06-03 01:44:01.555737,Casa,94.92,1,Moraes do Amparo
-2026-06-02 09:11:30.489004,Alimentos,88.65,3,da Mata de Aparecida
-2026-06-02 04:03:52.791693,Casa,64.58,3,Lopes
-2026-06-02 03:34:57.087140,Moda,53.8,1,Novaes
-2026-06-01 19:32:42.565845,Alimentos,4.57,3,Pinto
-2026-06-02 00:12:42.335508,Eletrônicos,70.01,2,Farias da Serra
-2026-06-01 11:55:21.449654,Casa,61.88,2,Moraes
-2026-06-02 20:13:42.863737,Casa,38.77,2,Brito
-2026-06-01 18:11:58.420530,Casa,4.34,5,Ferreira de Nascimento
-2026-06-01 11:06:39.598025,Alimentos,59.72,3,Casa Grande da Prata
-2026-06-02 05:23:19.896517,Alimentos,51.22,3,da Rocha
-2026-06-02 03:56:35.315735,Moda,99.87,3,Barros da Mata
-2026-06-01 22:27:10.639170,Casa,16.79,3,Castro
-2026-06-01 14:48:56.215537,Moda,59.16,3,Jesus
-2026-06-01 02:45:04.348047,Alimentos,25.53,4,da Paz dos Dourados
-2026-06-03 04:18:52.712843,Moda,69.64,2,da Rocha Grande
-2026-06-01 07:02:26.248716,Eletrônicos,46.59,4,Cunha
-2026-06-02 01:18:31.554982,Alimentos,92.5,4,Macedo das Pedras
-2026-06-01 15:31:40.840320,Eletrônicos,62.95,5,Melo
-2026-06-01 10:11:06.223278,Moda,8.11,2,Vieira
-2026-06-01 06:23:42.228802,Casa,33.36,3,Rezende de Goiás
-2026-06-01 14:48:28.156196,Eletrônicos,14.36,4,Correia
-2026-06-02 15:59:41.363013,Moda,29.86,4,Melo
-2026-06-02 01:04:34.580594,Moda,98.77,3,Correia
-2026-06-02 15:09:03.018040,Alimentos,93.77,1,Castro Paulista
-2026-06-03 00:19:30.257328,Eletrônicos,26.24,3,da Conceição do Sul
-2026-06-01 09:52:29.826103,Casa,23.3,2,Cirino
-2026-06-01 12:51:33.478059,Casa,77.17,1,Novaes
-2026-06-01 09:43:08.698498,Alimentos,35.88,4,da Costa
-2026-06-02 21:20:29.935529,Alimentos,23.5,4,Dias de Melo
-2026-06-02 21:36:19.873668,Alimentos,43.52,4,Cardoso
-2026-06-01 18:58:33.703509,Alimentos,60.56,4,Silva
-2026-06-01 13:10:28.553345,Eletrônicos,98.5,2,Sá
-2026-06-03 00:08:25.128265,Alimentos,20.41,3,Almeida Grande
-2026-06-01 05:31:16.429363,Eletrônicos,27.47,2,Borges de Minas
-2026-06-02 04:03:42.753742,Alimentos,27.13,4,Novais dos Dourados
-2026-06-02 06:28:27.715806,Casa,77.83,1,Ramos
-2026-06-02 20:48:20.798391,Alimentos,27.52,4,Rezende de Minas
-2026-06-01 14:23:00.222023,Moda,38.36,3,Jesus
-2026-06-02 02:52:38.646365,Alimentos,51.11,3,Garcia da Mata
-2026-06-02 11:29:03.742414,Moda,96.18,3,Pereira de Minas
-2026-06-02 18:21:06.246682,Moda,41.18,5,Camargo das Pedras
-2026-06-01 15:26:07.532789,Eletrônicos,57.98,4,Dias
-2026-06-01 21:15:56.237071,Alimentos,73.24,1,Duarte de Cardoso
-2026-06-01 09:46:31.639511,Moda,89.84,2,Sales
-2026-06-01 00:46:26.764091,Casa,35.35,3,Moura
-2026-06-01 20:00:04.990387,Alimentos,84.36,5,Fonseca
-2026-06-02 00:55:38.313040,Moda,97.48,1,Rezende
-2026-06-01 04:33:34.540925,Eletrônicos,41.04,2,Moraes da Prata
-2026-06-03 00:32:16.474809,Eletrônicos,69.47,4,Freitas
-2026-06-01 22:31:02.810716,Eletrônicos,63.94,2,Dias das Pedras
-2026-06-02 17:41:18.454381,Alimentos,0.84,3,Monteiro
-2026-06-03 02:24:30.788985,Eletrônicos,93.95,4,da Costa de Minas
-2026-06-01 20:48:27.888832,Alimentos,84.86,2,Monteiro
-2026-06-01 10:29:06.078418,Casa,83.08,2,Costela dos Dourados
-2026-06-03 03:10:29.834207,Eletrônicos,44.46,1,Santos
-2026-06-02 10:44:59.930485,Casa,78.49,4,Brito das Flores
-2026-06-02 20:42:56.687692,Eletrônicos,27.43,4,da Mata
-2026-06-01 08:23:10.097441,Eletrônicos,28.81,2,Correia
-2026-06-02 01:40:24.549124,Eletrônicos,49.8,3,Andrade
-2026-06-01 22:08:46.017006,Moda,99.08,2,Aragão
-2026-06-02 01:55:00.342654,Moda,36.51,4,da Mata
-2026-06-02 12:49:06.980740,Eletrônicos,8.45,5,Nogueira
-2026-06-03 02:35:09.192662,Moda,58.72,2,Gonçalves de Rezende
-2026-06-03 02:18:50.295001,Eletrônicos,70.92,2,Cirino
-2026-06-02 06:05:48.243819,Moda,61.34,4,Souza
-2026-06-02 21:37:26.335979,Alimentos,67.98,4,da Paz
-2026-06-02 04:10:11.317237,Moda,19.01,4,Campos
-2026-06-02 10:37:15.340567,Casa,0.51,4,Vieira Alegre
-2026-06-01 03:20:28.210512,Moda,85.23,3,Moreira das Flores
-2026-06-01 15:37:58.810455,Alimentos,65.16,2,Dias
-2026-06-01 07:51:56.693230,Eletrônicos,44.07,1,Brito do Norte
-2026-06-01 16:58:43.692292,Eletrônicos,0.54,5,Castro
-2026-06-01 23:30:01.741472,Alimentos,75.83,5,Pereira
-2026-06-02 08:02:05.082211,Moda,97.81,4,Cirino
-2026-06-01 12:53:16.549568,Casa,30.12,1,Novais
-2026-06-02 00:41:12.727756,Casa,94.11,3,Viana da Mata
-2026-06-02 20:17:24.919160,Eletrônicos,70.63,1,Montenegro de Campos
-2026-06-01 17:57:05.148897,Eletrônicos,19.28,4,da Costa
-2026-06-01 04:16:40.757637,Moda,36.61,2,Rocha
-2026-06-01 12:43:17.571637,Alimentos,52.47,1,Costela do Amparo
-2026-06-02 21:30:38.752677,Alimentos,97.65,2,Porto
-2026-06-02 18:13:24.480527,Moda,69.83,1,Sales Grande
-2026-06-01 11:58:52.492480,Moda,56.74,1,Aragão
-2026-06-01 00:09:29.245867,Moda,27.56,3,Castro de Vieira
-2026-06-02 00:10:08.770959,Eletrônicos,3.72,3,Vargas
-2026-06-02 01:18:21.179250,Moda,94.43,3,da Conceição
-2026-06-01 22:55:32.597706,Moda,58.88,2,Silveira
-2026-06-02 21:22:39.596013,Casa,10.89,4,Moraes da Serra
-2026-06-01 17:06:53.955369,Moda,82.55,5,Fernandes
-2026-06-02 00:06:26.489770,Alimentos,20.32,2,Moura
-2026-06-02 11:29:55.074904,Moda,46.07,3,Vieira do Amparo
-2026-06-02 10:21:45.323666,Alimentos,72.37,3,Macedo das Flores
-2026-06-01 05:48:15.609360,Casa,58.7,3,Costa
-2026-06-01 15:38:04.711561,Casa,54.32,2,Barbosa do Galho
-2026-06-02 01:06:03.687513,Eletrônicos,83.11,2,Nunes de Mendonça
-2026-06-01 15:04:26.230045,Alimentos,9.6,2,da Paz
-2026-06-02 09:37:56.596766,Casa,3.91,4,Costa do Norte
-2026-06-01 17:00:51.987765,Moda,90.17,1,Farias
-2026-06-02 21:16:49.171125,Casa,94.08,4,Araújo
-2026-06-01 08:31:21.066028,Eletrônicos,7.23,4,Costa do Campo
-2026-06-01 14:57:30.023928,Eletrônicos,90.74,5,Pires
-2026-06-01 01:56:45.463459,Alimentos,2.34,5,Correia da Praia
-2026-06-01 05:34:37.539908,Alimentos,99.26,3,Macedo da Praia
-2026-06-02 00:44:35.783379,Moda,20.92,4,Mendes Verde
-2026-06-02 09:39:52.827131,Moda,37.1,3,Correia Grande
-2026-06-02 09:41:10.960944,Moda,88.91,3,Pereira
-2026-06-01 06:36:59.171237,Eletrônicos,90.79,2,Siqueira da Mata
-2026-06-03 00:23:06.958922,Moda,56.22,1,Cassiano
-2026-06-02 00:19:44.136894,Alimentos,36.59,3,Moreira do Oeste
-2026-06-02 18:25:41.876668,Casa,4.89,2,da Mata
-2026-06-01 15:12:18.717486,Casa,42.05,5,Rios
-2026-06-01 04:55:38.465019,Moda,92.02,2,Teixeira
-2026-06-01 13:39:12.500520,Moda,27.21,2,Teixeira
-2026-06-02 10:51:22.903177,Moda,75.4,1,Araújo
-2026-06-02 06:29:48.646303,Alimentos,57.71,4,Sales
-2026-06-02 18:57:42.829757,Casa,24.39,1,Ribeiro
-2026-06-01 10:20:14.571347,Eletrônicos,20.89,4,Nunes de Almeida
-2026-06-01 05:39:41.601618,Alimentos,5.13,3,Camargo de Alves
-2026-06-02 20:04:29.255067,Eletrônicos,38.28,5,Silva Verde
-2026-06-01 00:30:31.289753,Moda,49.36,3,Pires de Marques
-2026-06-03 01:53:57.903920,Moda,73.3,4,Marques de Macedo
-2026-06-01 03:02:59.410756,Alimentos,73.44,5,Nascimento do Campo
-2026-06-02 18:23:55.284252,Eletrônicos,51.1,4,Novaes
-2026-06-02 12:07:24.937862,Alimentos,58.0,1,Rocha
-2026-06-01 01:56:35.386333,Moda,89.49,2,Campos
-2026-06-01 05:14:58.339640,Casa,40.33,1,Albuquerque
-2026-06-01 06:01:48.348041,Casa,41.2,3,Fonseca Paulista
-2026-06-02 08:55:15.810485,Moda,96.75,1,da Conceição de Silveira
-2026-06-02 09:07:14.371890,Moda,38.64,5,Azevedo de Gonçalves
-2026-06-01 04:57:33.379829,Moda,25.84,3,Ramos de Borges
-2026-06-03 03:36:31.862353,Alimentos,75.91,1,Siqueira do Sul
-2026-06-03 03:51:55.717823,Moda,58.85,3,Almeida
-2026-06-02 09:08:18.257431,Eletrônicos,23.28,4,Montenegro
-2026-06-02 14:52:39.508462,Moda,7.01,3,Pereira da Prata
-2026-06-02 07:41:20.147764,Moda,24.64,5,Freitas do Amparo
-2026-06-02 16:27:15.544329,Moda,85.18,5,Montenegro
-2026-06-01 12:16:35.419300,Eletrônicos,14.05,1,Carvalho
-2026-06-01 20:10:56.033001,Eletrônicos,21.58,1,Cunha
-2026-06-02 17:42:45.663759,Alimentos,55.45,2,Silva de Viana
-2026-06-01 21:16:34.249812,Casa,1.29,4,Ribeiro
-2026-06-01 21:32:52.482300,Alimentos,59.32,1,Novais de Costa
-2026-06-02 17:46:26.475415,Eletrônicos,60.0,4,Novais
-2026-06-02 10:31:10.695084,Alimentos,15.94,5,da Cruz de Goiás
-2026-06-02 01:12:53.305671,Alimentos,53.33,4,Barros
-2026-06-02 13:55:37.122512,Moda,76.52,4,Cardoso Grande
-2026-06-01 10:22:48.389194,Casa,78.19,1,Ribeiro
-2026-06-03 02:39:15.034533,Casa,96.24,5,Casa Grande
-2026-06-02 14:02:34.502651,Moda,21.36,1,da Mota
-2026-06-01 13:35:05.669435,Moda,80.4,1,Moraes da Praia
-2026-06-01 07:17:39.487921,Alimentos,22.72,2,Vasconcelos Verde
-2026-06-01 23:47:11.236049,Eletrônicos,23.95,4,Martins de Abreu
-2026-06-01 21:28:01.384531,Moda,67.99,2,Montenegro Paulista
-2026-06-02 10:27:40.853486,Alimentos,55.29,2,Moreira
-2026-06-01 11:34:50.760448,Alimentos,42.26,4,Rios de Mendonça
-2026-06-01 00:16:48.912631,Eletrônicos,51.92,2,Cavalcante de Silva
-2026-06-01 15:23:40.365755,Casa,4.2,4,Sousa
-2026-06-01 15:35:43.490653,Casa,20.57,5,Lima
-2026-06-01 06:13:51.662088,Casa,48.27,1,Ribeiro
-2026-06-01 11:54:57.024335,Alimentos,5.62,1,Barros de Abreu
-2026-06-01 20:48:47.009608,Casa,62.4,3,Macedo de Moraes
-2026-06-02 01:54:47.682250,Alimentos,24.43,3,Fogaça de Minas
-2026-06-01 05:00:18.406933,Moda,97.67,4,Albuquerque de da Luz
-2026-06-01 18:10:07.542615,Moda,70.9,2,Albuquerque Alegre
-2026-06-01 01:58:53.388067,Eletrônicos,75.66,1,das Neves
-2026-06-01 07:33:23.833988,Casa,90.83,5,Araújo de Oliveira
-2026-06-03 00:35:35.349274,Casa,37.68,5,Marques
-2026-06-01 00:01:02.616036,Moda,67.27,4,Campos
-2026-06-02 13:46:35.519467,Casa,37.0,2,Rodrigues Grande
-2026-06-01 23:21:48.361565,Alimentos,35.95,2,da Costa dos Dourados
-2026-06-02 18:31:10.141729,Casa,28.42,5,Guerra
-2026-06-01 10:14:33.797890,Moda,10.58,5,Montenegro
-2026-06-01 06:27:38.678506,Eletrônicos,61.46,2,Cardoso
-2026-06-03 03:51:57.263215,Eletrônicos,84.8,5,Vieira de Pereira
-2026-06-02 08:09:02.911550,Casa,4.81,1,Sá de das Neves
-2026-06-03 01:30:22.791737,Casa,41.34,5,Martins
-2026-06-02 04:33:55.430884,Eletrônicos,16.86,2,Brito de Goiás
-2026-06-03 00:34:52.821901,Alimentos,40.17,3,da Cruz
-2026-06-01 05:20:04.996697,Eletrônicos,1.37,1,Brito da Mata
-2026-06-02 15:50:05.192449,Alimentos,86.33,3,Barbosa do Campo
-2026-06-01 02:10:06.514064,Moda,24.66,3,Mendonça
-2026-06-02 15:56:06.346158,Alimentos,69.22,2,Porto de Pinto
-2026-06-01 02:11:09.965522,Moda,29.6,1,Lopes do Sul
-2026-06-02 12:32:02.876382,Eletrônicos,74.29,4,da Rosa
-2026-06-01 10:17:45.800800,Casa,59.97,1,Porto das Flores
-2026-06-01 19:47:14.961383,Eletrônicos,97.39,3,Aparecida da Praia
-2026-06-01 22:04:56.995970,Eletrônicos,85.46,2,Dias de Minas
-2026-06-02 13:07:41.358493,Casa,35.48,2,Moura Paulista
-2026-06-02 13:28:05.860374,Eletrônicos,81.77,2,Garcia das Pedras
-2026-06-02 08:47:40.450846,Moda,48.82,1,Viana
-2026-06-02 10:26:59.806144,Moda,73.87,3,Silva
-2026-06-02 04:55:32.114029,Eletrônicos,12.59,1,Cunha
-2026-06-02 09:50:06.549208,Alimentos,21.79,3,Borges da Praia
-2026-06-01 12:57:08.194051,Eletrônicos,80.27,1,Sá da Serra
-2026-06-01 19:48:11.054535,Alimentos,26.88,3,Nunes de da Luz
-2026-06-01 01:54:29.357143,Alimentos,48.21,1,Mendes
-2026-06-01 21:06:48.090958,Casa,94.0,1,Leão da Mata
-2026-06-01 16:28:28.462567,Eletrônicos,20.59,4,Teixeira
-2026-06-02 08:56:18.496596,Casa,46.95,3,Ferreira
-2026-06-01 01:18:49.985834,Casa,61.82,1,Macedo da Mata
-2026-06-02 09:39:36.111652,Alimentos,91.08,5,da Rocha
-2026-06-01 05:53:18.845706,Alimentos,67.88,4,Câmara
-2026-06-01 18:55:07.195749,Moda,19.51,4,Novais
-2026-06-01 08:12:32.528089,Moda,87.79,4,das Neves de Azevedo
-2026-06-01 15:11:07.212079,Moda,85.24,5,Pinto
-2026-06-02 15:30:36.067641,Eletrônicos,90.49,3,Machado
-2026-06-02 17:01:52.460519,Alimentos,37.42,5,Pacheco
-2026-06-02 19:53:58.856907,Alimentos,40.57,1,da Rocha
-2026-06-02 08:10:52.468275,Casa,51.09,2,Souza das Flores
-2026-06-01 03:25:04.037521,Moda,20.42,3,da Rosa
-2026-06-01 10:45:38.514408,Eletrônicos,37.98,4,Costela
-2026-06-01 18:18:36.333558,Moda,5.23,2,Lima
-2026-06-01 16:16:32.666648,Moda,72.24,3,das Neves de Goiás
-2026-06-01 08:25:37.600691,Moda,41.66,3,Casa Grande do Galho
-2026-06-01 09:42:42.779972,Alimentos,71.18,3,Moreira do Oeste
-2026-06-02 07:29:14.189424,Alimentos,35.51,4,Costela de Goiás
-2026-06-02 01:07:21.577858,Moda,69.26,5,Andrade do Campo
-2026-06-01 10:40:13.380112,Eletrônicos,1.35,5,Silveira
-2026-06-03 02:03:56.941633,Moda,62.65,3,Abreu do Galho
-2026-06-02 20:42:42.081972,Moda,14.0,2,Novais de Sampaio
-2026-06-02 07:21:22.912948,Moda,4.46,3,Freitas
-2026-06-01 22:54:11.345434,Casa,6.36,1,Melo
-2026-06-01 12:31:07.116837,Casa,7.89,3,da Mata do Galho
-2026-06-01 04:27:27.321639,Eletrônicos,54.22,4,Lopes de Gonçalves
-2026-06-01 14:14:52.659148,Eletrônicos,59.49,2,Fogaça das Pedras
-2026-06-01 20:30:41.132936,Alimentos,31.83,4,da Costa de Sales
-2026-06-01 07:38:04.759547,Casa,84.05,4,Correia
-2026-06-01 00:28:25.544180,Eletrônicos,85.17,5,Camargo
-2026-06-01 19:51:16.411294,Moda,43.05,3,Abreu
-2026-06-01 04:33:16.379566,Moda,66.54,3,Porto de Cavalcante
-2026-06-02 11:48:16.376239,Moda,1.67,4,Aragão
-2026-06-01 08:00:37.971216,Alimentos,81.31,2,Costela de Duarte
-2026-06-02 04:43:10.620016,Alimentos,43.12,5,Sá
-2026-06-02 03:55:52.628561,Eletrônicos,97.61,4,Rios de Sampaio
-2026-06-02 21:52:26.732686,Casa,96.62,3,Moreira
-2026-06-01 16:43:43.355217,Alimentos,98.91,4,Mendes
-2026-06-01 18:56:59.382565,Casa,74.44,5,Cardoso
-2026-06-01 14:25:22.163662,Casa,97.89,3,Ribeiro de Martins
-2026-06-02 11:14:05.322004,Eletrônicos,75.91,2,das Neves da Mata
-2026-06-02 18:52:56.639921,Moda,54.02,2,Azevedo da Mata
-2026-06-01 18:21:28.547159,Moda,51.87,5,Rodrigues
-2026-06-02 12:43:40.444310,Alimentos,31.25,1,Sá de Campos
-2026-06-02 17:46:02.493615,Eletrônicos,40.66,4,Moreira de Monteiro
-2026-06-02 04:15:08.840509,Eletrônicos,89.25,2,Souza do Oeste
-2026-06-02 09:49:31.702064,Moda,44.59,5,Sampaio das Flores
-2026-06-02 09:18:31.413004,Casa,25.32,5,da Costa do Galho
-2026-06-02 22:10:20.618721,Eletrônicos,67.8,3,Santos Alegre
-2026-06-02 06:00:45.637405,Eletrônicos,0.42,4,Porto
-2026-06-02 01:52:21.432354,Casa,70.27,5,Moraes das Flores
-2026-06-01 20:37:27.502833,Moda,56.21,1,Costela dos Dourados
-2026-06-01 20:05:35.935375,Eletrônicos,19.24,3,da Mata
-2026-06-01 16:36:13.516113,Eletrônicos,74.4,4,Jesus de Monteiro
-2026-06-02 18:20:16.113968,Eletrônicos,37.31,3,Campos da Praia
-2026-06-02 22:53:54.456477,Alimentos,67.26,2,Costa
-2026-06-02 04:30:58.455774,Alimentos,12.28,2,Campos da Serra
-2026-06-02 18:41:46.062426,Eletrônicos,44.12,1,da Mata
-2026-06-02 21:36:25.210414,Eletrônicos,59.24,1,Rodrigues
-2026-06-02 18:16:13.557912,Alimentos,58.53,5,Campos de Almeida
-2026-06-01 15:05:18.770914,Alimentos,0.49,2,Aparecida
-2026-06-02 06:37:49.863114,Casa,29.61,1,Moura da Mata
-2026-06-03 02:15:29.728456,Casa,18.94,3,Sousa de Nogueira
-2026-06-01 14:54:23.651977,Casa,98.33,1,Brito
-2026-06-02 04:48:15.804585,Casa,41.15,2,Carvalho
-2026-06-01 10:33:49.197736,Moda,39.6,2,Brito de Sampaio
-2026-06-02 19:02:30.513423,Eletrônicos,5.38,3,Pastor de Ferreira
-2026-06-01 16:44:51.474555,Eletrônicos,1.7,5,Costela
-2026-06-02 23:04:17.990060,Alimentos,77.78,2,Mendonça
-2026-06-01 17:02:48.315347,Eletrônicos,55.22,5,Melo do Galho
-2026-06-01 09:07:20.526174,Casa,39.7,3,Nunes de Porto
-2026-06-01 21:33:45.637919,Alimentos,92.76,5,Borges do Oeste
-2026-06-01 18:43:35.181270,Eletrônicos,74.39,4,Cardoso
-2026-06-01 00:53:30.526305,Casa,9.67,3,Borges
-2026-06-02 01:43:38.658054,Casa,70.65,1,Silva
-2026-06-01 07:24:22.816435,Casa,68.45,2,Fogaça
-2026-06-01 06:56:36.144136,Casa,56.56,5,Camargo
-2026-06-01 11:22:31.149792,Eletrônicos,23.17,5,Rios Paulista
-2026-06-01 13:28:38.481649,Casa,66.76,3,Duarte do Oeste
-2026-06-02 18:23:06.130807,Moda,24.21,2,Nascimento das Pedras
-2026-06-02 01:08:38.484123,Alimentos,17.6,4,Correia
-2026-06-03 02:35:39.824616,Alimentos,38.26,5,Souza do Amparo
-2026-06-01 13:24:25.811086,Eletrônicos,93.6,2,Machado da Serra
-2026-06-02 10:05:08.927768,Moda,17.22,3,Porto
-2026-06-02 09:56:08.188113,Alimentos,16.43,1,Fonseca do Oeste
-2026-06-02 04:54:23.743777,Moda,78.31,4,Costela
-2026-06-01 00:32:13.033026,Moda,32.33,3,Viana da Prata
-2026-06-01 21:53:48.437430,Moda,0.72,4,Aragão
-2026-06-02 08:09:07.624088,Eletrônicos,18.5,1,Lima Grande
-2026-06-02 23:01:30.153359,Alimentos,76.73,3,Rezende Verde
-2026-06-02 04:17:38.049156,Moda,32.67,4,da Paz do Galho
-2026-06-01 12:51:38.940157,Moda,29.73,3,Ferreira
-2026-06-03 00:37:59.971534,Casa,72.82,5,Fonseca de das Neves
-2026-06-01 15:31:45.283874,Casa,25.12,1,da Cruz
-2026-06-02 21:51:11.533677,Eletrônicos,32.14,1,Moura
-2026-06-01 02:30:42.949352,Casa,46.56,5,Ferreira Grande
-2026-06-01 10:47:15.281372,Casa,76.38,1,Oliveira do Oeste
-2026-06-01 15:48:10.484588,Alimentos,36.39,1,Peixoto
-2026-06-02 23:23:17.052818,Moda,86.39,2,Siqueira do Sul
-2026-06-02 13:33:27.789869,Moda,61.77,5,Carvalho das Pedras
-2026-06-02 00:11:57.453688,Casa,26.57,5,Cavalcanti
-2026-06-02 10:48:58.244473,Moda,23.03,1,Ribeiro
-2026-06-03 04:14:42.214559,Moda,46.32,5,Vieira do Oeste
-2026-06-02 14:31:42.641292,Casa,72.78,1,Nunes
-2026-06-01 15:36:03.007275,Moda,77.53,1,das Neves
-2026-06-01 18:43:52.953399,Casa,67.4,2,Costela do Galho
-2026-06-02 05:59:53.150885,Moda,43.35,1,Borges de Fernandes
-2026-06-02 09:56:42.815245,Casa,84.82,1,Moraes das Pedras
-2026-06-02 04:16:24.733962,Casa,41.74,4,Santos de Caldeira
-2026-06-02 14:04:47.246670,Eletrônicos,81.0,2,Azevedo
-2026-06-01 23:07:03.892956,Moda,54.94,5,Guerra de Novais
-2026-06-03 00:55:38.292968,Alimentos,94.3,1,Mendonça
-2026-06-02 06:03:33.488868,Moda,98.55,4,Almeida dos Dourados
-2026-06-01 20:45:46.197798,Moda,82.72,1,Cassiano da Prata
-2026-06-01 17:44:27.012954,Eletrônicos,37.19,1,Mendonça
-2026-06-01 12:00:00.414958,Moda,14.25,4,Pires
-2026-06-02 05:06:54.394412,Eletrônicos,32.56,4,Farias
-2026-06-01 09:53:19.964706,Eletrônicos,90.36,1,Novais
-2026-06-01 19:54:40.496566,Moda,68.89,5,Montenegro
-2026-06-03 00:30:36.554747,Moda,6.9,3,Gomes de Minas
-2026-06-02 05:47:09.163790,Alimentos,85.17,5,Viana
-2026-06-01 14:17:20.943088,Casa,21.05,5,Costela de Caldeira
-2026-06-02 09:54:03.429932,Eletrônicos,16.33,2,Novaes Paulista
-2026-06-02 20:01:28.119639,Eletrônicos,60.7,4,Martins
-2026-06-01 19:17:31.191709,Alimentos,57.69,2,Pimenta do Campo
-2026-06-02 03:37:38.899555,Moda,89.35,5,Nunes de Pastor
-2026-06-01 23:36:53.796689,Moda,78.86,4,Oliveira de da Rocha
-2026-06-02 20:21:31.455663,Eletrônicos,65.41,1,Novaes
-2026-06-02 17:39:14.583361,Eletrônicos,0.18,2,Barros das Flores
-2026-06-02 08:10:49.244637,Moda,84.85,4,Barbosa do Sul
-2026-06-02 17:29:11.700165,Eletrônicos,77.86,4,Viana
-2026-06-01 02:57:34.973175,Alimentos,11.57,5,Cavalcante
-2026-06-01 16:48:02.373943,Moda,22.51,3,Lima do Oeste
-2026-06-02 14:57:32.269933,Alimentos,46.47,2,Sousa do Sul
-2026-06-02 02:49:31.037314,Alimentos,71.87,5,Costa
-2026-06-01 09:53:50.642714,Alimentos,13.52,3,Cavalcante
-2026-06-02 18:58:35.484284,Eletrônicos,82.15,5,da Rosa de Gomes
-2026-06-02 21:47:27.056331,Eletrônicos,43.77,3,Câmara
-2026-06-01 04:49:47.323448,Alimentos,80.68,5,Viana
-2026-06-01 04:24:08.678381,Eletrônicos,30.35,2,Correia
-2026-06-02 13:43:21.080135,Alimentos,27.32,2,Duarte do Campo
-2026-06-01 20:04:17.793758,Eletrônicos,22.53,3,Porto
-2026-06-01 17:56:05.798111,Moda,53.72,5,Pires
-2026-06-01 10:55:40.507169,Moda,50.09,5,da Cruz
-2026-06-03 00:09:04.526769,Casa,23.31,4,da Paz de Novaes
-2026-06-03 00:48:00.074166,Casa,35.52,4,da Conceição do Sul
-2026-06-02 06:44:27.728671,Moda,43.7,2,Pires
-2026-06-02 18:59:40.565730,Eletrônicos,68.5,1,Porto
-2026-06-03 03:02:47.018491,Casa,36.04,1,Moreira da Prata
-2026-06-01 10:47:38.663893,Moda,20.67,4,Aragão de Goiás
-2026-06-02 17:47:15.678826,Casa,50.53,3,Cavalcanti de Peixoto
-2026-06-01 09:42:24.772836,Alimentos,25.36,3,da Luz
-2026-06-01 15:18:55.560568,Casa,53.85,4,Camargo
-2026-06-01 08:46:21.411700,Eletrônicos,98.47,2,Vieira de da Rocha
-2026-06-02 18:39:32.415370,Moda,85.7,3,Pacheco da Serra
-2026-06-03 03:13:37.625291,Casa,15.0,3,Azevedo Grande
-2026-06-02 02:12:07.414096,Eletrônicos,69.02,3,Rodrigues do Sul
-2026-06-01 13:47:02.071790,Eletrônicos,10.51,1,Pimenta da Prata
-2026-06-01 15:27:11.675757,Casa,51.76,3,da Costa de Pimenta
-2026-06-01 13:00:22.070316,Alimentos,97.08,4,Souza
-2026-06-03 00:08:24.723830,Moda,74.47,5,Nunes
-2026-06-01 12:54:10.133159,Casa,0.77,4,Siqueira
-2026-06-02 22:30:29.393826,Moda,85.07,3,Marques do Campo
-2026-06-01 12:02:47.655810,Eletrônicos,67.16,2,Viana do Campo
-2026-06-01 20:03:43.702830,Alimentos,28.43,1,Correia
-2026-06-02 16:16:38.103016,Moda,69.32,5,Câmara de Viana
-2026-06-02 21:44:27.705176,Eletrônicos,17.81,5,Aparecida das Pedras
-2026-06-03 01:17:57.576416,Casa,94.21,3,Freitas
-2026-06-02 02:30:10.594217,Eletrônicos,47.75,4,Rios
-2026-06-02 05:51:45.031220,Casa,87.12,1,Fonseca da Serra
-2026-06-03 04:39:41.074644,Eletrônicos,51.01,4,Rocha
-2026-06-03 01:16:30.936680,Moda,2.16,2,Oliveira do Galho
-2026-06-02 23:21:26.336212,Eletrônicos,70.25,5,Cunha
-2026-06-01 07:14:33.063582,Casa,4.52,4,Machado
-2026-06-02 16:57:03.727155,Eletrônicos,62.44,1,Abreu de Santos
-2026-06-02 02:18:49.587363,Alimentos,48.92,5,Cavalcante Grande
-2026-06-01 01:07:48.063089,Alimentos,64.4,5,Souza
-2026-06-02 02:06:13.663408,Eletrônicos,94.88,5,Ramos
-2026-06-01 15:53:37.015545,Alimentos,65.08,2,Casa Grande da Mata
-2026-06-02 19:14:50.488111,Eletrônicos,71.03,5,Ribeiro do Amparo
-2026-06-01 21:52:52.909013,Casa,89.82,1,Teixeira de Minas
-2026-06-01 07:11:38.967585,Casa,64.45,2,Dias de Goiás
-2026-06-02 09:27:44.679018,Alimentos,84.79,4,Castro do Oeste
-2026-06-02 19:53:20.813550,Casa,16.5,2,Correia
-2026-06-01 20:06:40.136344,Eletrônicos,57.98,1,Novais das Flores
-2026-06-01 22:37:01.773459,Casa,65.9,3,Vieira da Praia
-2026-06-03 03:31:44.750830,Moda,53.41,1,Caldeira
-2026-06-01 08:23:32.062824,Casa,77.78,5,Correia de Minas
-2026-06-01 00:45:56.156843,Casa,46.93,2,Garcia
-2026-06-02 17:21:50.904163,Alimentos,93.05,2,Ramos de Pinto
-2026-06-02 12:56:04.755315,Eletrônicos,70.23,3,Fernandes
-2026-06-02 00:31:19.927092,Moda,90.69,3,Souza
-2026-06-02 05:45:56.817262,Casa,13.29,2,da Cruz
-2026-06-01 09:34:43.321164,Alimentos,69.98,1,Peixoto do Sul
-2026-06-02 02:42:59.135721,Alimentos,53.12,3,Novaes Alegre
-2026-06-01 05:52:12.930367,Moda,49.29,3,Pires de Ferreira
-2026-06-01 18:42:36.827981,Alimentos,52.11,5,Machado
-2026-06-01 23:17:19.228438,Casa,71.38,2,da Mota
-2026-06-02 22:07:12.230793,Casa,57.16,5,Fogaça
-2026-06-02 11:41:40.553896,Alimentos,28.64,1,Porto
-2026-06-02 05:36:35.448565,Alimentos,74.24,4,das Neves
-2026-06-01 05:04:44.461652,Moda,92.71,5,das Neves
-2026-06-02 19:10:48.569342,Casa,5.89,3,Andrade
-2026-06-01 17:12:03.736958,Alimentos,86.9,4,Ribeiro
-2026-06-01 03:24:25.992482,Alimentos,96.3,1,Porto
-2026-06-02 08:33:52.797916,Casa,15.87,3,Marques do Campo
-2026-06-02 06:20:03.087241,Alimentos,36.36,5,Oliveira
-2026-06-02 09:05:53.679809,Casa,5.2,5,Peixoto da Praia
-2026-06-02 04:43:46.722092,Eletrônicos,72.48,5,Caldeira
-2026-06-01 11:30:16.783889,Eletrônicos,28.31,5,Martins da Mata
-2026-06-01 15:10:39.559469,Casa,58.44,3,Melo de Minas
-2026-06-01 13:58:14.886661,Moda,71.48,5,Pastor
-2026-06-03 02:05:48.201949,Eletrônicos,78.08,5,Brito
-2026-06-01 15:47:14.326309,Eletrônicos,40.0,3,Pastor de Vasconcelos
-2026-06-02 12:44:27.793739,Eletrônicos,93.12,1,Farias
-2026-06-02 08:17:29.119505,Moda,70.09,4,Montenegro de Aragão
-2026-06-01 12:50:52.970680,Eletrônicos,71.9,1,da Paz do Galho
-2026-06-01 11:33:14.663809,Casa,59.99,4,Abreu de Fogaça
-2026-06-01 09:41:47.726586,Eletrônicos,18.22,4,Andrade
-2026-06-02 04:38:23.421021,Alimentos,54.29,3,Cardoso
-2026-06-02 08:30:32.198954,Casa,9.75,2,Araújo
-2026-06-02 10:55:55.381710,Alimentos,74.56,1,Sousa das Flores
-2026-06-02 09:28:41.755193,Casa,85.0,4,Alves das Pedras
-2026-06-01 21:33:26.341416,Alimentos,16.48,2,Pimenta das Pedras
-2026-06-01 13:05:42.551117,Moda,52.19,5,Fogaça do Sul
-2026-06-02 03:05:45.497729,Eletrônicos,9.04,5,da Paz
-2026-06-01 22:55:36.847474,Alimentos,46.32,2,Rodrigues da Prata
-2026-06-01 04:43:43.116057,Moda,11.98,2,Cunha da Praia
-2026-06-03 02:00:23.103240,Moda,87.5,4,da Mota das Flores
-2026-06-02 07:29:22.496525,Casa,8.35,5,Novaes
-2026-06-01 02:05:42.433949,Eletrônicos,87.17,1,Porto Verde
-2026-06-02 06:29:59.309357,Alimentos,63.2,4,da Mota da Praia
-2026-06-02 00:07:37.977582,Casa,48.99,3,Cassiano do Oeste
-2026-06-03 04:36:44.816411,Casa,51.48,1,Lopes Grande
-2026-06-03 03:04:25.849591,Alimentos,83.9,4,Sales do Galho
-2026-06-02 00:50:56.498732,Eletrônicos,38.99,3,Nascimento da Serra
-2026-06-02 18:29:06.760736,Eletrônicos,83.26,2,Araújo do Amparo
-2026-06-02 04:50:54.227667,Casa,78.36,4,Oliveira Verde
-2026-06-03 02:25:38.175153,Casa,14.2,4,Nogueira
-2026-06-01 10:16:34.868404,Alimentos,60.92,4,Cardoso
-2026-06-02 16:00:37.460719,Eletrônicos,56.86,3,Barros do Campo
-2026-06-01 08:54:46.333296,Alimentos,59.87,4,Alves Paulista
-2026-06-01 16:00:55.568412,Alimentos,51.95,3,Camargo Grande
-2026-06-02 09:31:52.806707,Casa,35.54,3,Mendonça Paulista
-2026-06-03 02:43:07.149026,Casa,51.89,1,Cunha do Sul
-2026-06-03 01:08:17.074075,Casa,41.1,5,da Luz do Norte
-2026-06-01 14:40:08.852371,Eletrônicos,89.18,5,Cassiano de Novais
-2026-06-02 11:59:12.873433,Eletrônicos,95.23,3,Mendes da Mata
-2026-06-02 00:43:46.190085,Moda,11.25,2,Pereira
-2026-06-02 10:47:10.344941,Casa,36.89,1,Pinto da Mata
-2026-06-02 21:06:35.368566,Alimentos,90.89,5,Castro
-2026-06-01 22:42:16.325286,Moda,31.66,4,Fernandes do Norte
-2026-06-01 21:05:56.731096,Casa,72.33,5,Vargas do Campo
-2026-06-03 03:05:10.870911,Casa,26.62,5,Azevedo
-2026-06-01 23:28:18.275644,Casa,14.45,1,Teixeira da Mata
-2026-06-01 21:00:21.760700,Eletrônicos,81.48,2,da Cunha
-2026-06-02 10:55:57.998205,Casa,12.32,5,Campos das Pedras
-2026-06-01 02:32:33.662176,Casa,91.7,5,Rocha
-2026-06-03 03:58:51.398466,Alimentos,78.51,2,Pacheco da Mata
-2026-06-01 09:49:56.300063,Alimentos,62.9,5,da Mata
-2026-06-01 18:00:51.764777,Casa,92.23,4,Moura do Amparo
-2026-06-01 12:09:04.448321,Alimentos,60.94,1,Santos Verde
-2026-06-01 09:54:32.824980,Casa,28.01,5,Cavalcanti do Norte
-2026-06-01 19:19:44.036045,Moda,45.18,1,Nogueira Alegre
-2026-06-01 20:05:57.697999,Alimentos,59.99,5,Souza
-2026-06-02 10:54:58.583183,Eletrônicos,11.44,4,Carvalho
-2026-06-03 02:53:29.313079,Casa,52.16,4,Dias da Serra
-2026-06-01 09:36:18.937885,Casa,35.95,5,Mendes dos Dourados
-2026-06-02 03:51:20.412085,Eletrônicos,84.55,3,Martins
-2026-06-01 20:00:54.246815,Moda,84.6,2,Ferreira
-2026-06-02 05:29:22.980883,Eletrônicos,69.72,3,das Neves
-2026-06-02 07:14:51.553864,Casa,89.11,5,Pacheco
-2026-06-02 06:58:42.463205,Eletrônicos,58.01,2,Caldeira da Mata
-2026-06-01 07:07:05.674013,Moda,59.55,2,Sales
-2026-06-02 15:34:52.024096,Casa,14.85,2,Vasconcelos
-2026-06-01 06:03:29.448412,Moda,26.75,5,Sales de Fogaça
-2026-06-02 07:46:04.758828,Moda,87.1,5,Pires de Farias
-2026-06-01 10:12:33.687923,Moda,91.39,4,Araújo
-2026-06-02 01:14:29.709002,Alimentos,27.43,5,Barros de Pacheco
-2026-06-02 09:05:08.522194,Eletrônicos,77.42,2,da Cunha de Campos
-2026-06-01 08:54:04.357082,Moda,49.01,5,da Mota
-2026-06-02 05:47:33.070574,Moda,75.21,3,Moraes
-2026-06-01 23:09:40.339713,Moda,36.97,1,Martins de Brito
-2026-06-01 09:58:14.286070,Casa,37.7,5,Rocha
-2026-06-02 11:07:56.416595,Eletrônicos,98.99,1,da Rocha
-2026-06-02 22:05:28.411645,Moda,60.73,4,Moreira
-2026-06-01 14:40:45.105853,Moda,2.03,3,Sousa da Mata
-2026-06-01 14:01:10.911497,Casa,27.51,4,Jesus de Minas
-2026-06-01 01:23:17.737347,Casa,9.65,3,Lima
-2026-06-01 21:14:17.498003,Alimentos,99.55,1,Sousa
-2026-06-02 07:41:22.709307,Eletrônicos,49.32,1,Pastor do Norte
-2026-06-01 13:38:09.487302,Moda,78.6,1,Azevedo
-2026-06-01 10:46:12.088601,Eletrônicos,34.25,3,Sousa de Goiás
-2026-06-02 11:24:08.797445,Eletrônicos,58.82,2,Pimenta Paulista
-2026-06-01 21:44:09.164821,Alimentos,24.49,5,Ferreira
-2026-06-01 21:56:17.206803,Eletrônicos,1.47,4,Ferreira de Nunes
-2026-06-01 09:07:16.186531,Moda,57.32,5,Correia
-2026-06-01 10:38:13.449879,Moda,68.92,2,da Mata
-2026-06-02 11:30:29.435885,Casa,87.06,1,Moraes
-2026-06-02 08:28:33.895585,Eletrônicos,80.62,4,Carvalho da Serra
-2026-06-02 20:26:14.869783,Casa,53.77,5,Costela
-2026-06-01 02:07:12.901743,Eletrônicos,21.71,1,da Rosa Verde
-2026-06-02 01:50:58.683633,Alimentos,67.16,3,da Paz da Praia
-2026-06-02 08:14:24.292459,Casa,73.67,3,Rezende
-2026-06-01 05:06:07.739255,Alimentos,1.59,5,Duarte
-2026-06-01 16:07:20.452136,Alimentos,4.41,3,Castro
-2026-06-03 00:27:55.291133,Moda,46.99,4,Sampaio Alegre
-2026-06-02 15:29:16.600969,Casa,4.66,5,Albuquerque
-2026-06-01 00:57:20.236320,Eletrônicos,21.53,5,Fonseca
-2026-06-02 17:36:13.913092,Moda,10.58,2,Leão
-2026-06-02 20:54:16.237296,Eletrônicos,19.62,1,Santos dos Dourados
-2026-06-02 17:53:45.274027,Alimentos,19.04,2,Pereira Grande
-2026-06-01 12:07:06.455878,Alimentos,62.85,1,da Cunha do Amparo
-2026-06-02 22:32:29.483999,Casa,11.82,3,da Conceição
-2026-06-03 03:47:59.783288,Casa,79.93,1,Casa Grande da Serra
-2026-06-01 04:34:11.983597,Moda,5.5,3,Cunha
-2026-06-01 15:24:38.130868,Moda,31.09,5,Duarte do Norte
-2026-06-01 11:17:59.957332,Eletrônicos,40.04,2,Santos
-2026-06-01 08:34:04.671253,Alimentos,68.55,5,Andrade
-2026-06-02 08:58:32.637262,Casa,50.34,5,Melo
-2026-06-01 15:08:12.492004,Alimentos,62.17,5,Fonseca Verde
-2026-06-02 12:34:15.029000,Alimentos,0.8,4,Leão
-2026-06-01 18:28:54.296962,Alimentos,53.32,1,Borges Verde
-2026-06-01 08:58:19.765445,Casa,0.25,1,Novaes
-2026-06-01 07:12:17.898314,Eletrônicos,64.84,3,Montenegro
-2026-06-02 01:03:43.227732,Casa,14.74,1,Sampaio
-2026-06-03 00:11:51.724369,Eletrônicos,13.57,5,Campos
-2026-06-01 22:34:38.466321,Moda,37.96,3,Marques Verde
-2026-06-03 03:44:11.263278,Casa,32.98,5,Abreu de Albuquerque
-2026-06-02 07:00:33.129233,Alimentos,96.01,4,Peixoto
-2026-06-02 08:36:38.951418,Eletrônicos,59.9,1,Cardoso do Sul
-2026-06-01 02:26:14.161658,Eletrônicos,60.79,5,Novais dos Dourados
-2026-06-01 21:40:28.517179,Moda,89.8,3,Novais
-2026-06-03 01:00:18.409319,Casa,5.96,5,Siqueira do Sul
-2026-06-01 06:57:19.751407,Alimentos,8.9,3,Monteiro do Sul
-2026-06-01 23:48:55.086144,Moda,31.23,3,da Mata de Minas
-2026-06-02 19:55:38.781204,Eletrônicos,90.33,1,Alves
-2026-06-01 23:44:44.143410,Moda,76.82,1,Pimenta de Minas
-2026-06-02 04:43:50.300803,Alimentos,79.33,4,Jesus
-2026-06-02 21:13:32.934339,Eletrônicos,2.07,3,da Luz da Mata
-2026-06-02 00:40:33.383809,Casa,98.77,2,Cavalcante
-2026-06-01 18:01:36.925151,Eletrônicos,87.63,1,Cirino de Pimenta
-2026-06-01 11:42:46.265211,Alimentos,50.79,4,Alves da Praia
-2026-06-03 00:59:31.197800,Casa,59.54,5,Costa de Gomes
-2026-06-01 17:31:47.028311,Alimentos,79.61,4,Lopes da Praia
-2026-06-02 18:32:15.015184,Eletrônicos,52.66,1,Costa
-2026-06-03 02:00:36.064497,Alimentos,47.81,4,da Cruz
-2026-06-01 10:33:42.822729,Casa,61.5,5,da Costa do Norte
-2026-06-01 10:17:53.393687,Casa,62.91,5,Sampaio
-2026-06-02 17:09:13.230490,Casa,22.46,2,da Mata
-2026-06-02 05:40:25.088926,Moda,41.21,5,Teixeira do Sul
-2026-06-01 15:54:17.890915,Casa,68.32,3,Araújo
-2026-06-03 03:24:55.538286,Casa,59.19,1,Moraes Paulista
-2026-06-01 16:56:30.714472,Casa,1.03,3,Fernandes do Amparo
-2026-06-02 01:43:32.822877,Moda,6.11,1,Pastor da Praia
-2026-06-02 18:16:46.647712,Alimentos,97.51,1,Jesus
-2026-06-02 22:18:21.981627,Casa,87.31,3,Albuquerque
-2026-06-02 16:53:19.445599,Alimentos,17.04,4,Fernandes
-2026-06-01 05:49:34.495180,Casa,81.69,4,Ramos
-2026-06-01 18:03:57.300497,Casa,43.28,4,Campos
-2026-06-02 00:33:54.355846,Casa,38.23,5,Freitas do Campo
-2026-06-01 01:16:03.842873,Casa,16.47,2,Albuquerque de Jesus
-2026-06-02 02:55:46.287745,Casa,46.26,5,Sousa de Goiás
-2026-06-01 13:01:36.009012,Eletrônicos,71.25,2,Gomes do Oeste
-2026-06-02 15:55:40.232449,Casa,13.97,2,Fonseca da Prata
-2026-06-02 15:14:36.439627,Eletrônicos,77.04,3,da Cruz do Norte
-2026-06-03 03:59:09.692258,Moda,1.18,1,Leão de Teixeira
-2026-06-01 01:03:02.362321,Casa,86.05,4,Novais
-2026-06-01 09:29:22.852447,Casa,67.65,3,Borges
-2026-06-01 04:11:56.290735,Moda,84.85,3,Garcia
-2026-06-02 06:55:28.370438,Eletrônicos,8.11,4,Viana Paulista
-2026-06-02 22:18:51.679617,Alimentos,26.18,5,Pastor
-2026-06-02 21:01:43.041443,Casa,94.35,4,Lopes de Vasconcelos
-2026-06-01 12:52:10.929018,Casa,76.05,2,Costela
-2026-06-01 12:13:46.825450,Alimentos,72.73,4,Viana de Goiás
-2026-06-02 12:15:42.177023,Casa,5.76,2,Carvalho
-2026-06-02 01:51:02.508009,Moda,57.89,5,Silva da Praia
+order_id,timestamp,customer_id,product_category,price,quantity,store_location
+bf9bd6c9-46ca-4006-b0b9-d71bde40a36b,2026-06-02 12:23:48.709000,7588,Eletrônicos,71.12,5,Caldeira
+55cc0c44-6abe-426b-8715-0d9cceb82c6f,2026-06-02 13:23:35.318617,6523,Alimentos,62.37,4,Nascimento
+27a1341f-329e-4806-8ca7-fc20107e9635,2026-06-03 04:11:18.873239,9104,Alimentos,33.83,2,Vargas
+96d9d766-1acc-4634-8680-6e89dba6a639,2026-06-03 02:42:31.417606,2758,Eletrônicos,5.32,3,Nunes
+07df198e-c203-47ed-9f02-9985170b6ce4,2026-06-01 00:16:11.269060,1023,Alimentos,44.48,3,Abreu
+b746da92-c4b1-479b-82c6-24cc4511eee8,2026-06-02 21:20:31.444221,5430,Eletrônicos,21.33,3,Pastor do Norte
+bb484db7-e1c6-42db-b282-9cb27592d6a7,2026-06-02 23:37:57.859224,4231,Moda,64.25,3,Duarte das Flores
+794b3a90-d82a-46d3-8024-e6a0626311b3,2026-06-01 07:30:16.602523,9156,Casa,20.0,4,Santos de Goiás
+8984ba18-7bbb-48b5-b90e-d708a6597d3c,2026-06-03 04:47:02.934500,3641,Casa,37.6,4,Pereira
+b37bdf15-812b-45f5-8180-7d3abd39f0c2,2026-06-02 06:43:26.287941,5615,Alimentos,63.96,5,Andrade
+0d491bae-8b56-44f8-9276-416b5e0ccdbf,2026-06-01 05:32:24.908344,1637,Moda,36.25,3,Pires da Prata
+37169b99-53f2-4db7-a530-8a24b33c6c09,2026-06-02 11:51:41.352983,7332,Eletrônicos,74.12,1,Ribeiro de Costa
+4a0cbcac-793d-4fb1-b2cc-c6e144258c05,2026-06-01 16:46:32.140382,1008,Casa,81.04,1,Gonçalves de Silva
+10b70c87-f332-4e86-85cf-10fdc808d33e,2026-06-01 15:58:51.312724,6507,Alimentos,81.9,4,Sousa
+96212663-f164-4631-9dbc-b43ce809c944,2026-06-03 00:33:21.923770,7433,Eletrônicos,22.22,1,Farias da Prata
+3cdfab01-5d9d-442a-b1a3-1b70e9577290,2026-06-01 00:39:55.312356,2206,Alimentos,67.0,2,Machado
+d185f05e-bad3-41c7-a6dd-edd308fc378f,2026-06-03 00:49:31.686940,6887,Moda,31.21,3,Rocha das Flores
+51db7b06-feb6-49e2-a20d-17aba7a3be17,2026-06-02 01:21:42.148225,6234,Eletrônicos,37.24,3,Sales
+7d8f461d-e428-46da-895d-2d301f4d9b64,2026-06-01 11:04:05.580776,3816,Moda,50.66,5,Montenegro
+b6a236ba-ecd6-40ac-bb50-922438105d23,2026-06-02 19:28:27.233740,8339,Moda,88.38,1,Castro do Galho
+4fb2d567-3a78-4f64-8b94-6732b991939c,2026-06-02 11:13:39.036597,5909,Moda,67.52,3,Duarte
+3b7e174a-1e7b-4d1a-ab2b-83a8e8ddb5cf,2026-06-02 06:01:53.285572,3023,Moda,12.99,5,Farias
+75a84e79-ed3d-4e9b-aea5-5226536617f6,2026-06-02 13:55:27.339135,9688,Moda,41.98,3,Casa Grande
+e1bc345a-9623-4b94-a61c-ecb644a02afe,2026-06-02 10:50:21.416777,3305,Casa,16.57,3,Araújo
+5f6df869-cd32-4227-a6ec-d5352739a460,2026-06-02 13:25:35.053523,1870,Alimentos,80.85,4,Cirino da Prata
+c8a6b940-8ed0-43c8-9828-9012531b7d6d,2026-06-01 07:24:21.863241,2840,Moda,26.33,3,Sales de Siqueira
+377f9ed1-93c4-44f2-9e7b-7ff6fdf3f692,2026-06-03 04:37:16.237473,6952,Moda,44.12,2,Pires dos Dourados
+c60227cc-2c6c-4439-a94c-2f4acc138403,2026-06-01 08:36:03.836447,4759,Eletrônicos,14.64,3,Jesus
+303423cc-f448-4b42-bdf0-41ab651935dc,2026-06-01 00:16:10.150501,6201,Alimentos,10.72,5,Lopes
+ed80ea52-cc38-46df-a526-9403b4d2c113,2026-06-03 02:59:48.460828,3495,Casa,29.06,2,Araújo
+5fec6734-6b69-41dd-a640-64c92950ffae,2026-06-03 02:19:10.303478,9684,Alimentos,7.12,5,Ferreira Alegre
+3409ccd9-0f77-4d8b-a974-d65e7267c4d1,2026-06-02 06:18:18.039382,7682,Alimentos,93.68,3,Rodrigues do Campo
+c5e88870-77ca-4242-acbd-bb65f3d37765,2026-06-01 23:47:09.579984,5272,Alimentos,90.41,4,Novaes
+8f7926ae-3a3a-4ba3-9139-dfeacaa7b435,2026-06-02 04:08:44.096479,8359,Casa,66.75,5,da Mata
+9d8c78a6-bcbe-47f3-9b8a-765b31ff7937,2026-06-01 17:04:35.041539,2517,Alimentos,34.59,4,Montenegro de Rezende
+c1c0e2ef-6db3-4b56-9744-e20e5cab9aa9,2026-06-01 23:18:52.294039,7867,Alimentos,94.27,4,Carvalho
+57d95ef4-384e-4ee3-ac03-c2953ab3c71d,2026-06-01 02:10:51.399639,2161,Moda,56.12,2,Dias de Peixoto
+8d1cfded-313f-4729-9e78-86ee67b3525e,2026-06-02 14:30:32.148273,6666,Eletrônicos,10.02,1,da Luz do Norte
+d0352124-d0de-4a74-86a5-be1cbdbd558d,2026-06-01 04:57:45.015047,9068,Alimentos,4.54,3,Oliveira
+485d4f76-41b9-4beb-8ef4-f31f0e486086,2026-06-02 23:22:35.233939,7064,Casa,90.56,2,Melo
+0c2e60f4-0b88-4159-8dbf-4bd41bb99087,2026-06-02 04:29:56.005026,8366,Moda,91.59,1,Cavalcante das Flores
+110371c6-4e85-4e05-887f-06bfcc5523de,2026-06-01 17:48:43.449311,3142,Casa,86.33,4,Peixoto do Amparo
+d2525cb5-2509-446f-bc4c-93a74bfda5dd,2026-06-02 19:49:23.281253,3384,Alimentos,12.43,3,Pacheco
+064a5784-93c9-44d3-8d02-5198aed78104,2026-06-01 03:51:26.149275,9953,Eletrônicos,87.77,4,da Rosa de Porto
+66e85584-5256-4592-921f-1f11ec40ea33,2026-06-03 00:06:27.197383,7636,Alimentos,38.12,4,da Mata do Galho
+2e71145e-4649-4697-897b-42af05aecb2d,2026-06-01 00:36:05.490223,7252,Casa,90.69,5,Montenegro da Mata
+74ccdefd-2a01-4d6f-bf6a-7fe150a85c50,2026-06-03 01:16:11.773111,6418,Casa,66.92,1,Caldeira
+9b57cffa-d2f0-4312-9b65-67874316fed1,2026-06-02 20:00:32.713955,1534,Casa,38.96,4,Nunes do Galho
+b507700b-1fb7-4fda-b38e-0cf9a074afee,2026-06-01 14:54:35.783319,9579,Eletrônicos,32.87,4,da Paz da Praia
+0c6d6502-2d8e-4fca-a446-eccfd589815d,2026-06-01 10:37:54.794722,6029,Alimentos,71.48,2,Fernandes da Prata
+4cc515b4-3072-46fe-b1eb-ee5b2f18cce3,2026-06-02 04:34:14.892411,7631,Moda,65.75,1,Pacheco Grande
+27f85f92-63fa-4132-b86e-ae4e749188c9,2026-06-02 18:53:59.173064,4460,Casa,22.0,5,Rodrigues
+adadd260-1310-4ec1-9e5b-e18d57e10aa7,2026-06-02 08:33:35.493405,5910,Alimentos,8.0,3,Montenegro
+2e2185b2-322f-484f-8381-8eb7776c5c65,2026-06-02 23:50:25.455171,9284,Moda,62.31,5,Novais do Galho
+a12c220a-edf0-4a0a-8258-a36432a27bac,2026-06-01 23:30:15.194902,4803,Eletrônicos,34.73,5,Lopes
+aa9a538e-b322-4c96-a4cb-663f3084f94d,2026-06-02 10:39:31.983378,4849,Eletrônicos,95.11,2,Monteiro do Sul
+b99e6abf-8885-4080-b66d-9ed27e3472b0,2026-06-02 05:42:42.163112,4984,Alimentos,67.33,2,Cirino de Ferreira
+267fca00-c4ef-4716-b5ad-f5f47f165edb,2026-06-03 01:21:49.416206,7288,Casa,93.25,5,Sá
+bd5e58fe-2a96-4e44-98fe-9c3ebb3a2a4a,2026-06-02 19:01:36.511792,7267,Alimentos,1.01,2,Pinto
+c92ced7b-bb34-472a-8e4d-de847f438a71,2026-06-02 16:01:16.804575,5121,Casa,49.81,2,Leão
+63c897e5-5671-494e-a404-a12c193082ff,2026-06-02 03:03:39.068053,5209,Alimentos,22.45,2,Mendonça
+ee6c4c16-89f9-4923-8872-d7454f514edf,2026-06-01 08:32:44.278892,1503,Moda,13.73,2,Melo de Pereira
+07e247a0-b5b2-4b72-9328-d69597fee255,2026-06-01 10:09:03.620673,2308,Casa,23.12,2,Nascimento
+ac1c4955-05d6-4c92-94c4-92064538bb34,2026-06-01 22:43:09.672820,8814,Alimentos,72.01,4,Cardoso
+db463f7e-fbc8-4851-a121-b3a78431f4cc,2026-06-03 02:39:22.147537,8919,Casa,93.15,1,Teixeira
+2654da46-f79b-42a1-8a37-25a410774972,2026-06-03 04:13:02.788413,4433,Alimentos,37.39,4,Rodrigues de Goiás
+eb7512ac-0f19-47fc-a62c-a31cab129f03,2026-06-02 00:23:22.196355,6310,Moda,48.11,3,Costa da Praia
+a820d725-6741-4f87-ba5d-6d9f1a681d67,2026-06-02 13:57:54.192792,4502,Casa,18.83,1,Farias de Almeida
+57d95511-6b11-47da-b08b-258b66181e0b,2026-06-02 23:29:16.516944,5524,Moda,60.08,4,Sampaio
+1a1a3cf4-56d7-4d08-a24a-5345ff1fee1e,2026-06-02 08:23:23.375629,9123,Eletrônicos,16.25,4,da Costa das Pedras
+5c5144a7-df67-4641-bb0e-59e0708f0ae8,2026-06-02 04:05:35.460891,6425,Alimentos,53.47,2,Mendonça
+64641fd2-f1ae-4442-ad62-f00d21bcb548,2026-06-01 21:28:57.566012,8803,Eletrônicos,19.16,5,Peixoto
+5785badc-29d5-49b3-93e2-f1140f885a5e,2026-06-01 13:45:04.767443,8421,Alimentos,17.86,4,Guerra
+4a128040-ef08-4ab5-8598-185e31a6d3ae,2026-06-01 21:01:59.070353,6658,Alimentos,62.1,4,Andrade Alegre
+1de708d7-d583-49d1-9903-bc837fc2bad3,2026-06-02 23:58:11.322002,1859,Casa,51.91,2,Cavalcante de Goiás
+b6c2b69a-a727-463e-895b-393dc0cd630e,2026-06-01 14:59:18.262383,5147,Alimentos,86.78,2,Teixeira
+3b281665-72fa-4039-b34d-d953485995a1,2026-06-01 22:12:10.866912,8387,Moda,53.61,5,Nunes
+936214df-a24f-4b03-b4db-568ab412634c,2026-06-01 16:22:00.761881,2107,Moda,17.32,3,Borges
+f0f2b6e3-c749-4b49-8bc8-3816e5439668,2026-06-01 15:53:55.127849,8022,Moda,38.61,4,Freitas Grande
+f2313508-f316-4a17-bfff-e3f46691a14c,2026-06-01 08:59:17.069844,9626,Casa,59.74,4,Martins
+f5ee6c82-c94f-4515-9f95-f954bca54362,2026-06-01 07:27:14.110058,1264,Casa,16.92,2,Santos das Pedras
+847181e0-25c8-4104-b93f-f8d826bd5783,2026-06-02 17:46:52.966659,8375,Moda,75.13,5,Moraes
+01fc214b-22f4-453c-b37a-3638182eb333,2026-06-01 21:17:54.276653,6588,Moda,94.37,5,das Neves do Sul
+f5152a36-6569-4b56-a55f-03cf522fb578,2026-06-02 22:04:53.171754,6362,Moda,40.99,1,Moraes de Correia
+eb658c95-1710-472b-b7a4-449a6e2fff8c,2026-06-01 02:54:58.669786,4428,Moda,47.83,2,da Cruz
+4e4af0c7-51ad-4136-8ff6-24f0279a414d,2026-06-01 13:21:09.231836,3429,Casa,83.37,5,Novais do Oeste
+114e7311-2c37-4802-9de0-603fdf4bf0f3,2026-06-02 13:40:45.542094,5839,Alimentos,66.91,1,Barbosa
+41f62a16-5f20-4ead-8983-6559482f8cc1,2026-06-02 03:29:59.198823,2066,Eletrônicos,84.02,2,Almeida de da Conceição
+0b9dbc82-fa3f-4e7b-97b0-d36d930b4e2c,2026-06-01 09:23:03.285119,5319,Alimentos,86.94,4,Teixeira dos Dourados
+655a0416-067a-4048-b323-484eb280a26a,2026-06-01 16:16:26.285384,3620,Moda,82.52,2,Gonçalves
+913f95fa-e555-4649-9578-f3ca6920b9c8,2026-06-02 03:28:27.230132,5996,Casa,87.93,2,Silveira de Martins
+0f21fb19-60cb-4a70-ae12-081d152f7f60,2026-06-01 03:47:51.689151,8224,Eletrônicos,44.17,5,Viana
+050db179-e819-424e-a3f1-2ee52c9278a8,2026-06-01 19:27:48.444323,7956,Moda,85.32,1,da Conceição das Pedras
+7e8c178d-5157-45b6-93e4-f1a988606b00,2026-06-02 05:39:56.204721,1526,Eletrônicos,46.25,5,Abreu
+2519f54b-893e-42c2-b1eb-1aeb8c19bf6a,2026-06-01 04:37:28.775444,8288,Alimentos,4.74,3,Moraes
+1edb12b9-9c42-4b81-8df4-cd4c9c4d4d33,2026-06-01 14:56:50.675379,2393,Eletrônicos,47.5,5,Lima de Gonçalves
+2b7f5ce4-525b-4d3f-a507-6446a51d10f2,2026-06-01 11:05:54.115623,9389,Alimentos,32.37,2,Moura do Galho
+33c46dfe-5aa5-4345-9aef-8b7c684c19eb,2026-06-02 06:00:57.748110,6977,Alimentos,29.91,2,da Cunha de Porto
+395abf67-b6d1-436f-9746-fc00bb5598ef,2026-06-01 11:51:35.900118,7807,Eletrônicos,28.63,4,Fogaça da Prata
+02868ef8-9871-4fdc-8140-c782cea9336e,2026-06-02 02:19:54.738226,7783,Eletrônicos,28.34,5,Abreu
+704cfdb9-f1b2-4c5a-9d02-55d8f75553dd,2026-06-02 03:47:56.241726,5597,Moda,0.55,5,Correia dos Dourados
+53243665-b147-4224-bd16-6babf51e56ba,2026-06-01 15:06:56.744538,5928,Moda,18.67,2,Fonseca de Vieira
+2b9ec9c9-b44c-4b34-b740-84ea21b47b74,2026-06-02 14:24:51.910881,1527,Moda,64.66,5,Freitas das Flores
+25646fc0-d818-4fb1-b7e0-6c76d29396bd,2026-06-02 16:05:48.829470,6456,Alimentos,47.81,1,Cardoso
+8479e587-4cb2-4e8d-8f09-b14c31df2e2e,2026-06-03 00:03:21.796890,1587,Casa,77.21,4,Novais do Galho
+dd5723fa-d029-42d5-9b1b-6c6f320db9cb,2026-06-03 01:04:28.283730,7254,Moda,80.16,3,Almeida
+8ffa3d6e-cc94-4f04-ae46-4b9c2e51722a,2026-06-02 08:16:54.194192,2545,Eletrônicos,27.4,1,Moreira
+f1cd9dce-bbc1-48b6-a71c-27659c284a8c,2026-06-02 07:45:23.402645,6871,Alimentos,35.11,1,Peixoto
+aae71e1d-7699-40cd-bbab-660707ef5839,2026-06-01 18:13:17.338253,6250,Moda,48.25,5,Andrade
+85c5fe63-860c-4aa0-abf9-60212c2c2723,2026-06-01 12:31:21.808497,8343,Moda,97.26,5,Rodrigues de Sales
+f58c2dda-9808-4389-a944-113b955b7040,2026-06-02 04:20:00.499840,1569,Casa,92.67,2,da Mota de Nascimento
+280fd54f-fce8-4596-b50a-3c2ba3a547f3,2026-06-01 09:09:40.189696,8246,Casa,96.11,5,Andrade do Norte
+26a3f2d6-156a-45c5-82cf-accc33d9d7a4,2026-06-01 10:09:53.485254,6918,Casa,21.57,2,Siqueira
+4529b5c9-4a2a-405c-ab6b-40042349aab9,2026-06-01 04:35:09.372778,2847,Alimentos,80.69,5,Melo
+e6d5ddfe-9963-4171-90ed-b5ea17ce1e5d,2026-06-02 16:58:09.738008,6274,Moda,26.18,5,Cunha de Correia
+76495ff4-99e1-42a4-8f2a-3e07f2bc79c7,2026-06-03 02:19:10.439542,5935,Casa,85.97,1,Rios
+254cb985-942a-4fc6-bae0-9264c2f796a8,2026-06-01 00:43:14.067570,9911,Moda,34.13,4,da Luz
+98a3497e-a3ca-4e8a-9f7f-c4458d196c37,2026-06-01 11:27:10.015402,1502,Casa,12.26,4,Carvalho de Goiás
+2e6ca761-1034-4d08-af9f-484789a01662,2026-06-02 09:26:08.169322,7222,Alimentos,15.12,3,Marques
+d07234b7-1738-4c6f-8985-fa20f3822d4a,2026-06-01 13:19:52.117973,1672,Eletrônicos,15.7,1,Castro
+3079dcc4-7bdc-4951-994b-7fb13b0ae95a,2026-06-02 00:19:34.142660,2404,Eletrônicos,97.18,3,Leão da Praia
+5e74ebe2-f096-4866-abf2-4fd60fe1a67f,2026-06-01 11:04:58.004469,9081,Eletrônicos,62.42,1,Gomes do Galho
+141c4584-55ec-4030-a78c-263260957e6e,2026-06-02 01:14:25.858942,1320,Moda,50.34,3,da Luz
+fb8d3515-992d-472e-aa13-a36e97c55bb3,2026-06-03 04:35:53.765448,3258,Alimentos,27.74,2,da Paz de Sales
+b883149f-20eb-44e6-9765-422c071e7296,2026-06-01 22:16:48.394778,8028,Eletrônicos,17.01,5,Melo de Nascimento
+ec66b49e-d960-42a8-b32c-3a1227724988,2026-06-01 23:28:26.137191,7359,Eletrônicos,58.82,3,Garcia
+255bfc0f-ad2f-4cbf-9d4b-d2a0db0a42b2,2026-06-02 14:36:09.012898,4790,Casa,58.86,3,Câmara
+78196dd0-9126-475e-8e20-d755616c025b,2026-06-01 20:20:18.666505,2517,Moda,36.12,3,das Neves
+f0f36a2b-b391-4223-b3e0-926a9ef080b4,2026-06-01 18:14:28.384784,9817,Eletrônicos,24.48,1,Silveira de Goiás
+39844ccc-1fe2-4b11-b971-76a4fe4c562c,2026-06-01 15:03:20.513953,1177,Casa,68.96,4,Correia de Sampaio
+c91ae33b-538c-4bd1-8e11-ce07bf22f251,2026-06-02 10:19:18.804347,1755,Eletrônicos,37.12,4,Sá do Amparo
+4758609d-e1d2-49bb-b956-ef5d24ad6018,2026-06-02 00:58:09.494039,1346,Moda,40.86,5,Pastor
+0f92f471-ee22-49aa-9756-5f22888633a7,2026-06-03 02:31:35.055831,2486,Alimentos,53.29,2,Caldeira das Flores
+146d5e41-52a1-4db4-b116-594dc1695c82,2026-06-03 04:22:05.026635,4337,Moda,68.1,4,da Cunha
+5d1e047c-0f1b-42ac-8838-bce6f7d77a1c,2026-06-02 15:24:52.455821,8382,Eletrônicos,76.26,2,Novaes
+c5992ce7-f51a-4241-b133-32c5f100b21b,2026-06-01 09:30:23.076990,2687,Eletrônicos,77.06,4,Leão Verde
+c4c047ef-af94-4eaf-8880-f593eb49d241,2026-06-02 16:27:23.954151,1349,Eletrônicos,6.56,2,Melo
+96691790-92c1-43d0-93ab-42fd645b026d,2026-06-02 17:43:00.597685,2359,Casa,62.93,4,Mendonça Verde
+25ad0d42-f3f6-4f6d-94ed-7d5c064703a2,2026-06-02 00:39:19.548905,4807,Eletrônicos,4.26,1,da Cunha Paulista
+ca7ef52e-da62-4856-be2f-188991087799,2026-06-02 03:45:18.721707,7271,Moda,9.07,3,Cunha
+05709ecc-9a42-4673-b62e-518571520710,2026-06-02 00:42:31.675807,9589,Moda,15.78,1,Moraes
+fcd8e713-064a-4143-8591-5a521fdb1e06,2026-06-02 14:15:34.871315,3632,Eletrônicos,31.6,2,Cavalcante dos Dourados
+ce5ba3f8-3794-4732-8dc1-99d384e551bc,2026-06-02 02:38:40.270661,1635,Casa,33.08,5,Porto de Mendes
+c610c9a9-3677-411a-bc10-1b4ac3521f7e,2026-06-02 18:41:06.845083,1388,Alimentos,75.76,3,Porto
+88ee41fb-608e-45a3-97ed-ac661f7eee35,2026-06-02 11:40:40.168804,7225,Casa,74.28,4,da Luz de Correia
+313df1af-6769-4965-a73f-35c08aaa3294,2026-06-02 10:41:25.916834,1179,Eletrônicos,35.22,4,Viana Grande
+2d97ea12-822f-44f7-b33a-475b83f992ef,2026-06-01 17:36:59.903765,1271,Casa,17.0,1,Freitas de Gomes
+ea196887-afcd-4f51-90cc-9714a1351fbe,2026-06-01 06:59:32.212141,3111,Eletrônicos,70.77,4,Lima das Flores
+c609cf0a-05e0-4c32-bad8-002285f11e71,2026-06-02 17:31:50.481981,2705,Moda,66.79,3,Vasconcelos da Prata
+ee4d76c2-bc73-4fa8-a638-fab5721c0659,2026-06-02 19:17:43.084448,6589,Moda,37.79,3,Fonseca
+3958cb9c-15f6-422e-9928-e95c28450572,2026-06-01 05:12:28.342056,8680,Eletrônicos,40.16,2,da Rosa
+d468eca2-5646-442a-806f-9f2158a4b1d4,2026-06-01 04:30:00.632646,5299,Alimentos,47.83,3,Barbosa de Brito
+c196d4f3-c54d-413e-a905-bf6c901d420c,2026-06-02 12:09:04.711303,4176,Casa,8.54,4,Lima
+3b718bc2-fc5d-4445-bdd7-1560233694ff,2026-06-01 05:42:38.872082,3234,Moda,45.16,5,Silva da Praia
+e965277e-c630-4897-bba4-f138116241c2,2026-06-01 03:58:56.092634,1273,Moda,21.07,4,Casa Grande Verde
+9f7d71c1-6deb-4db7-9202-7f232bd50d19,2026-06-02 12:13:51.745759,9966,Casa,65.08,1,Gonçalves
+b3a0f4e0-7f2c-449e-bcb7-5b4e2f68ab43,2026-06-01 07:31:31.370645,5395,Alimentos,51.84,2,da Rocha
+567ab270-d8c6-41c5-88a3-2f24187f2a48,2026-06-01 21:09:09.232823,2254,Alimentos,57.24,4,Pastor
+14e80180-3880-421f-86e9-947232a51a98,2026-06-01 09:37:31.932570,3180,Moda,37.51,2,Gonçalves da Prata
+e1a5bc21-c47e-4d3d-953f-eae7b5e392ad,2026-06-02 07:08:25.983245,8123,Eletrônicos,74.84,4,Brito
+da4ad49d-5c50-4006-9dc4-1543a7c1194c,2026-06-01 15:40:40.717107,7985,Alimentos,31.31,5,Costa da Praia
+2d3a2d80-71a1-447f-ad55-f29a0f3cfd24,2026-06-01 16:45:04.261775,2238,Casa,53.35,1,Farias
+e86f1160-0027-4687-9303-9bf234d6e194,2026-06-02 16:03:28.018448,4687,Casa,76.54,1,Carvalho
+cc8f7ce3-663b-47ef-bed2-7806444a7268,2026-06-01 10:44:40.812282,4883,Alimentos,31.12,3,Guerra
+47ae8b6a-5517-4924-968c-6d128f72e1d8,2026-06-01 22:33:32.342496,1291,Casa,0.79,5,Campos de Goiás
+c9dd17b4-8ce5-49c9-9620-70658661bc3b,2026-06-03 02:14:49.720032,6144,Moda,4.2,5,Sampaio
+a05a8374-4d87-4c82-b8c6-07851552c9cc,2026-06-02 21:54:53.338944,8032,Alimentos,44.99,1,Borges da Serra
+257e7608-0c6a-4887-9935-0a9b019e576b,2026-06-01 07:45:32.639517,5114,Moda,35.87,5,Guerra das Pedras
+4e084a36-86c6-491e-8766-6fa314fa3a12,2026-06-03 02:37:20.371468,7341,Eletrônicos,79.68,3,Jesus do Amparo
+d6290dea-cfb3-419e-afda-945c9c7a077c,2026-06-02 12:28:59.056890,2672,Eletrônicos,60.6,5,Nunes Verde
+9df95e35-cf1e-49e5-9b52-37463a6276e4,2026-06-01 20:19:31.553957,6408,Alimentos,59.92,4,Sá das Pedras
+8be40add-57c4-4ad0-bfad-59508b82d079,2026-06-01 17:48:46.676440,9390,Alimentos,11.4,5,Campos
+4053f28e-04b6-4971-b4d8-adf6c3eeddd4,2026-06-02 04:09:19.831344,8189,Eletrônicos,59.23,2,Teixeira Verde
+3f1af5de-b21b-4a04-94f2-840405611246,2026-06-03 01:41:49.801448,7361,Moda,20.94,5,Vargas
+e4fa63e6-7a93-48e5-a899-e97e1d372859,2026-06-02 13:20:21.055805,9953,Alimentos,7.72,2,Sales
+a2d20c0e-96de-43f7-968f-7e3dfb906916,2026-06-02 11:56:34.787177,5395,Casa,65.77,4,Gonçalves Grande
+16a8d1ea-2533-40f0-8d62-910094edc51b,2026-06-02 06:55:00.896123,5518,Moda,87.46,3,Almeida
+843deb4f-b3a4-45be-a7e4-c6084001744f,2026-06-02 04:10:52.067077,7786,Casa,12.46,3,Melo
+7c378f37-d1b0-41c8-9263-aaa37b4376e2,2026-06-01 03:11:24.806630,3602,Eletrônicos,20.73,1,Guerra de Siqueira
+7f677f7f-4b6b-4c53-87ce-972d6d944f98,2026-06-01 10:35:09.737779,7139,Moda,34.43,3,Machado
+00a65bcc-6fc2-4a0e-bb7c-a60bb1d66166,2026-06-01 00:27:19.691783,8185,Eletrônicos,17.57,1,Brito
+989ba01a-248d-4258-a74f-c3441fccb64e,2026-06-02 09:44:41.800675,7979,Casa,73.47,5,Castro
+648997a3-4a56-47de-b0b5-c65d11ef3784,2026-06-01 01:09:24.592561,5016,Eletrônicos,55.72,2,Moreira
+792782f9-ca68-46cb-aed8-ae86f528a8c9,2026-06-02 17:11:08.948072,8322,Moda,24.15,1,Andrade de Duarte
+6ea9f629-15e6-49b1-ae8d-a3cbf0d95bba,2026-06-03 02:03:08.277346,4084,Eletrônicos,38.75,4,Pinto
+2cfe459e-c62a-443a-ab2e-45d0500bd19a,2026-06-02 05:27:35.871799,8341,Moda,35.81,2,Siqueira Paulista
+634b2068-a42a-44bc-8ad0-48b4d3c775ee,2026-06-02 04:42:13.867650,6889,Alimentos,67.73,1,Almeida
+5d19719d-b4a0-4dfe-aaeb-cecd95690025,2026-06-02 22:00:23.413689,5621,Alimentos,42.26,1,da Rosa
+66d96bc7-a9d4-4862-ac1f-eae32e4f0b5d,2026-06-01 08:50:55.015818,3043,Casa,46.03,2,Pires
+f8056728-b629-4d37-b15a-7040f492ec3e,2026-06-01 02:02:43.679514,3128,Alimentos,23.03,1,Aragão
+d15b75b8-742c-48b2-9925-813e3834542f,2026-06-02 23:44:36.020228,1967,Moda,84.87,2,Barros
+deeafea3-13d9-4970-9309-dcd0d05b4676,2026-06-02 03:17:25.991809,5979,Eletrônicos,40.74,3,Peixoto da Mata
+a8c443cc-164f-4a46-9017-755950083782,2026-06-03 00:50:34.932615,3185,Casa,72.09,3,Fernandes
+964f2671-9779-4ed2-b88a-c8c2b3589cfa,2026-06-01 15:32:01.702866,2324,Alimentos,50.85,3,Barros das Pedras
+82dcac24-2e55-4ccd-82dc-32a0a5b8ff68,2026-06-03 04:19:37.485958,8194,Moda,56.91,5,Silva da Praia
+052f578f-6abb-4a30-9a1f-7de39594c4ae,2026-06-02 11:01:44.299344,9844,Casa,85.4,4,Duarte do Oeste
+beca879d-0605-4920-afaf-89e6ed686601,2026-06-01 12:29:06.107074,3381,Moda,83.83,4,Ramos
+860f1af7-2d36-4922-8832-d39fe75c9e03,2026-06-01 05:25:31.596659,4826,Moda,67.66,1,Sales do Amparo
+fcdff70b-0032-4865-ab2f-9d2e585d4de3,2026-06-02 00:52:49.181843,2135,Eletrônicos,26.2,5,Campos de Gomes
+2f50bedb-d505-4056-973a-01dcdee19819,2026-06-02 23:59:11.381594,8916,Eletrônicos,92.35,5,Castro de Nascimento
+7e4b3cff-9a0b-4797-b519-6fba94edaa5a,2026-06-01 01:57:05.897624,3692,Moda,87.57,1,Sousa
+32e9aa9d-f4af-4083-864e-512ecb83442c,2026-06-02 10:11:18.041473,7679,Eletrônicos,76.11,3,Guerra
+385dc0c5-bc94-4b85-a1cb-59bee229af6c,2026-06-02 16:34:27.417410,6180,Moda,81.98,5,Sales de Siqueira
+fe0375ea-632b-4927-8120-8f346d10cd11,2026-06-02 01:03:08.614250,9490,Eletrônicos,21.98,4,Rios
+13ca1ca7-56ae-4f07-bc86-68cffcf37861,2026-06-01 08:26:11.055462,6671,Moda,61.26,1,da Mata
+2cf718e3-5402-424b-bd30-a1801398ae64,2026-06-02 12:38:56.773458,1442,Casa,20.9,5,Castro de Casa Grande
+95b31869-2c4a-4986-8876-a73d9b5e0933,2026-06-01 05:47:02.841584,8340,Moda,11.51,4,da Cruz
+fda854dd-1971-4d3a-a82e-85b6a99e3741,2026-06-01 06:44:14.271175,1279,Alimentos,36.17,5,Gonçalves
+f1c358e5-f554-4642-8f60-00d9679ad9ba,2026-06-02 04:20:47.677349,3249,Casa,99.3,2,Barbosa de Goiás
+9d0ba460-6f20-46eb-b650-7b07fe50e3c9,2026-06-02 11:21:05.894158,8757,Eletrônicos,20.4,4,Lopes Verde
+38a7115a-c894-46bd-807e-5508c162da95,2026-06-03 04:04:04.253440,5643,Eletrônicos,64.23,4,Rocha da Serra
+cdecf941-e137-4fef-985c-a24c3557b9ec,2026-06-03 01:02:22.904320,8233,Moda,47.86,1,Moreira
+62745fb9-cbcf-48ca-9638-2f9b3520413b,2026-06-02 21:00:25.083676,8695,Casa,44.64,5,Aragão
+e0882f31-57eb-4d33-9b9e-55978e4e8f8b,2026-06-01 23:30:08.295678,1937,Alimentos,66.46,2,da Luz do Sul
+2a337fa0-d664-4d13-a166-ca2df3b9223b,2026-06-02 02:49:16.093844,4636,Moda,41.76,5,Macedo
+357c874d-ffc2-4e69-b53c-2764eb75a774,2026-06-01 17:44:36.851733,5994,Eletrônicos,86.07,3,da Costa da Prata
+cfb5554a-e04f-4f71-a78f-bbe9f3b312fd,2026-06-02 10:36:47.913894,7613,Moda,27.78,5,Azevedo de Santos
+f960478a-efcf-4265-b15b-d1ad813b1134,2026-06-01 02:36:36.403718,5275,Eletrônicos,55.72,5,Marques do Norte
+2d24d413-ae0e-4983-b271-2310436e6b42,2026-06-01 03:13:32.687103,7776,Alimentos,15.3,2,Mendes Grande
+637e62de-9846-498a-9b60-888569c2e781,2026-06-02 22:05:28.008725,7507,Alimentos,76.52,1,da Cruz Verde
+422b6d6f-92b6-47e3-a8f9-430dbbee307c,2026-06-02 17:06:25.315245,4509,Moda,69.23,1,Lopes
+8c8ac344-8da9-4e0f-b91d-54580403f1e0,2026-06-01 12:42:33.975289,5238,Casa,61.71,5,Machado
+a88975a5-463f-4ef8-b984-3e18b9059ddd,2026-06-01 23:55:55.852139,8924,Eletrônicos,7.01,5,Mendonça da Praia
+cea16519-819b-4ed3-8d68-96c61cae0953,2026-06-01 07:38:07.881060,6918,Casa,64.07,1,Melo
+8d7ae035-b2f8-4a54-9671-c2058eeecf44,2026-06-01 18:07:57.203750,1187,Casa,69.43,1,Casa Grande
+94883079-4223-4134-9345-79ece5a6f63c,2026-06-01 01:54:11.987610,6246,Moda,6.11,2,da Paz
+9d08a0db-195a-4637-aa10-3a5a9743a682,2026-06-02 21:43:46.898957,4938,Eletrônicos,57.94,1,Barbosa
+3898aecb-be67-4ca5-a8a5-7bf5771ee209,2026-06-03 03:13:20.002067,9964,Moda,56.64,3,Monteiro do Sul
+af8e47ec-9b69-43e3-ae8d-ff99c6e54f1e,2026-06-01 14:05:21.579408,2122,Casa,56.71,3,Duarte de Peixoto
+ba1be72e-6320-4b0a-b804-85aec9bf0964,2026-06-01 22:25:47.534549,2759,Alimentos,88.74,5,Marques do Galho
+a621fccd-dfb1-45b7-93ee-1ae1a9b4f7c0,2026-06-01 14:04:57.096686,6243,Alimentos,79.64,3,Melo
+3ba7618e-c83c-4968-becb-908b63e6dc1e,2026-06-01 05:55:30.851513,3139,Eletrônicos,78.88,4,Souza das Pedras
+76d43cd7-adec-4520-9c6a-238f19cacd41,2026-06-01 02:55:53.367459,5022,Eletrônicos,44.64,1,da Mota do Campo
+c4159218-223f-4a66-a874-2e918c8e5aef,2026-06-01 08:10:34.912160,7479,Moda,62.46,4,da Costa
+0d8254f4-f352-48d3-8218-861d1ec609e8,2026-06-02 21:54:21.737936,3981,Eletrônicos,17.05,5,Oliveira da Serra
+044d988d-bc2f-4565-b950-0c0ca23e7e12,2026-06-02 20:03:12.892417,4136,Eletrônicos,5.88,5,Santos
+aa758e7e-7233-4673-b40e-d1362be9b51c,2026-06-02 08:47:01.607054,2279,Alimentos,86.93,3,Moura de Moraes
+e1fb0959-c467-4ac9-bf4d-64aa88f049bc,2026-06-02 17:41:47.701153,4581,Alimentos,37.0,1,Mendonça Paulista
+a6f841f8-70f5-4114-99a5-92018f680e19,2026-06-01 18:21:39.804539,8069,Moda,97.36,1,Brito da Mata
+f07f2a3e-69ff-46c1-b5ed-10cf731ce82f,2026-06-01 05:15:55.736515,1513,Moda,31.2,2,Cirino
+6af90a15-adaa-4094-8309-0d25c25c048e,2026-06-03 04:06:18.115703,3282,Moda,19.99,4,Moura Paulista
+cad981ff-9fee-4da5-b350-489294644a2e,2026-06-02 03:00:50.161497,6174,Eletrônicos,51.26,5,da Mata de Vasconcelos
+15519169-2cd1-4076-95f1-3a25bef0eddb,2026-06-01 22:23:25.649054,3952,Moda,54.96,4,Siqueira das Flores
+9853b75c-8495-45a2-a49a-80bdc27879a0,2026-06-01 06:42:37.228198,8620,Casa,30.7,2,da Cruz
+5b304bba-5c12-4c66-9518-221ffcbde46a,2026-06-01 00:10:07.506363,9921,Casa,24.86,3,Vieira
+28591a68-345e-4490-b5ba-34fe8c3b88ff,2026-06-02 02:29:24.311765,8846,Eletrônicos,16.89,5,Moraes do Amparo
+0c5ad445-eb6c-42cc-9f9d-518ef1a94e56,2026-06-03 04:24:19.621358,7429,Eletrônicos,63.02,3,Martins
+4375996f-8134-40c1-87e6-6cc7b1fa147a,2026-06-02 06:05:55.993207,2764,Alimentos,6.75,4,Pacheco de Ferreira
+d27f960b-a01e-4f6a-965e-41d53d3ee95b,2026-06-01 17:43:02.281550,3395,Casa,6.95,1,Rios
+293c74cb-a0eb-4081-b83e-69490b7dece2,2026-06-02 12:42:18.576902,8005,Alimentos,82.14,3,Lopes de Goiás
+e1b95b57-36dd-4ea8-9abc-06505f7117cd,2026-06-01 08:25:34.206408,3737,Alimentos,43.07,3,Pimenta
+6d3e7853-d4f7-43b3-8160-2e48a070b00a,2026-06-01 23:26:44.553391,9841,Eletrônicos,0.47,5,Silva
+e5e759d4-20a4-41c2-9853-6d170b260615,2026-06-02 19:25:46.252943,6809,Eletrônicos,7.39,5,Santos
+a4d2eed7-9d6a-450d-a4ac-6816798cb816,2026-06-01 16:29:20.323329,5319,Eletrônicos,54.82,4,da Rosa
+dcfeba2b-c70b-40df-99c9-cd0f7fe1a445,2026-06-01 17:20:44.564636,8024,Alimentos,80.32,2,Fernandes
+e8c92972-6d42-4c2e-bc4a-d090e282785e,2026-06-01 22:41:48.374518,8558,Alimentos,5.86,4,Lopes
+7ea49771-a62c-4073-9ff6-97ac3b1d86b5,2026-06-02 02:40:09.604467,1924,Moda,71.86,4,Garcia de Barros
+35d0123f-8559-42d6-a360-e54ea923395a,2026-06-02 19:49:23.086252,6882,Casa,21.24,5,Moraes
+9c878105-48e5-4b8a-8296-a902ecf810d1,2026-06-01 12:07:34.250582,4099,Eletrônicos,29.05,4,Lima de da Cunha
+4e7ed74c-5baa-44df-8544-9ed62f49e5a2,2026-06-01 13:02:36.592511,3128,Casa,10.43,5,da Rosa
+8119f37e-9985-402e-af60-095d94890a5c,2026-06-02 12:12:35.532318,9920,Eletrônicos,30.42,1,Correia
+c9ce417c-919f-44d3-99eb-30621927616d,2026-06-01 04:02:21.612721,2947,Eletrônicos,0.56,1,Correia
+f4356c6e-a1fd-4b61-9392-c2725f55ed3e,2026-06-01 00:57:34.589438,2651,Alimentos,91.54,1,Melo
+14b905fb-ccfe-4482-a74e-d5e84025fad5,2026-06-02 21:30:15.977738,2271,Eletrônicos,74.52,3,Costela do Oeste
+5596b571-065a-47ab-ad8c-d94cae93bf3f,2026-06-02 06:52:28.470247,8366,Eletrônicos,12.79,1,Rocha do Oeste
+6031e757-fe44-4684-82cd-f16548eb5446,2026-06-02 01:36:03.945118,4576,Eletrônicos,58.67,4,Moreira
+671381ad-c55f-4a98-9962-4e2edb2ea135,2026-06-02 03:46:52.357396,7687,Moda,23.42,3,Martins da Prata
+a3d1a7fb-cb79-499a-b530-9331fb31d358,2026-06-01 20:31:38.126399,1603,Eletrônicos,20.99,3,Correia
+19e93222-985f-452c-b876-e738ee4d97e8,2026-06-02 15:40:22.039878,7772,Eletrônicos,33.61,3,Alves da Praia
+f385ef49-148b-4eb2-b7dd-392fe00eaf65,2026-06-02 17:49:58.948332,5490,Casa,84.15,2,Pires
+41cb1eb4-e27a-47da-b4f1-c9824c50da44,2026-06-02 15:26:56.325426,6219,Eletrônicos,5.1,5,Câmara
+4d4bd663-bb18-4c9f-a4f5-a3c3024e15db,2026-06-02 08:57:07.308408,7912,Casa,38.07,2,Ferreira
+9ad6f89f-c292-4d6e-bb98-20e8b8b7ea41,2026-06-02 01:32:00.801131,8972,Alimentos,93.63,3,Jesus de Costela
+db586e68-4b61-4787-9eae-657079c123ea,2026-06-02 09:56:37.068686,5262,Eletrônicos,27.32,4,Melo
+2e539e2b-c8ed-46ba-aaa6-51d17bff3ec4,2026-06-01 09:07:17.435852,9467,Casa,65.47,4,Souza
+52568e39-d36d-4370-a944-36dfec4d5076,2026-06-02 09:04:33.521687,6127,Casa,67.55,5,Farias de Leão
+bdbba49f-4719-476d-9497-f096528eb382,2026-06-02 18:24:58.542446,9879,Alimentos,73.44,4,Aparecida
+7a0c34bc-c3f2-4a8a-a80c-5c941c76b66d,2026-06-01 18:26:04.890158,9685,Alimentos,65.67,4,da Mata
+ab67893d-da79-4b47-8a48-72f1de4461fc,2026-06-02 08:27:47.906378,7914,Alimentos,78.72,5,Aparecida
+02b6e838-dd58-4ce7-a926-cd7518b07f99,2026-06-02 01:22:55.960832,1326,Alimentos,36.68,1,da Cruz Verde
+a926c9e2-e192-4828-8107-5d640a296154,2026-06-01 14:21:50.692998,2270,Casa,95.54,1,Montenegro do Norte
+727eb366-483f-4aff-b224-4d47b4b7687a,2026-06-02 10:14:39.785310,2843,Alimentos,72.85,3,Barros
+228ef550-b4f7-4628-8bbf-8b8734b416a5,2026-06-01 18:23:10.311827,5659,Eletrônicos,31.94,1,Montenegro Alegre
+97104b04-8e60-437d-a3a0-eeed21d6873c,2026-06-02 02:47:54.839338,7650,Casa,41.9,3,Nunes
+fb1dac78-859d-4fbf-ad26-910597f6c475,2026-06-02 15:00:31.702094,4310,Eletrônicos,90.96,3,Albuquerque
+f4c853e5-ba09-4aeb-8736-e1ec412e79b6,2026-06-02 04:10:26.286794,1214,Moda,70.28,3,da Luz de Farias
+3fefa297-10fa-43b8-a91a-28a85b6df783,2026-06-01 05:01:51.545412,1502,Alimentos,34.34,3,Novais Grande
+ec665c9b-806c-420f-91cc-ee871d083b8d,2026-06-02 08:11:27.080500,1180,Eletrônicos,22.26,5,Fernandes
+61beb257-f4c8-458b-9bfa-5d83bc6d1155,2026-06-02 22:18:00.430580,5911,Moda,29.33,2,Brito de Nunes
+06e55845-330a-4137-9241-82a583d41ff9,2026-06-02 12:23:12.953593,2550,Casa,14.57,1,da Luz da Mata
+82259bcc-1237-493b-9f3e-2bae5808059b,2026-06-01 02:06:02.005880,2616,Casa,12.55,5,Machado de Santos
+c85f32c0-d5a1-4605-b842-3af5281d2e91,2026-06-01 02:09:29.654449,8859,Casa,97.88,5,Pacheco
+faefe78d-344f-4adc-852c-ab35cab4ea93,2026-06-03 03:53:20.897063,1875,Casa,62.78,5,Abreu da Mata
+ae4d386c-651d-4acc-95b6-09531b397159,2026-06-03 00:43:33.721000,4979,Casa,7.58,1,Sales da Mata
+d5729d7e-b215-44fd-bb1f-57a91cce9199,2026-06-02 15:57:24.846834,9655,Eletrônicos,32.08,2,Jesus
+bfd0ea8d-d7a4-4c42-80d8-7a34c14a451b,2026-06-02 10:41:32.510666,4405,Eletrônicos,73.96,2,Souza
+687b2e83-9a24-4657-acb6-2190bc016e9f,2026-06-01 15:51:21.312943,4142,Eletrônicos,30.51,2,Rios
+e3c52fe6-2426-4753-b10b-d0e8a9724b23,2026-06-01 16:46:00.335333,7221,Eletrônicos,95.68,5,Vargas de Carvalho
+e1764477-04ac-4e4e-bd63-a7f2b3142006,2026-06-02 10:21:41.952938,9711,Casa,27.13,4,Costela
+9f701aef-df3a-4da3-ba9d-838ef8d774b5,2026-06-02 15:20:06.628571,9080,Moda,54.89,2,Porto de Abreu
+cf91db92-54b0-4525-9baf-72bc10bee22c,2026-06-02 05:51:35.029910,5059,Eletrônicos,41.08,4,da Rocha
+47fab644-bf44-4b0a-b50c-16fa4f7b7350,2026-06-03 01:02:24.107013,7422,Alimentos,42.44,4,da Mota de Gonçalves
+04ab4f48-c948-4000-9a2d-0a88ce3360d5,2026-06-01 19:26:41.479731,4105,Moda,30.31,5,Ferreira
+05bcd1e7-45bd-4f70-bfc8-d5106bc951f3,2026-06-02 08:19:30.221509,9718,Moda,68.44,5,Nogueira das Flores
+f4bf22fc-574c-40fd-9c15-f33ff9564519,2026-06-02 19:04:17.760954,7827,Alimentos,39.72,1,Duarte Paulista
+bd18c23b-e2dd-434e-8736-021ed05f0a57,2026-06-01 01:53:59.242521,1510,Eletrônicos,74.39,1,Siqueira
+4163a98f-eafe-4b75-ab48-e7f6e20b4fbe,2026-06-01 23:46:58.652034,9237,Moda,99.12,1,Moreira
+89259994-6498-4b1d-9933-ddbe69986313,2026-06-01 02:03:48.950801,1956,Alimentos,22.28,1,Souza
+e494a746-b44c-4a8c-b66a-1f52bda44959,2026-06-03 01:36:38.110140,4937,Alimentos,11.55,5,Campos
+044b6a36-9337-42ba-b0ee-654e586c7dcd,2026-06-03 02:51:53.625670,1851,Casa,48.52,4,Andrade Grande
+958a0559-ae68-4d19-81b8-bf61cfeafdd7,2026-06-03 03:14:25.741194,3086,Casa,59.72,3,Montenegro das Pedras
+a79981ba-bcd4-48ab-a111-6d60162e16a3,2026-06-02 09:23:23.312180,1254,Eletrônicos,71.48,1,Pinto
+535df882-9a49-4f91-a078-4614f5ad5abd,2026-06-02 20:00:17.927631,8563,Casa,51.01,4,Borges das Pedras
+08105802-63d0-4c52-bfd3-9c4ab97b1725,2026-06-01 10:51:01.309054,8540,Casa,35.76,2,Ribeiro
+0dd6d102-9846-4d39-80ef-df205c12713c,2026-06-02 12:02:30.045275,9108,Casa,4.07,2,Nogueira das Pedras
+be82e924-3da1-4f2e-8487-aadb93f23854,2026-06-02 23:50:01.550786,5035,Eletrônicos,82.79,4,Câmara
+23ad9eea-f5b2-4ff8-827b-53e9c4634aaf,2026-06-02 05:15:47.620209,2312,Moda,96.47,2,Siqueira da Praia
+1e26c022-b2a0-45a8-8714-e7dd54bc78d9,2026-06-01 16:08:07.302413,4364,Casa,96.23,4,Abreu
+743a9884-1111-4b46-8a3e-32f11903e744,2026-06-02 20:44:11.494851,8063,Eletrônicos,72.62,1,Caldeira do Sul
+789eae98-40bd-4b70-8b95-769f6b5004f7,2026-06-02 13:37:01.321137,6286,Casa,26.68,2,Pacheco da Serra
+b755e9aa-c800-4338-8211-c957b9bfb103,2026-06-01 23:39:02.095347,8000,Alimentos,89.66,4,Ribeiro Grande
+697adea1-ccd3-4eea-98ed-e8f279819eb8,2026-06-01 08:59:20.439827,1926,Moda,96.19,4,Teixeira Alegre
+5f7e9404-777f-44a2-b8e3-efdfaa3f097d,2026-06-01 23:03:15.800823,8840,Casa,93.75,2,Rezende do Campo
+8e1f3bfc-dc1f-4488-8b3f-ba3dd7d9c35d,2026-06-02 11:13:14.110374,9185,Alimentos,3.7,3,Duarte
+5055217c-6955-48f1-a02c-13c609ee64da,2026-06-01 19:32:05.619781,6676,Casa,58.24,5,Vasconcelos das Flores
+c9df780b-a9f3-4952-afa6-680b86115693,2026-06-01 17:54:40.054569,3769,Alimentos,83.47,4,Nogueira da Mata
+1891c426-96df-437a-9de8-e7008301e343,2026-06-02 16:52:11.165648,7876,Moda,40.07,1,Monteiro
+25c1bcd1-d40d-45d4-a197-9aac444b18b5,2026-06-01 05:15:10.975801,5497,Casa,32.61,4,Almeida
+6e70c101-f321-4712-a4c8-d6d0aa35db9c,2026-06-02 10:37:08.401183,3908,Moda,68.55,2,Brito
+ec113c8c-1092-4619-aedb-d53371291519,2026-06-02 00:42:03.232369,9881,Alimentos,67.9,2,Viana de Gonçalves
+a7093b2a-186f-46aa-aade-9b68fe2c3131,2026-06-03 00:57:23.077655,2906,Moda,90.14,5,Nogueira
+42dbd1f1-a532-45a6-9286-56aef57c3cf7,2026-06-02 16:42:50.087686,1648,Eletrônicos,60.29,1,das Neves Paulista
+15e4f155-0a65-4a5e-a8b2-a4e962017667,2026-06-01 06:00:50.261343,1773,Casa,72.38,4,Vieira de das Neves
+8a2ba8cd-069d-47cb-a9e6-1564317f5430,2026-06-02 09:31:50.509333,2956,Moda,61.32,2,Gomes de Nogueira
+d51098b7-13b1-4db8-842e-a66a9b18ac59,2026-06-01 17:36:18.165676,5802,Casa,74.82,3,Pimenta do Galho
+4f04ae93-46d6-4f4d-ad16-b4caf6f72611,2026-06-03 04:41:00.956203,7988,Moda,13.33,5,Vargas do Sul
+45cfeff3-c1c5-4f1e-bd38-e4abf16bf4f6,2026-06-03 00:38:16.872438,5764,Casa,26.68,1,Almeida
+2f432eed-1d5e-49bb-b688-1ceba784759a,2026-06-02 19:09:45.395523,8343,Casa,36.14,5,da Luz
+891c8d97-a9b2-48f3-9558-7bb021d68d15,2026-06-01 09:24:03.257007,3884,Eletrônicos,34.57,3,da Rosa
+550fa39b-b890-4479-a14f-910ff69e523a,2026-06-03 01:56:38.149580,2329,Alimentos,53.04,2,Novaes da Serra
+bb360565-6aee-474e-a2fc-9378dfb9bb47,2026-06-01 06:34:32.800736,2674,Alimentos,90.56,2,Cavalcanti da Serra
+361a7b60-4325-4fe1-8296-ca4a810384d2,2026-06-01 11:19:40.427270,3630,Eletrônicos,77.83,4,Monteiro de Garcia
+bd862fba-352a-4b67-abac-fb135ed3b191,2026-06-02 09:21:02.186304,3958,Eletrônicos,50.65,3,Azevedo
+eb103726-4125-42f9-8ac7-f7b891364d8a,2026-06-03 04:29:48.500996,2810,Alimentos,79.35,3,Pinto
+aff17370-826e-4cce-b5f7-e3bbf18417ed,2026-06-02 05:06:24.446360,4227,Eletrônicos,72.86,2,Aparecida Paulista
+aa9618e3-b422-47fd-8b5d-ea8e3440ca3d,2026-06-02 10:08:01.219119,4643,Moda,69.28,5,Rios
+629976fb-ee37-4969-8cc2-cdb0b17b0984,2026-06-01 08:24:08.698292,2960,Eletrônicos,3.54,5,Vasconcelos
+efe1b9f3-5df1-4e2e-9be6-b5042740ed63,2026-06-01 10:12:40.806778,8510,Alimentos,13.77,1,Monteiro
+03eaf11c-c60e-4a53-9d50-4708f440b5f4,2026-06-02 20:44:19.963767,8740,Eletrônicos,0.56,1,da Cunha de Mendonça
+70faa950-783d-4158-b650-fbd58a702b7f,2026-06-01 12:21:58.758102,7837,Moda,37.95,1,Vieira
+31c5f59a-41a2-4c86-ac58-6d7add30479e,2026-06-01 01:52:34.537288,8574,Alimentos,4.77,5,Fernandes
+82fce62f-e35c-4e7a-abb3-411c590f8192,2026-06-02 22:00:51.468921,8016,Eletrônicos,17.41,3,Sales do Norte
+c6703859-17b7-492c-8746-6ba712e9292c,2026-06-01 22:11:13.943706,9092,Alimentos,6.77,5,Pimenta do Galho
+34005ece-27ff-49b0-af51-6b870c6b57c9,2026-06-01 10:44:10.894599,3544,Casa,90.75,5,Nascimento do Sul
+21de4647-9135-4804-853b-f7f2e2210d15,2026-06-01 10:25:03.302720,7245,Casa,83.34,3,Campos
+75a312a0-760d-4b02-8f31-8db93008c2bd,2026-06-01 21:27:29.860846,2861,Casa,49.7,4,Lopes
+23d37364-6978-418e-9ef4-755edba4aaff,2026-06-02 18:45:25.770157,9119,Eletrônicos,84.99,5,Nascimento
+39ab38f0-6808-425f-afa6-863ea49137f8,2026-06-03 02:26:26.459229,3831,Moda,14.85,3,Almeida
+96534951-8f1b-45c0-860f-c5524509d519,2026-06-02 21:09:53.684216,2808,Alimentos,7.39,3,da Rosa da Mata
+89dbafd3-6863-4225-80c5-cfabd884d37f,2026-06-02 17:49:22.712416,5140,Alimentos,74.14,5,Fogaça de Minas
+f40d2bf8-2e7f-40c0-a612-068f2958b18e,2026-06-02 19:00:12.287519,9435,Eletrônicos,32.49,4,Teixeira de Minas
+3cd15d00-72ba-4282-a00d-e8c05562032f,2026-06-02 05:38:25.524526,2292,Moda,99.99,1,Nunes
+72359621-a6a5-46a9-b1a3-a1a0c4f51272,2026-06-02 06:20:28.389380,4481,Moda,18.34,3,Cardoso da Mata
+0fe44862-957c-417a-89c3-5e13f8bfba1d,2026-06-02 12:27:04.230641,9166,Alimentos,55.65,5,Costa da Mata
+036fbc8e-d0cc-47ab-a6e9-72f714699252,2026-06-01 01:58:49.220717,4752,Alimentos,58.24,3,Moraes
+850da7ea-e6b0-42b3-b901-cb5dfc67e347,2026-06-01 20:10:14.248196,2307,Casa,89.62,3,Fonseca
+a56f9009-3c6b-4b66-85b3-1a3567b18fce,2026-06-02 22:40:13.123886,7523,Casa,39.48,3,Cassiano de da Rosa
+f05765fb-e866-4c90-a5cf-a48c3f45ee3e,2026-06-01 19:02:34.918298,9184,Moda,72.94,5,Melo do Amparo
+300070f3-d7a7-4bc4-9803-ec5b4e6930b5,2026-06-01 23:57:33.147606,3914,Eletrônicos,94.26,5,Siqueira de da Rocha
+14f00657-4215-403c-819f-9eecb806c42d,2026-06-02 01:32:08.210161,8423,Alimentos,16.5,2,Aragão dos Dourados
+c848c1a5-084b-4d24-9a91-465400dc395f,2026-06-02 14:15:57.779350,3384,Alimentos,89.34,3,Cirino
+1f8d3345-9510-4219-8897-038acf5b1dc6,2026-06-02 18:42:31.719601,2778,Moda,57.39,3,Monteiro de Moraes
+5b2ba1c5-76ca-4afd-b939-f538090ff1f5,2026-06-01 04:18:31.006776,7500,Alimentos,69.91,2,Oliveira Alegre
+c85b4681-f86d-42b8-813c-5b09cb398171,2026-06-02 05:04:28.124582,4008,Alimentos,75.85,3,Moraes
+bc7d7a9a-a855-425f-9020-55ecebc1ded1,2026-06-03 01:30:03.755635,7015,Casa,19.38,1,Borges
+3a695093-cfb7-4d16-8c4b-d8355198e69a,2026-06-01 12:38:11.844599,4501,Moda,9.39,4,da Mata Grande
+42948a83-1915-47f0-a272-8ee3638284df,2026-06-03 02:03:34.595382,4238,Eletrônicos,53.48,5,Silveira
+768eddce-79a5-47ab-b26a-9b805d00735e,2026-06-02 08:44:57.769610,3447,Moda,11.75,4,Cassiano de Lopes
+161b4f00-23f0-4852-9945-bae253c07405,2026-06-01 04:39:34.484396,1019,Casa,22.9,5,Alves do Sul
+7d7c1643-b1fa-410e-a107-28fe2320629b,2026-06-01 15:14:53.198884,5871,Eletrônicos,53.22,1,Pacheco dos Dourados
+cce2e309-e5ce-459f-a479-3a7722f82fd9,2026-06-01 21:18:17.465169,9231,Alimentos,67.79,4,Nunes da Mata
+d66f469a-de78-4085-b0f0-eee3073114b2,2026-06-01 20:18:15.953675,8953,Casa,16.8,2,Macedo
+c55462b0-b4aa-4d49-bf80-5296e00273f2,2026-06-02 08:31:31.587763,8716,Eletrônicos,89.25,2,Sampaio
+b25d6af9-c015-451f-9a7d-cc6a74248f0c,2026-06-03 02:03:45.387075,2285,Casa,24.22,3,Barbosa do Norte
+d2645314-1bfb-4163-82e2-0a17c021cbe7,2026-06-02 10:49:41.814902,8610,Casa,56.2,4,Sampaio Alegre
+9b094e5f-9e75-454e-b477-99c6930ea9e1,2026-06-01 14:16:21.797423,6597,Moda,29.75,2,da Cruz de Mendes
+d5a012e4-2775-406a-8ddf-6cd59e87ee02,2026-06-03 04:09:43.456724,8935,Eletrônicos,81.63,4,Cirino Grande
+cd64eb7b-16df-4a01-bead-f76e8420cf25,2026-06-01 22:12:32.864349,6359,Alimentos,10.94,2,da Costa
+51bd91ca-a466-45fe-881b-714974e9d53e,2026-06-02 10:11:11.656560,3240,Alimentos,60.68,4,Novaes de Minas
+ebfd13d4-9ef1-4ecf-869e-c9cb56dd6226,2026-06-03 01:16:04.021131,3330,Alimentos,3.3,3,Camargo da Mata
+13e005ba-ebbd-4b06-8d0d-33813bc6d0d7,2026-06-02 06:34:19.287372,6948,Eletrônicos,34.28,3,da Mota
+3f9b43b4-0abf-4394-8f95-93d7baf5b2e9,2026-06-01 08:57:05.569131,3703,Moda,85.32,3,Lopes
+89acb007-2176-4e62-9015-f2cd9ad16a7a,2026-06-01 02:55:31.847026,8298,Moda,45.52,2,Siqueira
+7a0e5a50-7eac-419c-88c9-6934123224bc,2026-06-02 01:02:35.510540,1266,Moda,2.48,4,Sá de Minas
+c3e3d533-dd2a-4255-b5a2-037385169b13,2026-06-02 18:05:50.028608,9842,Casa,85.49,5,Alves Alegre
+f1db3435-b24f-45a1-b8b6-98bcf0427d4b,2026-06-01 11:00:09.584237,2670,Alimentos,42.07,5,Souza de Minas
+db1702f7-c32b-403a-a1da-23f268f9b653,2026-06-01 06:04:03.312319,9099,Eletrônicos,35.59,2,Silveira
+2620b8ab-c038-4428-bb98-37e780a69b07,2026-06-01 00:03:27.721463,6688,Moda,17.01,2,Nascimento de Rocha
+28547a50-3067-4513-b286-26684f5f612e,2026-06-01 16:38:18.563430,9692,Casa,30.42,2,Pacheco
+7c3e3548-65c2-47fa-815e-8b061cec418d,2026-06-01 22:25:04.230138,6598,Eletrônicos,58.92,1,Pires das Pedras
+c1320f52-3e54-43aa-9cb6-d5f97ea83c27,2026-06-01 10:24:37.591461,9908,Alimentos,24.92,3,Pires Verde
+62234b9c-f4cc-4904-8cfb-a2009f04f0a9,2026-06-02 03:10:04.710342,6923,Moda,59.78,3,Lima de Carvalho
+39fd2fe6-355b-4016-9c2e-dc9c2806b72b,2026-06-02 17:23:49.617844,7249,Casa,91.63,4,Pastor
+b8749aa5-7084-4ec0-bfc9-a96a5f9db0d6,2026-06-02 23:15:44.023259,5914,Alimentos,94.18,1,Gonçalves de Silveira
+62607151-da40-4d8d-9896-798a2e7219e8,2026-06-02 23:29:23.634384,7216,Alimentos,28.08,4,Garcia de Cirino
+1140bab4-6823-46aa-a735-b771443cf683,2026-06-02 14:30:55.466894,4209,Alimentos,55.73,5,Câmara
+d8b1062a-8aa4-4429-bbdb-944f588a2e28,2026-06-01 22:29:56.920314,3524,Moda,73.6,4,Viana
+8ef6747e-9f61-46ae-93d1-c9c3fdd7d8e7,2026-06-02 16:04:22.217518,5658,Alimentos,69.72,2,Pimenta da Praia
+05b701e5-99a3-4777-a533-d8ab2e4a5048,2026-06-01 08:44:28.790802,2832,Eletrônicos,79.06,4,Barbosa do Norte
+2037ae37-c8e6-4541-a262-235de616e74e,2026-06-01 13:00:21.252780,7703,Casa,88.91,5,Fonseca de Minas
+7663df4b-e089-4ad0-a4d3-3ba75a396d30,2026-06-01 18:40:54.695290,9534,Eletrônicos,69.21,2,Campos
+e9df41a4-1801-45ce-898d-73d9517ac3e8,2026-06-01 08:51:06.525343,8481,Alimentos,63.62,1,Cavalcanti
+d6451e81-af92-464a-afd2-2e9dc2af2717,2026-06-02 22:59:09.644138,6127,Casa,6.52,1,Moraes
+189c5e31-c5e0-44dc-a6c5-4262b9fb0124,2026-06-01 20:12:44.709986,3595,Eletrônicos,93.56,5,Moreira da Prata
+0d7cca9d-437e-4e1e-abf9-ca1d4bfde2a1,2026-06-01 03:11:15.698580,7496,Moda,0.72,5,Gonçalves da Mata
+089736a0-5c69-4517-9019-3ca294f40783,2026-06-01 02:45:59.889317,1756,Casa,93.58,1,Siqueira
+ddb0c865-febc-4faa-957d-eebd408f5b64,2026-06-01 21:46:00.088367,7963,Casa,44.56,4,Macedo de Goiás
+05d04604-ff60-431d-bbc1-449ff6e219e1,2026-06-01 12:11:07.958553,9204,Eletrônicos,45.56,5,Teixeira
+b5ff9865-e8dc-4c8b-b540-2efa73d9ff1b,2026-06-01 23:18:27.036617,4905,Moda,64.26,4,Gonçalves Alegre
+6c196c93-52b8-4c80-8b22-e8c5fbf5b3ac,2026-06-01 19:13:01.663157,8302,Eletrônicos,50.15,4,Alves da Mata
+c1b30a0a-02d1-49ec-8d6c-580fe1b54865,2026-06-02 22:50:57.849575,7644,Casa,50.66,5,Duarte Alegre
+e42a6134-08ef-4ff2-8aa3-ec6500aff4b4,2026-06-01 00:48:31.575319,9609,Alimentos,23.65,2,Cardoso
+5be878da-d6d6-43bf-9294-07f817e64136,2026-06-02 18:40:45.604686,6088,Alimentos,24.57,1,das Neves
+548ec5e9-1763-4fa2-b8f9-0111cf705db3,2026-06-01 01:36:18.023802,5577,Casa,61.78,2,Câmara
+93bced30-e70c-467f-ac20-b22de7b48342,2026-06-03 02:54:46.411491,6788,Casa,66.74,2,Vieira
+04a6c4a2-1638-4802-8964-49fb225b7015,2026-06-03 04:13:35.518751,9337,Moda,88.75,1,Pastor de Minas
+42979833-a737-425e-99cc-fbc3e0bd64a5,2026-06-02 03:14:41.575118,4999,Alimentos,4.39,3,Silva do Norte
+ca7271eb-d365-4bee-b7c9-9c5c974b9b22,2026-06-02 01:40:44.516952,5616,Eletrônicos,20.08,1,da Conceição das Pedras
+cfde707b-2002-4e12-8960-992b5bfdc18c,2026-06-02 01:00:50.905386,5100,Moda,70.61,3,Pastor
+95395857-d9c1-4bf7-9042-3eb78792b92d,2026-06-02 00:54:26.824772,8380,Eletrônicos,96.7,2,Almeida do Oeste
+9401a0f9-1bd7-4c51-b31a-71be2bbdeada,2026-06-01 21:17:14.524429,2871,Alimentos,65.78,3,Peixoto
+df34fff5-963b-4d9b-9188-92a98a5b3d13,2026-06-02 18:16:03.698408,6208,Alimentos,51.21,5,Ferreira de Minas
+b19f42c3-9b79-4f7b-91fa-e44c9fc79d52,2026-06-02 15:30:02.157711,8883,Alimentos,1.8,5,Brito de Monteiro
+9ef10283-7c6a-4389-890a-b751147e44f5,2026-06-02 02:18:43.439348,5299,Alimentos,89.55,5,Pinto de Montenegro
+9384d91c-a035-4d02-8a37-0d853346921c,2026-06-02 06:44:09.294227,6066,Eletrônicos,57.87,1,Campos das Pedras
+1472899a-7e12-4078-8afd-58abeaf41849,2026-06-01 08:05:21.377145,4734,Alimentos,13.7,4,Mendes
+041cd8c1-d902-48bf-b149-b0c7d2483c17,2026-06-01 10:51:33.471497,7276,Moda,33.51,2,Viana
+30507de2-cc7d-4fa5-8dd2-fb5587eddcc7,2026-06-01 01:41:45.820431,1130,Moda,74.59,2,Pimenta Alegre
+59309582-07ac-4edf-8497-4c17e8d09997,2026-06-02 03:13:33.900669,7613,Alimentos,78.18,5,Moreira
+67c91f1c-d946-4548-95ec-ed45d85ff7de,2026-06-01 01:37:10.308123,5858,Eletrônicos,5.38,3,Macedo do Norte
+e1bebc7c-a635-45a6-a625-9d318a1f69b9,2026-06-02 01:35:27.680335,1278,Eletrônicos,77.49,4,da Rocha
+a462a801-34c3-4a60-ad3c-026fbacbebb5,2026-06-01 01:27:04.469574,3049,Alimentos,14.41,5,Marques da Mata
+7809f7c6-7be9-4989-8dae-72b3cb225ccd,2026-06-03 04:45:15.395396,5888,Moda,30.03,4,Alves
+65f6a06b-52d1-4e09-a155-4c47a56fb05f,2026-06-02 12:42:15.875927,5411,Casa,79.95,3,Fernandes
+5d1fb099-7bf3-478a-9dc3-23bcbe785a94,2026-06-02 17:29:51.942999,3165,Moda,80.34,5,Vasconcelos Grande
+ccd13659-49c9-409c-9bf3-91e1afba34de,2026-06-02 17:48:58.403821,8294,Moda,3.6,4,da Cunha da Praia
+4b4435c1-0e7b-418a-bd81-8bedc508491d,2026-06-02 09:20:27.292212,6699,Alimentos,43.88,1,Brito de Minas
+fb08a38b-3312-4b93-9678-a06d8ad913ec,2026-06-02 00:48:51.175314,7203,Eletrônicos,59.87,1,Albuquerque de Câmara
+23787007-e69b-4b9f-8c26-c5286098d3c5,2026-06-01 19:08:29.678431,6815,Alimentos,24.72,3,Sampaio de Moura
+4f18e36d-ae84-4b41-8181-110392194ee8,2026-06-02 15:55:28.384396,7079,Alimentos,84.79,5,Pacheco
+d020c0ee-86de-4e16-92aa-b118d9a0b17d,2026-06-01 16:48:48.199523,9793,Eletrônicos,51.28,1,da Paz
+919258a3-e688-4147-8329-375294154acf,2026-06-02 23:57:21.311018,2350,Moda,91.08,4,Pacheco
+fa79d860-a3ab-4366-9dca-c3ab9088783a,2026-06-02 11:32:10.153518,2557,Alimentos,41.24,4,Alves de Goiás
+2046ee90-4b76-4643-9e02-d536738eb908,2026-06-02 15:05:04.519537,6480,Eletrônicos,65.8,4,da Cunha de Pimenta
+33277e41-00bb-4567-a0db-045bbd6ece6d,2026-06-01 13:26:17.958050,6947,Eletrônicos,43.5,3,da Cruz Grande
+bb479951-9375-4882-83b2-44899dbd2452,2026-06-02 22:26:54.258467,9653,Moda,18.9,5,da Conceição de Sá
+f9a64822-3b78-4c0e-bda4-59b0d7b48ed9,2026-06-01 13:35:14.071257,8415,Alimentos,57.54,1,Marques
+8292d680-d08d-4df9-b162-603ed0b2f922,2026-06-02 10:57:21.843669,5964,Alimentos,99.12,2,Correia da Serra
+87ae5220-da77-4709-9c8b-098e6d64cea2,2026-06-02 12:54:59.101841,4923,Eletrônicos,64.46,5,Peixoto de Martins
+3074c5db-24cd-4b50-8669-d17b41b13f02,2026-06-01 05:06:20.778870,9302,Casa,70.86,4,Pastor
+a8916c14-05e4-4323-aa75-76d3ae9622f6,2026-06-01 06:22:27.207251,1381,Alimentos,75.76,3,Novaes de Goiás
+3ee0aa7c-d8c5-4a55-b796-cac73f0565af,2026-06-02 08:27:23.673408,2815,Eletrônicos,11.47,4,Silva
+ab2cebf4-e44b-4721-bfd5-954fbee68835,2026-06-01 11:36:25.750123,6903,Eletrônicos,31.41,1,Rocha
+8dd42519-0d15-4ea5-9006-952b314b7fc4,2026-06-02 00:02:51.325567,8218,Casa,18.82,1,Mendonça de Porto
+c536b22d-9b61-4deb-9a3d-83eb6484103a,2026-06-01 04:31:23.016871,9075,Alimentos,30.89,2,Lopes
+6588e7aa-578d-4c6e-9859-f6201f1584ce,2026-06-02 06:04:59.180252,1114,Casa,11.69,1,Barros das Flores
+87145ee2-7aca-49e9-8ffa-960046121ce9,2026-06-01 08:29:44.293923,4714,Moda,91.01,2,Andrade da Praia
+fde5647f-10e3-44e6-8ac6-938be27f2600,2026-06-01 22:30:11.140690,3346,Casa,85.57,1,Leão de Minas
+a2ccfd26-e1f7-4c82-a129-c692848122c1,2026-06-02 09:12:09.977161,4523,Eletrônicos,49.14,2,Brito
+45f84391-9ce4-4cde-8401-7ec4c5416fec,2026-06-01 23:43:47.750047,4075,Alimentos,98.99,4,Nunes da Praia
+6e3ed61e-1d79-4354-ba04-1fa12dc2e369,2026-06-01 06:30:33.761702,3169,Alimentos,53.18,3,Gonçalves
+c92fe8f8-411e-44cb-a6b7-6ec7c6c722b9,2026-06-01 08:06:26.994711,9039,Casa,6.56,1,Aragão
+4a0a1e7c-10dd-4912-bd2e-3c47e2fd5692,2026-06-01 19:34:46.928340,2739,Eletrônicos,86.2,3,Brito do Oeste
+aec86547-88a0-4d9a-99bf-468943be4264,2026-06-02 13:10:22.818590,5399,Moda,98.24,1,Brito da Serra
+b47b1ece-85f0-4fa4-8e61-2b54eb7ac633,2026-06-02 22:54:14.420015,5776,Eletrônicos,41.12,4,Cavalcanti
+f7d1dbdb-8da1-4eaa-af7f-2e9954c95f7b,2026-06-01 06:16:01.905775,1635,Eletrônicos,86.89,1,Moreira de Ribeiro
+6bfb505f-063e-4f28-88da-a2a8c42bfa6f,2026-06-01 21:22:40.785696,2674,Casa,78.08,1,Fernandes Verde
+128a3402-ec46-4ed0-8ebd-8b90afff736a,2026-06-02 14:04:42.641207,5273,Alimentos,32.59,1,Rodrigues
+e9aa57e7-f844-492a-a21a-ba9ae1958b0b,2026-06-02 02:08:16.246147,4325,Alimentos,61.7,5,Câmara
+2a54610e-1f5c-4d0a-9538-ad13c367d94f,2026-06-01 08:29:42.947603,1981,Moda,83.81,3,Pimenta da Prata
+256e04a8-79dc-411e-a82a-d41c9a46cab2,2026-06-01 13:50:24.674094,1262,Casa,63.42,2,Castro do Norte
+bd2fb98f-f623-4b02-8c5c-6b0b20e3c5f2,2026-06-02 16:50:56.095840,1125,Casa,58.19,1,Vieira
+d37b9c03-3490-49c6-87a7-aa5a226e320f,2026-06-02 05:19:06.265542,7796,Eletrônicos,76.64,5,Macedo
+1be1192f-5f3c-4fcf-a738-dc5237839efb,2026-06-02 22:26:39.097008,9695,Eletrônicos,9.02,2,Machado da Praia
+376ac53c-24a3-4cce-9f2c-9c7c34455644,2026-06-02 17:10:28.215183,7040,Moda,54.61,1,Fernandes Verde
+a8bc73b4-287d-4a88-9c1b-05cc193227eb,2026-06-01 12:48:48.730385,1015,Moda,16.06,3,Caldeira dos Dourados
+4a362d5f-2383-4a2d-b57b-3ff10eae2ee7,2026-06-02 14:23:54.714183,8007,Moda,10.37,5,Nogueira Verde
+4dde6b39-216c-48f8-ad2d-374fc0bc7023,2026-06-01 02:21:30.141399,7874,Alimentos,15.6,1,Fogaça
+59c7fc70-f387-43d4-861e-c077bb32fdde,2026-06-03 02:43:15.899719,7836,Eletrônicos,43.89,2,Costa
+d3f29f53-8894-4ffa-af95-ef3f602fda01,2026-06-02 22:31:59.947240,8327,Moda,54.66,5,da Costa de da Mota
+b5a4e60c-e394-4718-9af1-c1426943b4c3,2026-06-01 05:30:25.951806,9703,Casa,45.17,5,Cunha da Serra
+c3e740b1-cc8e-4c1d-9ff0-0833c1ffa433,2026-06-01 05:45:13.566449,7506,Eletrônicos,64.42,1,Rios
+831eaec9-ca9e-4c3a-a454-ec6ae11da5a6,2026-06-02 17:06:20.116030,6082,Casa,49.77,1,Lopes
+76ab8be5-27c4-4227-ba1c-9aaa39771d60,2026-06-02 06:01:47.423326,4205,Alimentos,24.46,5,Araújo
+c05d7dfa-a155-4443-bc07-40843599b917,2026-06-02 00:19:07.566455,6999,Alimentos,6.77,1,Câmara
+990e21bf-7e81-41c1-8437-78d65285fdc9,2026-06-02 20:51:24.917828,6446,Moda,75.92,1,da Rosa
+a8b5b9bd-1ea4-4eac-ad27-252f104c2f87,2026-06-01 07:08:51.542961,5318,Alimentos,52.01,3,das Neves de Goiás
+4684fae4-7936-444e-b3d4-5a709ba4dee9,2026-06-01 12:54:11.663625,5924,Casa,32.69,3,Oliveira
+282ae850-3877-4f9e-b525-bb7f03fcb3ff,2026-06-02 00:49:00.808625,2144,Casa,91.83,5,Duarte
+1786c9b9-4884-4381-a778-ccba1e7e2995,2026-06-01 10:00:39.600105,4028,Moda,48.77,4,Alves
+a2efc405-07b2-4e93-96b8-9ae2c5ff3ccd,2026-06-02 06:15:01.958515,4555,Alimentos,14.48,2,Dias das Pedras
+05cc7ce9-8098-4441-9edb-3f43b7ea2319,2026-06-02 09:09:21.151931,1406,Eletrônicos,16.26,4,Martins
+5b431a33-4a26-41ac-a6a4-25e676aebe72,2026-06-02 14:49:46.494395,5734,Casa,41.52,4,Freitas
+87a4646f-a640-4255-90cd-1dc162018757,2026-06-02 01:41:01.965701,1393,Casa,65.68,3,Cirino do Galho
+7e13d370-35c7-442a-8e1f-346449cc1675,2026-06-02 09:08:25.864042,8563,Eletrônicos,45.92,2,Mendonça das Flores
+39524f00-8fa6-41c2-bcc6-11f8c5be3ff0,2026-06-03 04:03:16.541934,2011,Moda,16.78,5,da Costa do Galho
+30c79e41-8a7e-48f4-af1c-1f617cf4e40c,2026-06-01 00:42:22.878606,1354,Casa,6.85,1,da Paz do Sul
+e0e79584-c22e-46d0-af91-dfe350541900,2026-06-03 02:00:18.672929,9512,Eletrônicos,90.25,2,da Mota de da Mata
+1de06254-c52d-4a80-aec7-b74b096f1f71,2026-06-02 09:49:11.492708,9139,Moda,37.56,2,Rezende
+e1bf6162-14d1-4154-977f-1fba24eea091,2026-06-03 02:54:42.109827,3522,Alimentos,18.37,1,Alves
+4c11b552-ed0a-43e1-a180-2b67983ef320,2026-06-01 01:32:09.231936,3519,Eletrônicos,43.02,3,Campos das Pedras
+f52f1e73-9032-4bd0-a622-3e72f66fe00b,2026-06-02 19:19:10.242290,6755,Moda,63.23,2,Mendonça de Pires
+e009af04-6f39-4bfb-b28c-3a3015dd28bf,2026-06-03 01:37:49.557271,6118,Alimentos,29.38,4,Ribeiro
+1183f5e7-3b18-41c9-b4a4-a4d5dcc2f6e6,2026-06-02 04:48:57.140157,3504,Casa,72.86,1,Mendes Paulista
+81906912-8f82-4357-a061-0eb0948d3a8b,2026-06-01 10:12:11.206693,7369,Eletrônicos,59.69,2,Rezende
+0a305fe0-612c-4bd8-925c-b41f43fa7433,2026-06-02 21:07:22.088326,2576,Eletrônicos,52.79,2,Melo de Minas
+03556195-297a-48b1-907f-a7451d0bb59f,2026-06-01 01:23:10.267850,9563,Casa,93.63,1,Camargo do Amparo
+196c3f4c-9563-497e-9b45-53caa210686b,2026-06-01 07:08:18.655591,4910,Moda,59.98,1,Castro
+42dfb61f-8100-4627-9b6f-a6eec14c97c4,2026-06-01 02:31:15.903444,5335,Eletrônicos,19.76,2,Mendonça Alegre
+2ae1daf8-783f-4be0-b2fa-2d0841648744,2026-06-02 03:00:14.461064,2027,Alimentos,36.19,2,Cardoso
+67e85b49-7382-4ef0-9af8-d228217cf29f,2026-06-02 03:24:34.448448,3460,Alimentos,89.96,4,Costa Paulista
+675438e2-5393-4aec-b870-a27f165da690,2026-06-02 12:04:17.631431,6583,Moda,8.99,5,Porto
+9e553724-39ee-47dc-8e65-717b32d1dba6,2026-06-01 04:37:06.824821,4932,Moda,87.54,4,Gonçalves do Amparo
+e56ecd01-7962-47ed-bd18-4eae43b21f78,2026-06-02 21:10:54.909503,4197,Casa,8.25,2,Pimenta do Galho
+3822e3bc-ddd2-4392-b53f-008c19c6f313,2026-06-01 13:18:02.879666,8708,Alimentos,32.54,4,Campos
+a93b1504-b164-4cb0-b6ef-5a18780b6ae7,2026-06-03 04:14:30.809985,1115,Alimentos,62.88,2,Costela da Serra
+23ec4966-af91-496a-bd5c-851367971bd3,2026-06-03 01:39:29.590871,6289,Eletrônicos,70.98,4,Caldeira
+b572c029-5b72-4e24-ae91-1427e7a52bb6,2026-06-02 14:48:55.514615,7894,Moda,83.4,2,Azevedo
+511655ca-0583-45e2-b787-984d27d3bd2e,2026-06-02 19:15:16.085943,8924,Alimentos,3.92,5,Monteiro
+f2c3f212-ff4b-4b06-861b-a67133e12bcc,2026-06-02 08:00:12.132742,5287,Moda,13.4,5,da Cruz de Borges
+3d88a5de-d530-483f-89f2-a69ef35fd975,2026-06-02 06:42:40.295256,4903,Casa,68.27,1,Moura de Sales
+5e8fc57f-fb5c-4e0d-9e63-731994f39717,2026-06-01 02:33:33.404049,2747,Casa,42.89,3,Leão Paulista
+5887e8e0-1fc6-41cc-92ab-b442906f5dfe,2026-06-02 06:56:21.153584,9048,Alimentos,0.52,5,da Cunha
+a0974189-656c-4945-9272-8e9482dcdc0a,2026-06-01 02:40:40.090022,4799,Casa,72.09,2,Fonseca
+2abf5e7c-375c-49e1-8d99-c3128b0d95c2,2026-06-02 03:24:02.422286,1145,Eletrônicos,10.99,2,Silva do Campo
+9864c3bf-c406-49c2-b954-c1f44426cea0,2026-06-02 19:42:24.364156,1568,Eletrônicos,35.74,5,Machado da Mata
+34adc76f-3600-4ee2-bb54-56ce2c846fb4,2026-06-03 04:39:01.615016,7296,Moda,24.86,4,Albuquerque
+f6ccd903-45c4-4185-a0b8-25d3204526d7,2026-06-01 17:20:17.829226,9427,Casa,30.15,3,Silva
+bc16ec18-0512-4d41-b1ce-4036e99fd19d,2026-06-03 04:49:44.833621,3672,Moda,63.04,3,Machado Paulista
+d367c742-d4e0-4704-b9ea-0690afd2ba4d,2026-06-01 19:04:00.135424,5254,Eletrônicos,64.08,2,Farias do Amparo
+3839b2f9-b9ae-4f54-a811-4e07c9e11f1d,2026-06-01 07:17:58.764709,4802,Casa,62.8,4,Ribeiro de Souza
+d8e774a8-58a2-400b-a6fd-9f9a57b106ae,2026-06-02 14:10:57.792308,4229,Moda,54.78,5,da Rocha de Pacheco
+d78bb0d7-7a52-4ee9-8e9c-287a3792d3ee,2026-06-02 05:00:01.450471,4725,Alimentos,70.68,3,Vieira
+980ec9cf-b76d-46d2-995b-68c8c32f370f,2026-06-01 14:48:59.142641,6628,Casa,76.04,4,Alves
+caa9ab20-1fe2-4979-a983-c6326511c6c3,2026-06-02 04:17:30.696619,1998,Eletrônicos,48.19,4,da Rosa
+3f229313-3ebe-4886-9229-dc378f8d951f,2026-06-01 18:56:36.168894,2393,Eletrônicos,50.6,3,Carvalho de Moura
+7effc09b-fc20-442e-af39-7717852453b5,2026-06-01 06:42:39.894249,4663,Eletrônicos,86.37,2,Costela
+36b910c0-5ab2-4875-a668-af960c96d130,2026-06-02 05:35:15.908664,1228,Eletrônicos,21.85,5,Porto
+26202c39-dbb5-403e-82be-32d42ed68978,2026-06-02 19:02:42.706836,4653,Eletrônicos,59.81,5,Barros do Campo
+c1079978-f46e-42d9-b6fb-700b9f62c3a2,2026-06-01 00:27:54.042977,3464,Eletrônicos,27.71,5,Campos
+b0f7570d-4375-4abb-a0c0-4877e3069bb0,2026-06-03 02:48:45.879408,2692,Moda,60.82,4,Gonçalves do Sul
+39bdcb78-f119-440c-a573-e9fe79e037bd,2026-06-02 19:01:46.932228,6105,Alimentos,42.28,4,Casa Grande da Serra
+098b7900-c8e2-4930-a020-b40537e1a5e5,2026-06-01 10:03:56.587788,5916,Moda,0.62,5,Brito de Goiás
+d8da50ed-e604-4c97-a09e-3a44f7b135e2,2026-06-02 20:16:54.019294,1301,Eletrônicos,99.91,5,Cassiano da Mata
+cbba432b-969d-4def-8d27-fb4f9f6dfe60,2026-06-02 18:44:49.983376,4982,Eletrônicos,10.13,1,Câmara de Fonseca
+e8a6fe9c-4a1a-4b92-b738-fa62b491bbaf,2026-06-01 02:28:26.305743,3537,Eletrônicos,35.63,2,Oliveira
+067e606a-ad05-412b-817f-9ebfffa9424b,2026-06-01 15:31:09.566227,2391,Eletrônicos,94.5,4,Santos
+b5776b15-8608-42e9-aad3-d527f33c3e02,2026-06-01 02:17:06.074356,5720,Casa,38.52,3,Dias
+b11ec249-a536-47e5-9fd3-3e8758f35794,2026-06-02 14:02:48.987205,8896,Eletrônicos,9.54,1,da Costa da Prata
+b2ccd0b1-26d0-4644-95d3-db6e27d8d19d,2026-06-02 05:40:42.719849,3411,Alimentos,85.73,4,Sousa do Oeste
+0ce1e342-79fa-4301-9f3f-7e84c06cf24c,2026-06-03 01:50:26.298625,9750,Casa,33.03,1,Sá
+353f6407-57f4-457b-b5e3-02ee69002991,2026-06-02 03:41:22.637289,3111,Alimentos,7.88,5,Vargas
+e7a46a6c-766e-43e4-ad6d-9770925c8d67,2026-06-01 16:58:17.288999,2130,Moda,54.68,5,Cavalcante da Praia
+0dfdebad-222e-46f6-8cab-d573d948021b,2026-06-02 00:20:39.669911,7794,Moda,98.12,1,Pacheco de Siqueira
+9aab1968-5a3c-4dcd-b10c-7d734784c61e,2026-06-01 10:49:16.953006,4778,Casa,24.04,2,Rios
+1ef97a6f-07bc-47c8-a3d7-e7b92792a2eb,2026-06-02 23:38:05.719438,5771,Casa,56.14,3,Pires das Pedras
+805405e3-b64c-4229-8819-5183c43c2fd1,2026-06-02 05:36:29.431186,5706,Moda,93.59,3,da Luz
+5a1e8f53-51e2-420b-bc8e-b624d53f666c,2026-06-02 10:06:13.526759,9980,Casa,16.6,5,Alves
+d684a04d-6b08-429b-acc4-a6d8009ab20d,2026-06-02 06:58:26.600790,7329,Casa,35.48,4,Silveira da Mata
+436765ad-bb8c-43c7-bf1e-5859815f172b,2026-06-02 04:41:53.120006,8367,Eletrônicos,89.49,1,Abreu Verde
+741db0f8-b9fe-491c-8825-1d4780595f42,2026-06-01 12:51:09.634444,4986,Moda,0.13,5,Garcia do Amparo
+b0721d70-4adf-4a94-b4ef-82dcd463d696,2026-06-02 13:09:47.276791,1645,Eletrônicos,10.29,2,Sampaio Alegre
+4a5616cc-1fc7-4fd1-9a71-b27a3050f5c5,2026-06-01 22:06:34.684344,3363,Casa,43.46,1,Cardoso
+330ae900-2a6d-4698-b682-16e5906e19ef,2026-06-02 03:08:30.623070,3543,Eletrônicos,6.22,2,Montenegro de Câmara
+d5404ba3-95e3-48b1-8363-a5eb4b3d07e2,2026-06-01 16:38:25.133600,1275,Casa,73.36,4,Gomes
+22aa94c2-1728-425c-b195-9e67bf5c1eea,2026-06-01 05:10:25.165247,1513,Eletrônicos,0.38,4,Marques
+d88a9b3c-7d83-40b6-b013-51cf941c1aa4,2026-06-02 09:43:37.773985,5819,Eletrônicos,76.62,2,Camargo
+cf2f75cd-de60-4d35-a141-2336fb148bf9,2026-06-01 17:16:47.682300,5947,Alimentos,99.96,1,Caldeira do Campo
+228797ac-a7bc-4c78-afc7-c259f190d87b,2026-06-02 19:02:03.420693,8655,Eletrônicos,42.79,3,Cardoso
+c255ec08-a835-4376-a054-95454f116c6e,2026-06-01 19:39:56.027388,1285,Alimentos,42.68,3,Moraes
+6231d53f-a1db-446d-91b0-ee819213bcde,2026-06-03 03:54:54.235135,6568,Alimentos,78.36,5,Azevedo
+6c4ec9ef-18e6-4068-afc9-48a41014b5d5,2026-06-02 02:19:54.027655,2668,Casa,76.51,1,Caldeira
+d6960738-fec8-482a-93a0-3690d192e201,2026-06-02 23:48:12.446181,9929,Moda,2.14,3,Correia
+38238430-e5e4-4f25-9c3a-51c19c9bb6c8,2026-06-01 22:13:18.118328,6256,Eletrônicos,20.32,5,Machado da Prata
+e096531f-5c9d-4956-8f75-20e70af8266d,2026-06-01 14:20:36.177466,4002,Alimentos,44.46,2,Leão
+6d6ec4af-bfaf-4ded-a1e1-a39a9f81e41f,2026-06-01 04:10:39.633878,2430,Alimentos,51.37,3,Brito de Farias
+a8a1563f-cd6b-4112-be9d-b6a3f6d3e54e,2026-06-02 04:17:56.446862,7609,Eletrônicos,53.33,5,Guerra da Prata
+09fd0af3-5162-43e0-84c8-fb9544025e9b,2026-06-02 20:07:28.582105,3862,Casa,55.33,2,da Paz de Minas
+ee3622b2-74c6-41b5-b283-d8b87a12e817,2026-06-02 14:23:28.205104,7808,Eletrônicos,30.05,3,Moura dos Dourados
+c70bc110-837f-4fbb-8cd7-51a2d66a4cd0,2026-06-02 08:47:31.407225,8738,Casa,51.18,5,Rezende
+17b4d6ba-93cf-486e-8a52-6cd0d1231be0,2026-06-02 19:30:59.132074,7415,Eletrônicos,75.95,5,Câmara do Campo
+20dc09d2-4fab-4f03-b51c-12c6f5e34e05,2026-06-01 02:01:09.313803,9540,Alimentos,7.01,1,Caldeira do Campo
+f8b29024-c251-40d3-8cf2-eb3739078d4e,2026-06-01 05:06:45.424801,9487,Alimentos,70.56,3,Guerra de Barros
+5cfc4480-7324-44fc-bbcd-3c7d6700b873,2026-06-02 07:31:03.628762,4961,Moda,43.4,1,da Luz Grande
+edcf7b52-ff0a-4e78-ae14-42ec17d36e1e,2026-06-01 03:04:08.213229,1364,Eletrônicos,16.06,1,Alves
+5766b57c-be57-4937-b207-dc03355df214,2026-06-02 09:56:20.059090,9283,Moda,1.53,1,Macedo da Serra
+68bd7d09-299f-4572-8cb8-91fb741daa76,2026-06-01 16:22:44.742437,8941,Casa,77.77,3,Ramos
+29074591-db2a-43df-bc4a-ccb5c9994b1d,2026-06-02 19:23:19.722055,7715,Moda,97.56,3,Viana
+c3314c1b-f2f2-4064-927a-5e267fca39f0,2026-06-01 01:15:50.748048,8713,Alimentos,85.31,3,Lima de Goiás
+f9bd7670-a0a9-456c-8c0c-37b426cdcc7b,2026-06-02 01:39:02.941322,3145,Casa,14.63,2,Cavalcante das Pedras
+52cd9acf-11ef-49ae-b7ac-3ff03fbc9695,2026-06-02 10:13:23.916565,2420,Alimentos,23.34,2,Peixoto
+49c0352c-6a94-4766-8bab-ef5654bcf586,2026-06-03 01:56:04.528016,7329,Eletrônicos,40.09,4,Pacheco dos Dourados
+ba65e54b-8f87-423a-92b7-4b5ff99e0792,2026-06-01 06:22:59.729063,8344,Casa,7.24,1,Leão
+44b4d6a7-07ca-437d-8c84-05bba93c3ca0,2026-06-02 22:02:12.104130,9140,Moda,72.34,4,Aparecida
+759aed26-5451-429c-a474-899b78298b32,2026-06-02 13:22:46.799175,4366,Alimentos,58.15,1,Barbosa
+7e1a40e0-14cb-4082-acf7-7bf789c4f080,2026-06-01 07:04:57.215664,9487,Eletrônicos,72.85,1,da Mota
+f8369be1-bd56-4af1-be84-ce0dad89f945,2026-06-01 12:07:05.696763,3663,Casa,63.36,4,da Rosa
+5e191417-20a4-4dd1-abec-3b94abe59be5,2026-06-02 04:10:22.463431,4821,Eletrônicos,44.01,3,Albuquerque
+31a2eaa6-9aac-4e75-bed0-6ee2c98936e8,2026-06-01 00:30:20.097218,1164,Alimentos,46.27,2,Lopes de Barros
+280b45a4-f5fb-41eb-834f-dfd5cb9efa88,2026-06-03 02:16:42.208642,7745,Eletrônicos,87.62,4,Novais do Campo
+f4cfb947-1bbc-4cf8-969c-af60aed62690,2026-06-03 01:55:10.521047,3212,Alimentos,92.01,1,Costela de Goiás
+fd305bc9-d7d2-4de2-9040-13b7c8df0a2b,2026-06-03 02:42:23.148294,5328,Eletrônicos,1.47,5,Sá
+7ecbb320-fd48-4b7d-9821-4e91797abdd3,2026-06-02 00:19:07.372509,4327,Alimentos,7.42,4,Gonçalves
+0e8b8ff2-d7e2-4831-ae10-212fe20d7a8d,2026-06-02 12:08:54.057171,5796,Moda,7.43,3,Moreira da Prata
+d758eff0-9bd2-408a-967e-00d670762d5e,2026-06-02 03:07:34.807517,1381,Moda,56.54,3,Abreu
+cb0d6fd7-dec8-4776-a1dc-d281d119e64b,2026-06-03 00:19:50.258642,9058,Alimentos,55.86,5,Leão de Castro
+1c7ae7c1-9722-42b9-9860-287f786e53a3,2026-06-02 09:28:16.316576,1132,Eletrônicos,84.19,4,Albuquerque Paulista
+00c84d7c-381b-4abb-81a1-f3999a491162,2026-06-01 19:23:48.139583,5920,Alimentos,77.16,3,Martins
+ec7224e2-2185-43d1-817f-91f02b2e3491,2026-06-01 15:53:11.426663,8118,Alimentos,55.47,1,Duarte
+0ec4007a-2224-4633-9c0b-795e758152f7,2026-06-01 08:23:04.331163,4992,Moda,24.03,5,Jesus
+a694820d-b003-4f6f-abb4-7296402b7266,2026-06-01 17:35:50.640890,1862,Eletrônicos,11.37,2,Rios
+df4f7350-8822-448f-9eb8-a6796a6ff33a,2026-06-01 08:56:15.379498,3510,Moda,32.42,4,Vieira
+b87ae765-431b-4686-8171-32d1be7acad4,2026-06-02 05:14:27.213892,6257,Eletrônicos,58.85,5,Alves do Oeste
+5cd59661-878a-4cd7-9075-ecff20db0f89,2026-06-02 19:20:00.268291,3555,Eletrônicos,61.85,2,Cardoso da Praia
+f7dbc284-bafb-4bb4-be38-4f41e1711fdd,2026-06-01 11:47:59.928144,3806,Moda,43.59,2,Lopes de Goiás
+27556ae5-2bb4-4737-b7bf-7762f6c890af,2026-06-01 01:13:17.572810,9855,Casa,29.68,3,Cavalcanti
+06fe606e-29ff-4e2b-9550-cad23bf75bab,2026-06-01 18:58:18.901283,4419,Alimentos,35.56,1,Cavalcante
+15c950f8-bb3e-4298-9bb9-4130202a28ec,2026-06-02 14:04:52.585665,3896,Casa,15.58,4,da Paz
+5168ad45-3db2-4582-8b74-8538e059321d,2026-06-01 22:01:59.481932,3237,Eletrônicos,36.94,4,da Conceição Alegre
+2d5fcb4a-3eb7-4cb0-90a6-fd5e08f5120b,2026-06-01 22:16:26.014482,6823,Eletrônicos,62.62,2,Mendonça
+6ce3644f-c770-4266-b550-5c894cfa0843,2026-06-02 08:06:52.436053,2360,Casa,48.8,4,Guerra de Ramos
+ca31ebba-51d5-4500-b70e-eaeb613f069f,2026-06-02 22:56:21.990441,4818,Casa,69.47,5,Porto
+c877276d-a806-4a35-bcda-c98bc1233e92,2026-06-02 19:17:42.765772,8047,Alimentos,58.82,4,Borges
+b8e4cfff-7c81-4dc1-88f0-a7b1bbdd64e8,2026-06-02 05:13:39.741365,6507,Alimentos,32.24,2,Sousa dos Dourados
+733bd5a3-4eff-40d1-90d4-e90a633bd5dd,2026-06-02 17:43:37.523151,5533,Alimentos,22.83,2,Cirino
+90b2e51b-35af-4fc7-af32-1214b7ebd32d,2026-06-02 00:32:44.584658,4825,Eletrônicos,45.48,1,Barros do Galho
+769f9407-4380-40c9-92b4-abb902c39c5f,2026-06-01 04:39:22.885185,5385,Alimentos,65.84,5,Duarte
+e3fabd93-8c8b-4be5-ae31-c7f477764271,2026-06-03 03:26:28.885412,9299,Casa,14.68,3,Mendes
+16dbfa35-a084-45af-bb99-809ebdf80a09,2026-06-02 16:16:13.616927,5652,Alimentos,43.89,5,Cavalcanti do Norte
+2247014a-ab8a-459b-b923-99ae910bc7d1,2026-06-01 15:16:35.270440,8178,Eletrônicos,12.2,2,Lima
+ba6a949b-b401-4822-a6bb-7295169d32c6,2026-06-01 21:53:43.997821,3567,Moda,99.73,4,Sá Paulista
+834b8074-e0eb-4d4b-8700-3fe8004e9df8,2026-06-01 18:50:30.942576,7055,Alimentos,82.49,3,Martins
+769ac708-b5cc-47bb-89cc-35e7c0a53bef,2026-06-02 11:55:04.190146,5501,Eletrônicos,85.12,2,Ferreira do Norte
+599d120b-6e43-4e2b-b25c-f1b038f86ea2,2026-06-01 18:11:31.024007,9088,Alimentos,61.72,5,Leão da Serra
+474370bd-ff93-4f67-b335-d3b9ee844cb0,2026-06-02 08:09:12.143500,3933,Alimentos,36.17,5,Lima
+46d49f63-a270-495a-978c-3c2fc18f24a7,2026-06-03 02:56:47.429014,8092,Eletrônicos,47.24,4,Casa Grande de Goiás
+ec7502ed-2a62-4adf-a08f-b3167978ec4f,2026-06-02 11:31:36.396471,4590,Casa,86.12,4,Barros
+3caa6da4-3e6a-4c41-bbb5-74ed18f64652,2026-06-03 03:12:28.662488,3797,Alimentos,36.85,1,Rios
+79a2876e-80bf-4ce3-8d10-26460d8b46a2,2026-06-01 13:35:57.501325,8585,Eletrônicos,72.99,2,Melo
+d1aa2800-d9bb-4597-b371-656a4765d982,2026-06-02 11:13:33.440457,1038,Moda,31.77,4,Camargo de Aparecida
+60982424-64f5-45ef-8fc3-86e8cea083ab,2026-06-01 18:41:46.755611,1457,Moda,18.76,3,Porto da Prata
+2a0348ff-3b52-46f8-bdf0-eb606713ca33,2026-06-01 19:53:38.388039,9913,Casa,54.2,1,Rocha
+14a6d3a7-61ab-42ad-8e21-f7840e298065,2026-06-01 15:04:34.308682,9076,Alimentos,68.99,2,Rios
+eb383374-44e3-4b7a-bc06-03aae81eefcf,2026-06-01 21:21:50.729387,5364,Eletrônicos,1.84,4,das Neves do Sul
+4f4f742d-97c3-4533-a53b-05968d28c3ee,2026-06-02 09:22:04.460130,5116,Alimentos,89.33,1,Vargas Paulista
+07da5fe2-c4ac-409d-8532-680a21405495,2026-06-01 21:47:55.170706,9626,Eletrônicos,30.38,1,Guerra
+bad7f70c-1445-41d9-b503-48ca23081e61,2026-06-01 12:29:56.674672,4280,Casa,63.72,4,Mendes
+2d43ca08-746a-4033-9fcd-2eb55c02e4ec,2026-06-01 10:12:06.110607,7780,Alimentos,56.18,4,da Rosa
+71e4b756-4d6c-46ea-912f-b9d9d940224b,2026-06-02 23:56:03.355417,4765,Alimentos,21.67,5,Cardoso
+f699e534-cde4-4109-9e80-3d2df2aaedcb,2026-06-02 14:34:43.763569,3677,Alimentos,64.49,5,Macedo
+4c0e4de9-39ab-454d-92a6-bc01d5d3cb80,2026-06-02 13:04:34.538061,3329,Alimentos,38.67,4,Cirino
+1f3ba59e-e62a-4f52-b356-fc12a6269895,2026-06-01 09:43:16.691159,2022,Moda,51.15,5,Albuquerque de Goiás
+6ae18d62-63d4-4cf2-a416-0332e6c86c53,2026-06-01 13:35:52.394191,1479,Alimentos,75.75,2,Santos
+f26edf00-5599-46c5-98d9-703ff16f2f63,2026-06-01 16:50:13.503431,6390,Casa,9.83,3,Santos
+55608503-c317-43ae-986e-adc2ba826b52,2026-06-02 22:37:58.056011,7658,Moda,43.75,1,da Paz de Aparecida
+aecb56d9-bf3d-4f33-a1ef-d0b027618a2f,2026-06-02 23:10:11.779584,8899,Alimentos,18.76,3,Jesus de Goiás
+bbb0b73e-3148-455b-b4a1-69cca9a3b48a,2026-06-02 03:18:41.566083,5958,Eletrônicos,86.12,4,Leão de da Cruz
+7ac18ffc-06cf-4546-af2e-aaa00f20daef,2026-06-01 08:42:18.377050,8021,Casa,31.41,2,Mendonça do Campo
+6ac20d2e-0195-488d-9641-46973a203351,2026-06-01 03:21:23.222120,4604,Casa,98.54,4,Mendes
+9a019e3d-284c-4fa8-99a0-b684735625ce,2026-06-03 00:50:24.972352,4395,Casa,3.71,1,Rodrigues de Goiás
+95bfa7fd-dcdf-4d7b-ad0c-d7c26cc9486f,2026-06-03 01:19:06.944272,8143,Eletrônicos,78.85,2,Gonçalves
+36d95e9e-5fbd-408a-b2de-65e23f3c2810,2026-06-03 00:32:34.989726,4305,Alimentos,41.41,3,Cunha do Amparo
+138333ee-bb80-4dd5-a277-bd2af6fcaba7,2026-06-02 02:25:33.229864,7589,Alimentos,63.26,1,da Paz de Casa Grande
+a1f4cd16-6dc7-4a8e-9aaf-b7c8e130589e,2026-06-03 03:22:29.329369,5414,Moda,7.08,4,Lopes
+ae85b120-7b0d-4950-b5e8-77871cf16cec,2026-06-01 08:17:13.018437,5036,Moda,54.43,3,Moura do Oeste
+946a2ed0-a1ba-4510-bc12-2259e7ac6fd1,2026-06-02 10:11:22.836942,6946,Alimentos,56.72,3,Nunes
+33a82bf0-416b-498b-abe0-1295df4da20b,2026-06-01 11:38:30.757010,9398,Moda,40.94,3,Lima
+e01f74f7-07d4-42e4-85f8-9b6ba19505c7,2026-06-02 22:07:05.804243,8168,Alimentos,46.11,1,Cardoso
+00af2d7f-1d48-41ed-9f8b-14e963376d39,2026-06-02 15:11:37.865138,5281,Moda,9.02,4,Alves da Serra
+9f124509-3cde-44a5-86af-1e0a0a22b835,2026-06-01 02:02:28.066450,6619,Moda,80.16,1,Viana Grande
+42c7105e-2dcf-40f5-ba34-f92870469a31,2026-06-01 16:53:10.831274,5264,Eletrônicos,96.64,4,Casa Grande de Porto
+88145bc7-4756-4843-938f-3e2a313eeb8e,2026-06-01 06:27:02.730067,3888,Casa,49.85,4,Pimenta das Pedras
+4692b0cf-a22c-491b-80fa-dcaeaa8de79f,2026-06-02 22:44:10.668997,1662,Eletrônicos,33.64,2,Moreira
+adeb1c27-d99a-4999-89e8-6d70ce3ee571,2026-06-01 13:35:18.195797,9327,Casa,49.05,3,Fogaça
+f966a762-715a-46e4-86b6-dbf7d428d60d,2026-06-02 21:01:31.117819,7333,Eletrônicos,86.51,2,Freitas
+162ed92f-5361-4721-adae-fbf650cd3d05,2026-06-02 11:56:50.220787,2475,Casa,32.22,1,Sousa
+7a04918a-925b-4391-822d-618a49aba138,2026-06-02 03:53:54.375892,1681,Casa,58.36,3,Alves de Cassiano
+819e4ddc-3dd4-4e0e-b10c-2f2e1ed69023,2026-06-01 20:51:32.876702,3411,Moda,60.39,1,Abreu
+7c755374-b554-4e38-9ca7-32a4419d5d47,2026-06-01 14:56:30.003900,5710,Casa,68.91,3,Machado
+7c599ba1-5d18-46f4-9061-9ff10a8eb801,2026-06-02 17:34:11.950485,8583,Eletrônicos,67.13,3,Costa Paulista
+085eea8c-c9bd-4a8c-a64e-0fb4663a5d1a,2026-06-01 16:23:04.518766,9582,Alimentos,15.63,3,Aragão dos Dourados
+2bb02f84-bfcb-4634-bf9a-569b6208eb26,2026-06-02 19:05:01.397706,8249,Eletrônicos,72.2,1,Gomes
+e2a9b5f9-fe20-4721-9afd-dbc07041e53a,2026-06-01 21:48:29.343561,6013,Eletrônicos,60.68,4,Souza
+97ece23f-dc90-440c-8ac6-6abed502c7c2,2026-06-01 16:48:18.405272,6830,Alimentos,78.27,1,Aparecida
+bc548d14-93ec-4030-bc3b-5a44af8b8d19,2026-06-01 22:00:19.147919,6332,Alimentos,99.85,2,da Rocha do Norte
+bd3215e2-8495-460a-aa19-6cd385ccf0d1,2026-06-02 03:52:51.033543,4815,Alimentos,19.05,4,Marques
+aa5d9a26-84ec-422a-9333-5eeace8eca3b,2026-06-01 10:56:39.023863,9217,Eletrônicos,28.53,1,Rocha do Oeste
+1b51ed2b-f97a-448c-9e0f-07a484e853c2,2026-06-01 21:50:45.320697,7709,Moda,45.38,1,Mendes de Goiás
+50453bcb-84e3-4609-bcef-62cf39045922,2026-06-01 06:41:46.140499,4685,Moda,46.39,4,Fogaça Grande
+c63b24e2-e3e2-4ccf-a76d-0005797003cc,2026-06-01 01:33:31.170581,3607,Casa,12.8,3,Nogueira de Cavalcante
+d59ab0d5-e42e-4090-8527-df3404495e4c,2026-06-01 18:57:55.892389,9065,Eletrônicos,39.19,1,Martins das Flores
+67479208-977a-474b-81d2-5f7d1af0303e,2026-06-02 16:44:53.849962,3953,Alimentos,37.35,3,Azevedo
+7f7a725a-9cf3-419e-8777-ef7396bfef23,2026-06-01 18:08:07.094887,3387,Moda,69.38,5,Cavalcante de Pereira
+ae35abd8-ab2b-4c77-b22a-214665684da4,2026-06-01 04:45:53.382359,6954,Casa,31.15,4,Camargo
+7c624e38-0fca-4547-8666-1028f96b0d89,2026-06-01 14:39:51.678309,4369,Eletrônicos,33.77,4,Farias
+0682422e-0fe8-4a45-92ff-19fae98beffc,2026-06-02 14:25:20.409498,1168,Eletrônicos,1.12,2,Moraes do Sul
+5bc8d448-3ba3-43b9-9ca6-6d62a3cc13b5,2026-06-01 10:37:41.562832,9448,Casa,46.32,2,Oliveira
+b56e5d86-0def-4707-baf8-057a87f30c6a,2026-06-01 01:58:11.994913,4082,Alimentos,1.94,1,Rocha do Sul
+14c664d7-dcd1-42d4-9894-2f41e82415e5,2026-06-01 05:03:47.175428,9014,Eletrônicos,23.2,3,Sousa de Barros
+048b0bdb-f307-4037-8a5f-4d7c9abd38cd,2026-06-01 11:13:34.323145,6129,Alimentos,33.2,5,da Conceição da Serra
+f3e429cd-e8a0-4cac-8772-7b8783b29ebb,2026-06-02 05:11:27.298058,8209,Eletrônicos,69.44,5,da Conceição
+c1577c9f-cdb4-488d-a23e-64d373af91f8,2026-06-03 04:07:10.997758,7905,Eletrônicos,2.9,5,Sales
+be26d467-83a0-4238-ba71-c11551e6f2c6,2026-06-01 23:45:40.372070,4179,Casa,60.02,4,Costela de Porto
+c199895b-32a4-4556-b4d0-910745fb7ab4,2026-06-01 20:10:27.947558,4444,Casa,59.43,2,Cavalcanti de Minas
+c08a4f28-c759-4186-a7be-0e69424555df,2026-06-02 15:00:12.201098,3686,Eletrônicos,61.75,2,Moura
+ecd0d39d-267a-4f82-a42b-f1cc0ee741e7,2026-06-01 14:06:15.996135,8823,Eletrônicos,57.36,4,Melo do Campo
+3b252acc-c911-4861-9b4c-550456cc39d3,2026-06-01 06:14:59.112106,9024,Eletrônicos,21.36,1,Lima de Aparecida
+b56d8612-139b-4297-9513-919f27f3cbbf,2026-06-02 19:16:40.941221,6890,Alimentos,89.28,4,Barbosa
+7b11b45c-02ac-4503-a40f-3970749f7a23,2026-06-02 10:05:21.297369,8720,Eletrônicos,75.56,2,Pacheco das Flores
+62e1059c-1d43-4913-ad6f-80b68d7579a5,2026-06-02 10:05:59.009957,4053,Eletrônicos,5.11,5,Mendes
+0bdffb16-55e4-42fc-b96a-92280289275e,2026-06-02 03:52:45.867901,2123,Casa,53.48,4,Pinto
+013a1ba4-3529-4e76-a695-544ad4e8c68d,2026-06-02 06:24:54.291660,8125,Eletrônicos,17.64,4,Fonseca
+5aed4610-46a0-495b-a901-6966e6734451,2026-06-02 20:21:59.403276,9987,Casa,57.85,3,Camargo da Praia
+ee5794e2-f4f2-4a53-bbbf-ce1dbb8aac69,2026-06-02 05:30:44.527539,4948,Alimentos,79.5,4,Rios
+08ffe9c3-9d90-4e79-b96b-451b3884c3d8,2026-06-02 05:37:24.442713,8626,Moda,20.26,1,Andrade do Campo
+65ff7bbc-0b76-489e-97e8-7884470e03a6,2026-06-02 15:22:53.850863,7034,Eletrônicos,73.83,5,Pastor do Galho
+8c55df4e-9e7a-4a07-8250-4bcbbba0ca0e,2026-06-03 04:35:08.584261,9666,Casa,35.92,3,Machado
+f513afac-20d5-4b00-b3bd-437eb272081a,2026-06-02 19:42:19.575474,1092,Casa,99.25,1,Rios
+35d26967-9634-4fd1-8f32-df647ab94c76,2026-06-03 02:25:03.692620,6197,Casa,52.39,4,Sales das Pedras
+335ec827-f2d3-4b3e-8018-dc4339fe9d36,2026-06-02 21:37:19.863327,3404,Alimentos,84.83,5,Pastor
+99279eeb-41a3-4c16-9f54-0b7828eb0b5d,2026-06-01 03:04:56.735819,3838,Casa,18.12,2,Martins do Oeste
+88524b6c-10ea-4475-b387-2ef7130b4d53,2026-06-01 17:48:48.221079,9602,Eletrônicos,52.32,3,Ribeiro
+6dfb3e45-d1ee-4ee3-823e-b096c6cb1ff8,2026-06-03 02:09:03.347436,2559,Alimentos,12.42,3,Andrade do Sul
+d8e72277-c3a7-4e47-8b86-58ae4e79093d,2026-06-01 07:29:44.688876,1578,Casa,65.75,4,Fonseca de da Paz
+3f8b584f-6e81-4f14-89e6-1d2d9669b196,2026-06-02 14:57:32.957143,8359,Eletrônicos,57.62,1,Abreu
+f533a4a9-ce46-40cf-9348-001d34ba888e,2026-06-01 10:18:26.881097,5139,Casa,16.99,2,Sales
+d9a6bc8d-2e59-43f5-94e5-4bfdf17b0de1,2026-06-01 23:01:35.306271,6518,Moda,76.38,1,Moraes do Amparo
+7bf117db-5916-4149-8e57-00a5cf064928,2026-06-02 09:05:07.379856,9421,Moda,60.21,5,Farias
+8047ed68-3232-41bf-aa7e-4a6964d1fc89,2026-06-01 10:33:35.329186,2419,Alimentos,87.19,5,Camargo
+087133a7-4a71-4b84-8900-c701d8d28eee,2026-06-01 19:18:37.456542,6862,Eletrônicos,92.83,4,Aragão
+d4923616-f079-4fc3-83c0-f854ba5b2582,2026-06-02 21:51:05.923135,2947,Eletrônicos,3.27,1,Jesus de Duarte
+ccecfb2c-5a6d-41e2-b018-bbd196e54e00,2026-06-01 19:47:56.190273,8106,Moda,23.54,1,Nascimento
+a69439b7-730d-4f80-8cd8-6ef9b13a3053,2026-06-03 04:12:33.293422,7468,Moda,46.21,5,Campos
+e411eb01-1f57-4189-a759-cab4f8bee113,2026-06-01 14:30:10.659769,7865,Moda,99.54,2,da Conceição
+381c8625-e7e8-4d76-88df-ce0a3d4649ef,2026-06-01 23:53:07.355777,7445,Eletrônicos,73.35,3,Monteiro de Goiás
+180af1d6-f5fb-424d-acbd-2c7462cf7f7d,2026-06-01 03:44:27.044667,3580,Casa,25.85,4,Jesus das Pedras
+3472e6c0-7605-42fe-8abb-e32a90886c88,2026-06-01 08:51:17.851307,9947,Moda,44.99,1,Porto
+70eb7f97-8eab-4c5f-ba3a-15dadaeb1969,2026-06-02 01:04:31.385695,2106,Alimentos,87.72,3,da Cruz
+7dc83749-56e4-4291-acc1-b86f1a3a9302,2026-06-01 03:28:36.461761,6151,Alimentos,37.49,1,Cavalcanti da Serra
+150b856e-c620-46c1-9773-8e2fedee863d,2026-06-01 19:41:52.804465,6038,Casa,70.01,4,Gomes
+55b6740e-e347-4817-9a8d-4408c47ab936,2026-06-02 01:31:59.011108,2854,Moda,44.56,4,Peixoto do Campo
+a75c6d8f-195a-49a7-88f0-159124f8575a,2026-06-01 07:36:48.365189,7466,Eletrônicos,32.01,5,Cavalcante
+626d4f2b-bdd2-4a3e-ab4c-4ef0e7be8f05,2026-06-02 23:43:47.704345,9013,Moda,2.56,1,Silva Verde
+e77408de-ab3c-47bf-9cd1-2e71471ca425,2026-06-01 15:05:19.203557,4762,Casa,91.23,1,Pastor
+25eb5607-8ddc-4520-9479-1ad52038bcaf,2026-06-03 01:56:00.490583,2355,Eletrônicos,43.59,2,Silveira de Goiás
+fe343659-3398-474c-b90b-ebdb972eb392,2026-06-02 12:04:11.695721,6426,Eletrônicos,50.63,4,Novais da Serra
+996a6252-be5e-4526-b5b2-6c569437297d,2026-06-01 17:22:46.247024,1351,Alimentos,85.78,4,Marques Verde
+61841ade-11b1-42a2-b278-c77e87c501dc,2026-06-02 06:15:58.125268,8631,Alimentos,78.88,4,Rios
+1abd49dc-211a-4b6a-aff0-a7f095bf8bb1,2026-06-01 17:24:36.409956,7903,Eletrônicos,93.52,3,Aparecida
+833a4a3e-31df-4fa5-9d0a-b7db083fdee5,2026-06-01 20:49:53.577630,9345,Moda,76.05,3,Melo
+21257403-fe9f-493b-8efb-1072f1a6f8c0,2026-06-01 08:25:26.155833,4865,Eletrônicos,32.97,1,Fernandes
+1be73673-95b2-4c45-bb9c-0d3b2823070e,2026-06-01 15:01:09.403095,3452,Eletrônicos,88.61,4,Correia de Minas
+40e912c1-53c5-4f2f-94dc-e13d51fbbd70,2026-06-01 19:58:58.850261,1797,Casa,30.89,3,Lopes das Pedras
+eef7b252-1072-4ecf-9ab0-18d3446a1177,2026-06-01 16:22:10.765269,3186,Eletrônicos,88.91,1,Câmara dos Dourados
+5970baff-bddf-4f76-8cd3-828f836b27be,2026-06-01 03:59:15.856291,6001,Alimentos,31.45,2,Sales
+4872d143-adcb-4b08-a8de-f5da1ccd6af5,2026-06-02 00:53:24.841444,7102,Eletrônicos,80.45,2,da Paz
+4b0c5ea2-c4c4-4733-a54d-c95bc808b676,2026-06-02 13:44:37.562326,3167,Eletrônicos,33.42,5,Almeida do Oeste
+14cb5bf5-6ada-435c-a283-6feecc3c1bda,2026-06-02 22:26:59.084448,6823,Moda,67.58,3,da Rocha Grande
+5cd70056-d765-4d32-8f30-f211093468db,2026-06-03 03:34:42.990698,8321,Eletrônicos,30.5,3,Machado
+133a6556-e362-4406-815b-1af620c0cbf1,2026-06-02 10:39:00.225637,2538,Eletrônicos,74.72,3,Ribeiro
+bff90603-8d56-4331-89f3-3e4a5956384c,2026-06-03 02:25:02.687940,5448,Eletrônicos,80.06,5,Caldeira de Casa Grande
+7467640f-4c15-49d3-92c3-71980b22f3ef,2026-06-02 06:25:46.398314,4816,Moda,72.89,5,Teixeira das Pedras
+58947ceb-25a9-4e80-8476-444207a22bfa,2026-06-02 19:25:23.042883,2661,Casa,30.26,4,Câmara de Fonseca
+dfac71eb-8122-4fb9-9eed-496f6b22efb0,2026-06-02 00:16:04.157071,7295,Alimentos,20.46,3,Câmara do Amparo
+80d5736b-b83d-417e-b37f-6e561583605d,2026-06-01 09:25:29.847069,5002,Moda,59.68,3,Cassiano da Prata
+e5941031-bbfc-428b-93a5-b809d854cfba,2026-06-01 02:22:44.233115,8470,Eletrônicos,46.07,2,Sá do Campo
+28a4ebc9-1d51-4aed-a9e2-b7cfcd5eeb39,2026-06-02 01:48:48.218546,8852,Alimentos,71.84,2,Câmara do Amparo
+17d6dd5a-61e4-4cc5-b11c-d5d06e46ce32,2026-06-02 00:04:50.853618,1560,Moda,32.29,5,Vasconcelos do Campo
+5974642b-c22e-421a-af50-a8c5f6d36b5b,2026-06-01 01:57:40.548842,7936,Casa,7.18,1,Silveira
+e7cb3d28-c45f-46df-a824-bdabc8c7449d,2026-06-01 08:03:13.613730,1627,Casa,26.15,4,Souza de Sales
+99bf44a6-fa74-47c1-bd54-1a52df1cf3ac,2026-06-02 23:09:56.324667,7180,Eletrônicos,58.14,4,Rezende dos Dourados
+d1e8b7f2-39c1-46a3-9357-70af03d205b2,2026-06-02 18:27:40.976693,6873,Casa,68.75,4,Melo Alegre
+98fcfd7b-fe0b-4d89-b030-00eecf4a5b84,2026-06-01 02:45:46.118871,1863,Moda,96.52,3,Campos do Norte
+6568c2b2-6ec0-4ea4-adda-fac51490bd7f,2026-06-02 03:28:50.580773,9252,Casa,17.59,1,da Luz
+b610d2bd-8c2d-4364-ab94-c9e69ef38c3a,2026-06-02 11:00:52.530259,2301,Casa,76.73,4,Lima de Pimenta
+7235dec3-4d7a-4317-a6df-66c039080af5,2026-06-01 02:43:10.911659,3133,Moda,88.08,2,Ribeiro
+fd2f8d40-89f3-48a9-b69c-c15bcdf44634,2026-06-01 19:15:48.841748,8293,Casa,81.97,3,Farias
+b444c3cf-0b84-4274-b5cf-17a15b1f1406,2026-06-03 04:35:57.460729,3502,Alimentos,79.65,3,Macedo
+074bb7e3-c7cc-4ee0-9a4b-044596b62a7d,2026-06-01 12:03:00.250390,2375,Alimentos,2.02,3,Freitas
+d8c4309e-ea92-4bfe-a100-edb608711583,2026-06-01 03:15:06.452923,9426,Eletrônicos,28.63,4,Moura de Minas
+bb2cac82-7c45-454d-ae10-13a51a6e2af9,2026-06-01 14:22:05.491969,6142,Casa,72.48,3,Silveira de Borges
+528c9315-ef70-4eb7-9569-f0ca1f28a02b,2026-06-02 20:53:03.310915,5226,Eletrônicos,69.43,4,Cavalcante
+eacedbe8-e695-4c99-89e6-593480d1f79f,2026-06-02 01:04:53.727520,7067,Alimentos,30.11,1,Pastor
+285cba18-785d-48e1-b7f5-fef5e5fe2a12,2026-06-02 10:31:28.828680,2104,Moda,4.73,2,Melo do Sul
+9a516d1f-72dd-40f6-a6d1-a5a8032863ad,2026-06-01 21:42:47.660490,6949,Casa,20.06,5,Aparecida
+36e9a44c-3e80-4c68-b36c-84ea6e5eb9ee,2026-06-01 00:02:50.782947,3348,Moda,20.04,3,Silveira da Prata
+6b8b39e9-910e-457f-8eff-aab0e1fc5618,2026-06-02 16:36:08.942451,7401,Casa,18.02,3,Porto
+e1eae3cf-f349-45c6-9378-4e1b763f23d2,2026-06-01 06:31:36.688736,8261,Moda,76.73,1,Lopes
+6cb4ad2f-f214-4e82-b6f4-0a2aa6c29f87,2026-06-02 19:10:44.831228,6926,Casa,69.3,2,Leão Grande
+78d76cf3-2413-4400-84c1-132b73aa232f,2026-06-02 06:44:08.740849,9854,Moda,75.45,2,Abreu dos Dourados
+87698dcd-5ccc-4766-acf0-d2c8bf3946de,2026-06-01 13:03:10.645714,6946,Casa,44.28,2,Montenegro
+80e11f3d-f4b0-4922-818d-15dd37e7ecdc,2026-06-02 09:28:17.452902,4107,Alimentos,74.54,4,Duarte
+b9e89f9b-6430-4bf8-8c9f-a179e24a5675,2026-06-02 00:16:43.264031,9023,Eletrônicos,38.47,3,Farias
+9751bdb3-6693-45b3-8b21-b80495e3c1e8,2026-06-01 10:21:58.951258,7028,Eletrônicos,11.94,4,Lima
+b698e478-493a-4c9e-84b2-a097f142b706,2026-06-01 02:24:15.357872,1548,Eletrônicos,71.6,3,Aparecida
+ecf9ae8e-e713-490c-830f-97de371ce917,2026-06-02 02:19:04.582212,3177,Alimentos,53.53,2,Novais
+57021ee7-dc54-4df5-abc1-61b18101cc3c,2026-06-01 11:52:15.503706,6406,Moda,30.24,2,Rocha
+5276645f-2da8-4c23-b192-6d44bd58ea08,2026-06-01 09:09:38.620544,4989,Casa,83.6,2,Gomes
+529be013-19c4-47ac-b03b-3a9c654e170f,2026-06-01 22:52:41.695386,2625,Alimentos,89.87,2,Nascimento do Sul
+d61fdb1e-cc00-4408-aac1-5263568b2e22,2026-06-01 13:51:23.283154,1948,Eletrônicos,19.06,1,Rodrigues
+ed0b8c09-39f0-463e-8939-e00e26ca4aea,2026-06-01 07:25:22.985743,8839,Eletrônicos,40.32,2,Freitas do Oeste
+c90c808f-de43-4f2a-a487-7e22dd32d2e7,2026-06-02 09:29:16.607095,5229,Alimentos,57.78,5,Farias
+70a92d8a-fd3a-4bb5-87ed-5de4cc65b368,2026-06-01 12:54:51.102279,5644,Eletrônicos,86.46,4,Fernandes
+e3866046-9c14-49b2-b4a5-faea75747a53,2026-06-01 15:00:42.191292,9114,Alimentos,86.94,2,Aparecida
+c93027a8-2189-494f-a808-a5186c0c7ec0,2026-06-01 12:55:12.152789,2752,Alimentos,10.45,1,Correia de Goiás
+2eb45791-c99e-457e-a45e-89640d2db3a8,2026-06-02 06:03:05.079009,1903,Eletrônicos,41.49,2,Rodrigues
+a392915d-0601-49d7-b18b-5d1d530bc91c,2026-06-01 06:06:44.395096,8774,Eletrônicos,36.86,1,Silva da Serra
+d0d803a4-ab53-4b91-9439-7e7bbbbd0d67,2026-06-03 00:57:50.681743,7006,Moda,29.69,3,Monteiro do Campo
+5c3aebb0-c31c-45a7-9905-84a036485e15,2026-06-02 23:58:59.433791,1663,Eletrônicos,13.06,5,Cassiano do Oeste
+6596ec96-53e7-4a7b-a314-245ac96a67f3,2026-06-02 20:58:14.132691,4397,Eletrônicos,26.26,2,da Cunha de Goiás
+01932476-47b0-4980-a82a-de49460fa581,2026-06-02 03:28:37.687146,5412,Moda,9.3,5,das Neves das Pedras
+0c5ddd77-e793-4af0-8125-d20f4f05267f,2026-06-02 16:48:34.188373,5139,Eletrônicos,85.04,2,Campos de Goiás
+630269a4-a9a0-4575-92f0-cea3dae605b3,2026-06-02 17:04:10.103995,6870,Casa,41.2,2,Marques da Serra
+2df1f6d3-dbd2-40e3-a9c6-165a00c3ad77,2026-06-02 15:35:11.008605,3494,Alimentos,1.61,4,Rios Grande
+fda4a302-e70e-4f92-bafe-2bd58e8ce613,2026-06-02 22:24:33.107347,7126,Casa,72.34,3,Viana da Prata
+400d62f8-56b2-4051-b980-edf98e02b46f,2026-06-03 00:40:37.650600,5299,Casa,22.62,2,Nogueira
+b84f2d89-2be9-4849-ac86-78d6bb875115,2026-06-02 03:58:06.890566,2919,Casa,78.72,3,Mendes Alegre
+1d3e5e8e-b030-4f7a-93dc-9ea5256f5443,2026-06-01 15:11:54.760208,8004,Casa,85.66,2,Jesus
+a7ce6c84-58c4-4221-8634-6a5bee12a005,2026-06-01 12:13:33.958828,2748,Alimentos,30.55,3,Barros
+b5994501-577f-42f1-aa76-dff4ac35e4e8,2026-06-02 19:50:51.127458,8135,Casa,83.48,4,Vasconcelos
+557cc172-f4df-4d70-9711-30542409bc72,2026-06-02 00:45:45.676600,4790,Eletrônicos,74.68,5,Barros do Galho
+8b129446-931c-4ec1-9010-cd909bdd4145,2026-06-03 02:39:38.176188,1589,Eletrônicos,78.49,5,Barros
+66f08dd0-5cd4-4e2a-9214-ec5570b233cc,2026-06-03 02:29:30.024732,7386,Eletrônicos,4.8,5,Moreira
+d39b4f29-3bae-46cf-b4d3-dda5be487ec1,2026-06-01 02:47:39.745987,8280,Moda,25.47,4,Abreu
+a37b0566-fe52-48f5-981c-ccbd2f143f63,2026-06-01 15:52:11.210589,5557,Alimentos,77.07,3,da Costa
+2e43ad99-0ac3-4f15-abeb-9e57bee58724,2026-06-02 10:04:57.601156,7100,Alimentos,91.35,1,Mendonça dos Dourados
+f2216e65-c532-4ab4-992b-72106b2034b9,2026-06-02 18:04:18.595509,9452,Casa,48.6,2,Silva do Norte
+7f64f181-798d-40de-adcb-6d5e28475a96,2026-06-01 12:25:27.482870,9875,Alimentos,64.8,3,Cassiano
+71d30bde-2d15-4eb5-bb06-d97ec74d2427,2026-06-01 08:17:55.950252,7643,Moda,53.46,2,Aparecida
+ce023462-3570-436f-97b8-459df8d5692f,2026-06-01 11:59:53.436202,9406,Casa,29.35,3,da Cruz
+8df48911-d962-4c13-aa24-6df32f267e1a,2026-06-03 04:07:39.801781,2253,Moda,72.51,4,Aparecida de Novais
+a359e753-e691-4ae5-a1ce-a85180d776a7,2026-06-02 14:31:35.454761,4372,Casa,71.35,2,Moreira
+ef0144c6-98a3-4c22-9083-c79446794e25,2026-06-02 03:29:50.757337,5155,Alimentos,60.03,3,da Conceição
+2a8d938b-602a-4636-b26b-2b9c353e0a50,2026-06-01 03:32:27.090879,2165,Alimentos,88.06,1,Abreu Grande
+30fd79a3-e59a-49ed-ad2c-716207b2eebb,2026-06-01 15:22:13.055440,2952,Casa,24.66,2,Pacheco
+18ad7b81-9a1e-47c1-8e12-cd11ed8a2f06,2026-06-02 22:39:46.888465,8557,Moda,56.4,4,Pires
+44fa89ff-c739-406d-ad44-ad342c9d8188,2026-06-03 03:32:38.138410,3260,Eletrônicos,43.6,2,Brito Paulista
+a92fc3d5-3593-4e29-ae07-53b4c3fe7ebc,2026-06-01 15:11:29.671746,1359,Alimentos,67.18,4,Santos
+814e9f51-4219-4265-9b9a-19e8006398fc,2026-06-02 08:35:32.747967,7078,Alimentos,90.55,4,Carvalho
+3ac14448-d881-4ea3-ab47-a371125e6ac4,2026-06-02 08:00:35.784641,7996,Casa,44.9,2,Cavalcanti
+abb6e9eb-4ffe-4023-930c-b5d6b3de0e23,2026-06-01 07:06:54.341815,2948,Eletrônicos,31.9,3,Nascimento
+6ac2dcb6-c44e-4d3a-a354-e80fbfbad3fc,2026-06-02 06:11:42.855129,3102,Casa,69.51,3,Ribeiro Paulista
+b18a49f5-10bd-4505-ad95-4ae5203019d3,2026-06-02 01:16:22.958895,8160,Eletrônicos,52.25,4,da Mota Alegre
+c03994a1-a5b1-41fb-b7bd-a6510423ab91,2026-06-01 10:43:46.270953,3474,Eletrônicos,59.85,4,Cirino
+4fb312b7-797c-4015-ab08-6f9981bcedeb,2026-06-02 05:58:03.836640,4775,Alimentos,18.01,5,Peixoto do Oeste
+fa2a0884-5e77-4398-be4a-19ced1520aac,2026-06-01 05:07:00.700120,6339,Alimentos,43.98,2,Pastor de da Rocha
+983443d5-6beb-4dab-8643-a01c03ad2d4d,2026-06-02 20:54:18.633580,7789,Eletrônicos,74.3,2,Cassiano do Campo
+65567731-0752-4d80-9238-7008e352b2d7,2026-06-02 05:11:02.853084,4192,Casa,8.37,1,Freitas
+14056ef4-9c98-409c-8e67-f00d63a7a8cc,2026-06-01 17:16:45.008546,6743,Moda,16.27,1,Souza Paulista
+5c3fbe63-47e7-408b-9b89-ea8635f12d2e,2026-06-02 12:09:00.635070,2588,Alimentos,69.82,3,Pacheco da Praia
+b93049e4-106e-47ca-8758-d1f9c74230db,2026-06-02 22:06:15.959821,6927,Moda,37.77,2,Camargo de Macedo
+e52ef998-7f98-4d87-b7d1-b7f3faa9f712,2026-06-02 09:53:06.475448,8392,Alimentos,90.5,4,Fonseca Alegre
+82522302-44a7-4170-97bd-cbbc659c8b2c,2026-06-02 01:02:56.436863,3129,Eletrônicos,36.93,3,Sousa
+71ad7adb-8da1-4388-b94a-9093ab61b834,2026-06-02 09:57:51.310083,7251,Casa,12.12,1,Castro
+7317fdbd-8398-4f09-ae44-d981a3087d39,2026-06-02 13:14:09.943013,9131,Moda,81.29,5,Vasconcelos
+9bce109f-f68b-4137-817e-444f8131b806,2026-06-01 12:57:54.262704,6251,Eletrônicos,82.66,5,Fogaça
+6bd9be1a-6b08-43c8-8730-acb5b4a453ce,2026-06-01 05:02:33.044954,2250,Eletrônicos,22.24,3,Pastor da Serra
+11cf4cda-2445-436e-91d7-da3c5d6d69e0,2026-06-02 11:42:38.550221,8742,Alimentos,89.29,4,Pacheco Grande
+3d7669e5-d58f-4d02-9a16-3d32eae48ac8,2026-06-03 04:00:33.240714,7213,Casa,10.02,3,Abreu
+47816da9-a9ea-44e2-9d38-e4c7f6e77bc4,2026-06-03 04:51:01.031214,8949,Casa,62.61,4,Cirino
+f3cf1f9f-0630-48ae-88fa-267a5133facd,2026-06-02 01:26:58.293166,3091,Casa,11.71,2,Fernandes
+2422dc49-838d-4876-884e-b514d50b87b1,2026-06-01 08:52:30.528413,9402,Moda,66.5,2,Farias
+6f27934d-c48d-4255-8158-5385eb2a665e,2026-06-03 00:13:02.566152,4106,Moda,78.22,4,Sales Verde
+3549f96e-7f82-4fd0-9d09-aae756035629,2026-06-02 23:15:33.339738,2393,Alimentos,28.72,4,Novaes
+fe8c50d4-5b87-4c61-80c7-1bdf398f9dd8,2026-06-02 09:47:07.731216,3529,Casa,38.43,2,Azevedo
+6bb08e1d-3899-4165-b368-317cca75fa03,2026-06-01 10:51:09.187386,1199,Alimentos,52.92,2,da Conceição
+5de2de1f-766e-4bbb-bafc-9c418df546ac,2026-06-02 07:42:38.123322,1765,Alimentos,53.78,4,Novais de Goiás
+523ef870-aeaa-416b-bec0-c1e21c70abca,2026-06-02 23:28:28.967767,8827,Moda,92.94,3,Silva de Fernandes
+12a044ef-bfad-4f5b-ae82-9ea0590ae8f7,2026-06-02 21:47:17.957698,7451,Moda,63.17,5,da Costa
+48e4c488-059d-4e98-a5c9-a6faee21f020,2026-06-01 21:40:23.368769,1355,Alimentos,49.47,2,Freitas Verde
+46566b73-8e1c-4d5c-b1dd-1246cddbb989,2026-06-01 04:49:58.125773,1816,Casa,14.77,5,Pires
+6ebcf0b0-4182-4ad0-b997-7a7e916de948,2026-06-01 16:50:31.512224,8304,Eletrônicos,41.95,2,Câmara
+da46c5d3-da90-457e-bec3-f66aa937560e,2026-06-01 17:12:45.157800,1723,Alimentos,19.01,2,Costela
+a8f2f171-1c25-40f4-8e99-bb6b81831fd5,2026-06-02 00:41:53.653062,2862,Casa,82.6,5,Nascimento de da Mata
+1fb80e20-b9fa-4f94-a675-0f0ef8d28e9f,2026-06-03 03:32:23.489308,8958,Eletrônicos,0.5,5,Moraes do Oeste
+6b234e42-bb4b-46e2-b80f-f3a7979bf8b1,2026-06-02 04:45:18.060480,9743,Casa,61.07,4,Aparecida das Flores
+7a12c173-a005-4dc1-b844-012ade6cc7f1,2026-06-01 16:21:40.513087,7636,Alimentos,18.51,3,Silveira
+d499eeeb-22a1-4823-b2d1-904615eed85d,2026-06-01 02:10:39.853208,7829,Eletrônicos,2.06,2,Nascimento
+8eeebcd0-d5d6-49dd-9d12-8d79110b6fe3,2026-06-02 03:54:52.410511,1913,Eletrônicos,63.02,2,da Cruz de Borges
+1df14292-14c8-4c62-b6bd-ebe2eeacc4c2,2026-06-01 06:40:02.527983,6870,Alimentos,38.98,1,Araújo Alegre
+748c2fe5-4625-4693-9089-ca7f722d18b2,2026-06-01 17:15:26.019741,8537,Eletrônicos,27.07,5,Siqueira
+e9223971-6331-4b3d-8610-66cb37d28b89,2026-06-02 08:43:35.748675,6182,Eletrônicos,3.97,1,Vargas Alegre
+cd9c84a4-3000-489f-afc2-de9830969fea,2026-06-02 12:48:03.149447,6384,Casa,26.46,2,da Rocha
+594db7d0-f7b1-46cf-954c-31f9f91efef5,2026-06-01 03:57:48.851206,6051,Casa,87.68,2,Cardoso
+f1cb1f69-c853-4653-92d0-596092f3adcd,2026-06-01 19:40:00.804804,1805,Alimentos,90.03,2,Brito Alegre
+5fdfe0bc-b362-4142-8e67-98657779128b,2026-06-02 02:56:04.425190,4979,Moda,25.71,3,Ramos de Guerra
+c0e1307f-3a2d-4964-b1b7-4dbb519552d3,2026-06-02 15:28:25.234188,4077,Casa,37.81,4,Borges
+594021fb-ba29-4ecc-a918-d2429c1d27bc,2026-06-02 15:12:06.900342,8417,Eletrônicos,79.41,4,Viana das Flores
+ea38fceb-32e8-44ee-8f15-acb68fabd6f3,2026-06-02 03:27:11.461169,6235,Casa,36.17,2,da Cunha da Praia
+228a1e6b-3156-4cf5-9078-2b8f6dfa8c1d,2026-06-03 01:12:49.000371,2547,Moda,45.94,2,Sá de Goiás
+66ec2cf4-ffb1-487e-81f6-ae8bab102fb7,2026-06-01 21:11:23.821775,3608,Eletrônicos,62.64,2,Lopes Paulista
+6829523e-4d2e-441e-a8f2-06f05c838017,2026-06-01 19:07:55.394079,6507,Eletrônicos,79.2,5,Aragão de Cassiano
+c043e02f-37d4-4a55-9f37-e7f59a8c11fc,2026-06-01 01:26:21.152509,6102,Moda,91.1,5,Fernandes
+17303e3b-6a09-4be2-b6ed-64ccc081370e,2026-06-01 00:32:42.782773,8865,Eletrônicos,53.89,5,das Neves de Cirino
+c53380ca-beef-4e10-bb90-6bb7f32f1f67,2026-06-01 02:56:04.537658,2176,Eletrônicos,51.65,4,Garcia
+2fb3fe54-be49-4cad-b3e2-3cd4f42426be,2026-06-02 19:48:48.406556,1716,Moda,61.73,5,Cirino
+933dfb5f-4ab9-4a9c-b267-478ea0eb873b,2026-06-01 07:51:02.318639,4473,Moda,15.0,1,Mendonça Grande
+b231dc13-eddd-47e9-a624-4490a5202ef9,2026-06-03 00:53:13.969581,3167,Moda,38.08,4,Freitas
+7e6afe35-808e-4c45-8915-329c489d803c,2026-06-02 20:20:28.526784,6996,Alimentos,27.99,3,Pimenta de Vargas
+4817cea0-70a4-4211-8a95-1a2928d9f5b4,2026-06-01 01:47:34.644078,7916,Alimentos,97.3,3,Monteiro de Porto
+99746a03-e800-48df-90ac-cd0404fa16a0,2026-06-03 02:26:34.864269,2067,Moda,27.46,4,Castro
+6a25442d-6752-4482-ba98-a89bbfe98dd5,2026-06-01 06:30:47.604265,1153,Alimentos,73.54,2,Cavalcanti
+009a1bc9-2925-407a-82d1-95bedd84ba58,2026-06-01 14:39:58.662659,4257,Moda,17.78,5,Moura
+0495f5bb-b0de-4365-b159-eb3fcd0e1e50,2026-06-01 17:54:11.755411,5321,Alimentos,61.28,3,Freitas de Sá
+58c0bee1-bcd9-467a-b447-817f3f5eddc0,2026-06-01 10:57:12.460302,1530,Eletrônicos,47.49,1,Oliveira
+a4ac13f4-c546-4c99-b61a-1b90672ed8b2,2026-06-01 04:02:19.197141,9798,Moda,46.07,2,Ribeiro de Novaes
+4c7da40d-b671-4228-adc7-0de48c36fb5d,2026-06-01 20:35:07.137926,1814,Eletrônicos,17.61,5,Almeida de Nascimento
+84a89e65-861b-48d9-a6f6-7a532bbeee90,2026-06-02 05:35:32.855090,7522,Moda,72.6,1,Cardoso de Minas
+6afd0805-69f7-4f89-b3ed-2491628f1ac7,2026-06-02 04:59:56.338088,4738,Alimentos,99.76,3,Cirino
+70651db4-3fa7-4e34-b2e8-936b029f0ac6,2026-06-02 12:52:35.654833,8034,Eletrônicos,11.59,2,Câmara da Serra
+1ec0072e-c9aa-470a-b02a-2611d4f83a76,2026-06-02 17:03:20.346985,8842,Alimentos,94.5,2,Brito de Minas
+7a5e3c83-f45e-4d93-af83-df9055cf0ab6,2026-06-02 03:14:17.335322,6643,Casa,13.09,5,Freitas do Galho
+0351e1b3-19de-4dcc-81e5-782ee158f820,2026-06-02 13:43:38.344521,9667,Moda,92.73,1,Araújo das Flores
+58e55d20-ddfe-4a57-9b20-80b07727ba74,2026-06-01 23:26:55.563191,2700,Moda,47.08,5,Fonseca do Galho
+58927324-18f7-4a99-8811-1445d0b8eca0,2026-06-02 23:28:31.275760,6374,Alimentos,75.08,3,Duarte
+c88137bd-226b-4714-bca7-507c754022c9,2026-06-01 22:48:57.901883,5311,Moda,53.81,1,Jesus de Pastor
+9f2ce90c-af4f-49d7-9d35-7d8d13e8bdf3,2026-06-02 22:01:26.789666,6306,Moda,4.57,3,Gomes
+b4af603f-2586-4ccf-8a83-a0509e306ca3,2026-06-02 08:57:50.513251,8695,Casa,16.25,1,Silva
+91c6b7c4-b447-4118-a9f5-930ff743758e,2026-06-01 18:55:13.851667,1497,Eletrônicos,73.78,4,Leão da Serra
+7e8a21ef-74d7-4389-b4a6-b3bb6283e4f1,2026-06-03 02:40:50.617940,1958,Casa,86.18,1,Melo
+293379d4-2bf7-4186-b2d1-44b9646f527f,2026-06-01 21:18:11.106184,9175,Alimentos,69.16,1,Moreira de Goiás
+55523e43-10cc-42ef-b297-43bbef9de39a,2026-06-02 22:04:16.318362,3563,Alimentos,53.57,5,Cunha de da Cruz
+6a58967f-2ab2-4005-a3a8-84bc9f08563f,2026-06-01 04:01:19.411173,8695,Moda,92.81,5,Fonseca Grande
+9527e3ca-640e-4109-bcbb-fde4041977c4,2026-06-01 01:00:55.153861,4753,Eletrônicos,31.22,4,Cassiano
+eb7ba3ed-c045-4bd5-b58b-e906c6258b78,2026-06-02 19:40:17.597607,2879,Eletrônicos,8.86,2,Macedo
+db5a7a47-04e9-457c-a594-e88224da7a25,2026-06-02 09:07:00.697669,9543,Eletrônicos,61.12,2,Siqueira Grande
+2108fecc-684f-4eca-80e1-59499910c901,2026-06-02 00:55:54.302497,9021,Casa,45.96,1,Fogaça do Norte
+76ebc21c-d73c-4cfd-9bfe-704c28648d08,2026-06-01 19:27:17.231754,7806,Casa,55.68,4,Cavalcanti dos Dourados
+12a21123-2eb3-448e-8c76-138b369b5a6b,2026-06-01 13:01:10.829868,1221,Alimentos,39.3,2,Barros
+35d22b38-3c57-4f8b-bb49-a32633f411fc,2026-06-01 10:23:06.659044,9944,Moda,5.47,4,da Mota de Cassiano
+85919090-b1a0-4c8f-ad11-d4a51f32faaf,2026-06-01 10:24:15.893909,1175,Eletrônicos,65.23,3,Moreira
+de17a1f2-5602-4797-bac2-06ff7236593f,2026-06-01 19:02:53.836180,5955,Eletrônicos,78.47,5,Monteiro de Cassiano
+3165172f-3f49-4cff-bd99-8bb58572b2ab,2026-06-02 11:57:18.561950,9470,Eletrônicos,3.2,4,Siqueira de Rezende
+0654cfcd-ca1b-4beb-a30e-42faec566653,2026-06-02 12:55:06.173022,2403,Casa,27.05,5,Leão Paulista
+feeb3245-4895-42e3-8478-8da429c845c4,2026-06-01 23:39:34.074013,5128,Alimentos,49.06,4,Casa Grande
+09fcd817-8264-4f2a-a910-e9e1adc5fc38,2026-06-02 21:09:03.805430,3539,Alimentos,73.36,1,da Rosa
+1e62ad0f-b356-4618-9370-7e0f14ebe520,2026-06-01 13:00:33.755787,1401,Eletrônicos,84.27,1,Lima
+407ccaa5-ff57-4a68-8eb2-f611e9c64425,2026-06-02 04:43:37.269850,5610,Moda,79.73,2,Mendonça
+c6d063f3-090e-4629-b8c8-e577bc6da62d,2026-06-01 13:15:36.468845,4716,Casa,87.02,1,Leão de Silveira
+b2a2f830-0e20-4b0f-a104-d14c9df90dfe,2026-06-03 02:23:26.065673,2670,Eletrônicos,22.4,4,Monteiro
+38bf6aa7-75cb-4214-9c58-d000fe697ba5,2026-06-02 22:56:23.816340,8652,Casa,32.6,3,das Neves
+0cc1f585-aabb-4d5e-bf4b-e200d0245fa5,2026-06-02 09:12:33.410877,9665,Alimentos,49.25,4,Melo da Prata
+0fe5f710-3de6-4367-bf36-ca13d2726543,2026-06-01 17:27:12.873734,7226,Eletrônicos,61.89,5,da Mota de Goiás
+f3b623db-498a-49ef-9cde-e8dc3d5f2691,2026-06-02 12:49:24.632997,1799,Moda,23.47,3,Cirino
+8c822956-479b-4238-b99f-9875d1aa3462,2026-06-02 13:34:12.171202,7239,Casa,9.25,3,Siqueira
+02bb6bf3-35bf-4319-b848-dd53f0e750b1,2026-06-02 07:47:02.720526,2157,Casa,13.82,1,Silva das Flores
+a803dc4b-1de1-41e4-a4e4-2eafb74b3060,2026-06-01 05:32:28.076265,8789,Casa,3.74,2,Fernandes Alegre
+8d3d8a46-703c-4c1a-a024-fe1665ee1352,2026-06-02 23:31:29.887919,7874,Alimentos,59.73,3,Alves de Minas
+a3d57274-289d-477a-84e4-9d2ec6c2e543,2026-06-03 01:30:05.506489,1656,Moda,98.2,4,Correia
+e46b30c6-2d12-4454-9fa8-2d71fff96cd3,2026-06-01 15:45:58.798453,3961,Moda,71.66,2,da Costa da Serra
+2699fcdf-f4e5-481c-8b68-d9dbd81fa8cf,2026-06-02 13:58:59.500803,9738,Moda,53.54,1,Fogaça do Amparo
+bedaea64-2b5f-45e6-811f-602a6b910756,2026-06-02 10:10:20.687543,6781,Eletrônicos,33.02,2,Freitas da Praia
+ea170792-3131-4ff6-b670-83c4f1862804,2026-06-03 00:43:54.825354,4751,Eletrônicos,62.27,1,Sampaio do Oeste
+90e8e2c4-41dd-4173-a9b6-34a8495386e7,2026-06-01 05:50:32.316616,3993,Eletrônicos,49.06,1,Farias de Novaes
+651e1674-0c4f-46ca-b306-a6d80a61704a,2026-06-02 10:21:02.032149,7249,Alimentos,23.87,5,da Costa do Norte
+9dcd2395-09b2-4e25-9b5d-508168b553a4,2026-06-01 15:14:24.684698,4415,Casa,12.63,4,Barbosa
+0f937f99-beb7-4deb-843a-4c17edc90ab7,2026-06-01 09:38:14.487545,1918,Casa,43.32,4,Machado da Praia
+279fee00-91ea-4fc3-b768-e2241ae33269,2026-06-03 02:29:50.635330,1372,Moda,0.82,4,Nunes da Mata
+01f53313-6ea1-47fd-8c3f-c81a57f83d2f,2026-06-02 11:08:53.697826,4738,Eletrônicos,64.86,3,Lima do Sul
+048f7723-7c7b-4708-b16b-670d0d4ab132,2026-06-01 16:40:27.076805,6065,Casa,32.15,4,Siqueira
+6e990311-4328-4264-a824-18aa190ae38c,2026-06-01 17:14:29.086358,3625,Casa,48.78,2,Correia
+ac372602-7596-44a9-9008-bb6797b2dbbc,2026-06-01 11:04:50.082517,6116,Alimentos,29.13,5,Cassiano de Goiás
+9cfa9ed1-d41d-4e92-906a-29e7ea300ad8,2026-06-01 20:14:27.828713,8484,Eletrônicos,6.04,3,Abreu
+910654ae-8b79-4413-9ddb-d0331677c35d,2026-06-02 13:11:24.390286,9179,Casa,17.37,2,Moraes de Marques
+c4d55a34-6de3-4966-bc61-fbdaa91a68cb,2026-06-01 03:01:04.022316,5389,Moda,35.82,5,Pacheco da Praia
+9ed29de6-fd56-4527-b9ed-5b20a8790d76,2026-06-02 12:24:48.700030,8008,Alimentos,96.2,2,Almeida
+9eaaa7a1-d1dc-4ece-98cb-81d6778adf10,2026-06-01 18:29:20.963015,8121,Eletrônicos,77.26,4,Ramos
+eff9c391-971e-4b9a-9e39-c9446794a730,2026-06-01 10:51:44.587235,4285,Alimentos,26.57,4,da Cruz
+3ac532e8-e8e7-4ef8-9944-ac84a8c93889,2026-06-02 02:34:27.126733,1160,Casa,26.73,3,das Neves
+735c162d-25c1-4a0c-9171-3388d895b22b,2026-06-01 02:55:33.146374,1510,Alimentos,36.49,4,Vargas de Minas
+f078576b-2255-49c0-a39c-e3312edacf76,2026-06-02 10:52:46.570590,3723,Alimentos,37.07,4,Pimenta
+243d2480-ada8-4471-b911-c9dca39bbbd8,2026-06-02 00:10:43.896680,5355,Eletrônicos,82.77,5,Aparecida
+b0265f54-26f0-4036-8645-64ec8a419a5e,2026-06-02 23:45:21.589930,5100,Eletrônicos,44.69,4,Vargas
+59b0aa81-9cf6-4872-a08b-8d4fb8fa0555,2026-06-02 23:17:54.463782,2743,Casa,78.16,4,Peixoto de Souza
+0f5896f8-6df6-4489-b5c1-f5c08a04fb26,2026-06-02 07:54:29.975349,9574,Moda,56.74,5,Siqueira
+39873d6c-fc44-4012-98e2-0eb4eb82008d,2026-06-03 02:39:44.470598,3060,Alimentos,87.25,3,Ferreira de Mendes
+df639dba-210b-45b7-b8d4-c4aba9549328,2026-06-02 18:35:39.556463,2966,Moda,35.24,5,Souza
+96b0031a-124b-4d63-afbe-9714105c2769,2026-06-01 14:54:44.612921,9159,Alimentos,24.23,1,Silva
+b3dc2af4-eb24-48a5-b534-bee0f916914b,2026-06-03 02:46:43.079628,4171,Casa,56.89,2,da Cruz
+75bd1be9-d8d7-4d09-9a81-d350d21ce7db,2026-06-02 00:59:58.035784,5727,Eletrônicos,37.94,4,Sá de Pacheco
+e2ece17b-8333-4489-8c05-17700854532d,2026-06-01 03:32:25.198714,4742,Eletrônicos,94.55,2,Vasconcelos
+11916679-655a-4293-8b41-5b986e5ced33,2026-06-02 04:20:47.584508,6520,Eletrônicos,57.69,3,Freitas
+b134d014-53d7-4c06-84bf-501f348ce8e3,2026-06-02 23:27:44.022245,7200,Alimentos,22.88,4,Câmara do Sul
+e0229e69-7dfb-42e0-90ef-80aad37b1fae,2026-06-02 02:31:52.887552,3582,Eletrônicos,74.69,2,Ribeiro de Vargas
+537f6bda-3408-410e-a98a-a90aff89f315,2026-06-01 01:28:45.757130,9314,Eletrônicos,66.19,4,Gonçalves Grande
+107b14dc-4df6-42b8-acf6-4f6f98a1230e,2026-06-01 01:11:54.916371,5259,Moda,65.0,5,das Neves
+8dff2e67-00b3-4945-9477-5ee3cde926cf,2026-06-01 01:19:15.659778,3522,Eletrônicos,71.71,1,das Neves da Mata
+94bc593d-6676-428e-b037-a48c36b81c8c,2026-06-02 08:09:16.889268,1457,Alimentos,76.38,1,Correia
+6521b3b2-3eb6-49a4-8122-3100a30f2b13,2026-06-01 15:44:06.211200,5846,Moda,35.05,1,Silveira
+f0166aed-fac5-4953-8aa3-1089b688210f,2026-06-02 11:16:36.668658,3470,Eletrônicos,49.66,1,Alves das Pedras

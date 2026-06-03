@@ -1,6 +1,6 @@
 {
   "project_id": "1751329c-152c-42dd-822d-ad62f1328c01",
-  "generated_at": "2026-06-03T04:40:48.771303Z",
+  "generated_at": "2026-06-03T04:51:22.330291Z",
   "total_records": 1000,
   "columns": [
     {
@@ -11,7 +11,7 @@
     {
       "column_name": "timestamp",
       "name": "Data do Pedido",
-      "type": "string"
+      "type": "datetime"
     },
     {
       "column_name": "customer_id",
