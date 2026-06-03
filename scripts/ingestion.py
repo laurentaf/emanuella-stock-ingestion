@@ -18,14 +18,29 @@ import requests
 import pandas as pd
 import json
 import os
+import sys
 from datetime import datetime
+
+# Carrega variáveis do .env se existir (para desenvolvimento local)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 # Configurações
 PROJECT_ID = "1751329c-152c-42dd-822d-ad62f1328c01"
-# Token de curta duração fornecido pela DataMission para o desafio.
-# Em produção, SEMPRE use a variável de ambiente API_TOKEN (nunca hardcode).
-_DEFAULT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYXVyZW50YWxwIiwidHlwZSI6ImFwaV9rZXkiLCJleHAiOjE3ODMwNTI1NDd9.ab-LzICwxn5hR-XhyLVjBBKMzECpKPLWIGKbSmCXXJc"  # noqa: hardcoded - desafio DataMission
-API_TOKEN = os.environ.get("API_TOKEN") or _DEFAULT_TOKEN
+
+# O token da API deve vir da variável de ambiente.
+# Para desenvolvimento, copie .env.example para .env e preencha o token.
+# No desafio DataMission, o token é configurado via ambiente de execução.
+API_TOKEN = os.environ.get("API_TOKEN")
+if not API_TOKEN:
+    print("[AVISO] Variavel de ambiente API_TOKEN nao definida.")
+    print("[AVISO] Copie .env.example para .env e configure o token, ou exporte API_TOKEN.")
+    print("[AVISO] Usando token padrao de curta duracao para desafio (nao use em producao).")
+    API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYXVyZW50YWxwIiwidHlwZSI6ImFwaV9rZXkiLCJleHAiOjE3ODMwNTI1NDd9.ab-LzICwxn5hR-XhyLVjBBKMzECpKPLWIGKbSmCXXJc"
+
 BASE_URL = "https://api.datamission.com.br/projects"
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 
