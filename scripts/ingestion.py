@@ -5,6 +5,9 @@ Estágio 1: Estruturar ingestão inicial
 - fetch_inventory_data(): consome a API da DataMission e retorna os dados
 - Gera data/inventory_staging.csv com os dados brutos
 - Gera data/inventory_metadata.json com schema das colunas
+
+Estágio 2: Transformar e salvar dados
+- transform_inventory(): carrega JSON, seleciona colunas chave, salva CSV
 """
 
 import requests
@@ -134,31 +137,77 @@ def save_metadata(metadata: list[dict], filepath: str, total_records: int) -> No
     print(f"[save_metadata] Metadados salvos em: {filepath}")
 
 
+def transform_inventory(data: list[dict]) -> pd.DataFrame:
+    """
+    Transforma os dados brutos da API selecionando as colunas chave
+    para análise de forecast de estoque.
+
+    Colunas selecionadas:
+        - timestamp: data/hora do pedido (para séries temporais)
+        - product_category: categoria do produto (dimensão de análise)
+        - price: preço unitário
+        - quantity: quantidade (métrica principal para forecast)
+        - store_location: loja (dimensão geográfica)
+
+    Args:
+        data: Lista de dicionários com os dados brutos da API.
+
+    Returns:
+        pd.DataFrame: DataFrame com as colunas transformadas.
+    """
+    KEY_COLUMNS = [
+        "timestamp",
+        "product_category",
+        "price",
+        "quantity",
+        "store_location",
+    ]
+
+    df = pd.DataFrame(data)
+    rows_before = len(df)
+
+    # Seleciona apenas as colunas chave
+    df_transformed = df[KEY_COLUMNS].copy()
+
+    # Converte timestamp para datetime
+    df_transformed["timestamp"] = pd.to_datetime(df_transformed["timestamp"])
+
+    rows_after = len(df_transformed)
+    print(f"[transform_inventory] Linhas carregadas: {rows_after}")
+    print(f"[transform_inventory] Colunas selecionadas: {list(df_transformed.columns)}")
+
+    return df_transformed
+
+
 def main():
     """
-    Pipeline principal do Estágio 1:
-    1. Busca dados da API
-    2. Salva CSV de staging
-    3. Gera metadados do schema
+    Pipeline principal:
+    Estágio 1: Ingestão bruta via API
+    Estágio 2: Transformação e seleção de colunas chave
     """
     print("=" * 60)
-    print("  Lojas Emanuella — Ingestão de Inventário (Estágio 1)")
+    print("  Lojas Emanuella — Ingestão de Inventário")
     print("=" * 60)
 
-    # 1. Fetch dados brutos da API
+    # --- Estágio 1: Fetch dados brutos da API ---
+    print("\n--- Estágio 1: Ingestão ---")
     raw_data = fetch_inventory_data()
 
-    # 2. Salvar CSV de staging
-    csv_path = os.path.join(DATA_DIR, "inventory_staging.csv")
-    save_staging_csv(raw_data, csv_path)
+    # --- Estágio 2: Transformar dados ---
+    print("\n--- Estágio 2: Transformação ---")
+    df_transformed = transform_inventory(raw_data)
 
-    # 3. Gerar e salvar metadados do schema
+    # Salvar CSV transformado como staging
+    csv_path = os.path.join(DATA_DIR, "inventory_staging.csv")
+    save_staging_csv(df_transformed.to_dict(orient="records"), csv_path)
+
+    # Gerar e salvar metadados do schema
     metadata = generate_metadata(raw_data)
     metadata_path = os.path.join(DATA_DIR, "inventory_metadata.json")
     save_metadata(metadata, metadata_path, len(raw_data))
 
-    print("\n[OK] Estagio 1 concluido com sucesso!")
-    print(f"   CSV: {csv_path}")
+    print("\n[OK] Estagio 2 concluido com sucesso!")
+    print(f"   CSV transformado: {csv_path}")
     print(f"   Metadados: {metadata_path}")
 
 
