@@ -31,15 +31,19 @@ except ImportError:
 # Configurações
 PROJECT_ID = "1751329c-152c-42dd-822d-ad62f1328c01"
 
-# O token da API deve vir da variável de ambiente.
-# Para desenvolvimento, copie .env.example para .env e preencha o token.
-# No desafio DataMission, o token é configurado via ambiente de execução.
+# O token da API deve vir da variável de ambiente ou do arquivo .env.
+# Para configurar, copie .env.example para .env e preencha o token:
+#   copy .env.example .env   (Windows)
+#   cp .env.example .env      (Linux/Mac)
 API_TOKEN = os.environ.get("API_TOKEN")
 if not API_TOKEN:
-    print("[AVISO] Variavel de ambiente API_TOKEN nao definida.")
-    print("[AVISO] Copie .env.example para .env e configure o token, ou exporte API_TOKEN.")
-    print("[AVISO] Usando token padrao de curta duracao para desafio (nao use em producao).")
-    API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYXVyZW50YWxwIiwidHlwZSI6ImFwaV9rZXkiLCJleHAiOjE3ODMwNTI1NDd9.ab-LzICwxn5hR-XhyLVjBBKMzECpKPLWIGKbSmCXXJc"
+    print("=" * 60)
+    print("  ERRO: Variavel de ambiente API_TOKEN nao definida.")
+    print("  Copie .env.example para .env e configure o token, ou")
+    print("  execute com: set API_TOKEN=seu-token (Windows)")
+    print("  execute com: export API_TOKEN=seu-token (Linux/Mac)")
+    print("=" * 60)
+    sys.exit(1)
 
 BASE_URL = "https://api.datamission.com.br/projects"
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")

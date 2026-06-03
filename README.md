@@ -57,8 +57,20 @@ pip install -r requirements.txt
 
 ## Configuração da API
 
-O script usa um token de curta duração fornecido pela plataforma DataMission.
-Para sobrescrever o token padrão, defina a variável de ambiente:
+O script requer um token de API fornecido pela plataforma DataMission.
+Configure o token de uma das seguintes formas:
+
+### Opção 1: Arquivo .env (recomendado)
+
+```bash
+# Copie o arquivo de exemplo e edite com seu token
+copy .env.example .env    # Windows
+cp .env.example .env      # Linux/Mac
+```
+
+Edite `.env` e substitua `seu-token-aqui` pelo token fornecido.
+
+### Opção 2: Variável de ambiente
 
 ```bash
 # Windows PowerShell:
