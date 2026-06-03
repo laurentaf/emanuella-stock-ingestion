@@ -22,7 +22,12 @@ from datetime import datetime
 
 # Configurações
 PROJECT_ID = "1751329c-152c-42dd-822d-ad62f1328c01"
-API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYXVyZW50YWxwIiwidHlwZSI6ImFwaV9rZXkiLCJleHAiOjE3ODMwNTI1NDd9.ab-LzICwxn5hR-XhyLVjBBKMzECpKPLWIGKbSmCXXJc"
+# Token lido da variável de ambiente com fallback para o token do desafio DataMission
+# Em produção, defina API_TOKEN no ambiente ou via .env
+API_TOKEN = os.environ.get(
+    "API_TOKEN",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYXVyZW50YWxwIiwidHlwZSI6ImFwaV9rZXkiLCJleHAiOjE3ODMwNTI1NDd9.ab-LzICwxn5hR-XhyLVjBBKMzECpKPLWIGKbSmCXXJc"
+)
 BASE_URL = "https://api.datamission.com.br/projects"
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 

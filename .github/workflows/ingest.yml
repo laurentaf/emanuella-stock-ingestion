@@ -1,0 +1,38 @@
+# Pipeline de ingestão de inventário — Lojas Emanuella
+# Trigger: agendado diariamente às 06:00 UTC
+# SLA: pipeline deve completar em < 5 minutos
+name: ingest-inventory
+
+on:
+  schedule:
+    # Todos os dias às 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    # Permite execução manual pelo GitHub UI
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ingestion pipeline
+        run: python scripts/ingestion.py
+        env:
+          API_TOKEN: ${{ secrets.API_TOKEN }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: inventory-data
+          path: |
+            data/inventory_staging.csv
+            data/inventory_metadata.json
