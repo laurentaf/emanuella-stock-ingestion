@@ -2,12 +2,16 @@
 Script de ingestão de dados de inventário — Lojas Emanuella.
 
 Estágio 1: Estruturar ingestão inicial
-- fetch_inventory_data(): consome a API da DataMission e retorna os dados
-- Gera data/inventory_staging.csv com os dados brutos
-- Gera data/inventory_metadata.json com schema das colunas
+- fetch_inventory_data(): consome a API da DataMission
+- Persiste o JSON bruto em data/inventory_staging.json
 
 Estágio 2: Transformar e salvar dados
-- transform_inventory(): carrega JSON, seleciona colunas chave, salva CSV
+- transform_inventory(): carrega o JSON do disco, loga linhas, seleciona colunas
+- Salva resultado em data/inventory_staging.csv
+
+Estágio 3: Preparar artefatos para dbt
+- Gera data/inventory_metadata.json com schema simples (coluna/nome/tipo)
+- sql/staging_inventory.sql com modelo dbt comentado
 """
 
 import requests
@@ -20,9 +24,12 @@ from datetime import datetime
 PROJECT_ID = "1751329c-152c-42dd-822d-ad62f1328c01"
 API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsYXVyZW50YWxwIiwidHlwZSI6ImFwaV9rZXkiLCJleHAiOjE3ODMwNTI1NDd9.ab-LzICwxn5hR-XhyLVjBBKMzECpKPLWIGKbSmCXXJc"
 BASE_URL = "https://api.datamission.com.br/projects"
-# Caminhos relativos ao diretório raiz do projeto
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 
+
+# =============================================================================
+# Estágio 1: Ingestão via API
+# =============================================================================
 
 def fetch_inventory_data() -> list[dict]:
     """
@@ -49,53 +56,134 @@ def fetch_inventory_data() -> list[dict]:
     return data
 
 
-def save_staging_csv(data: list[dict], filepath: str) -> None:
+def save_raw_json(data: list[dict], filepath: str) -> str:
     """
-    Salva os dados brutos em formato CSV.
+    Persiste os dados brutos em um arquivo JSON no disco.
 
     Args:
         data: Lista de dicionários com os dados.
+        filepath: Caminho do arquivo JSON de saída.
+
+    Returns:
+        str: Caminho do arquivo salvo.
+    """
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"[save_raw_json] JSON bruto salvo em: {filepath} ({len(data)} registros)")
+    return filepath
+
+
+# =============================================================================
+# Estágio 2: Transformação a partir do JSON persistido
+# =============================================================================
+
+def transform_inventory(json_path: str) -> pd.DataFrame:
+    """
+    Carrega o JSON persistido do disco, loga quantas linhas foram carregadas
+    e seleciona as colunas chave para análise de forecast de estoque.
+
+    Colunas de saída:
+        - timestamp: data/hora do pedido (para séries temporais)
+        - product_category: categoria do produto (dimensão de análise)
+        - price: preço unitário
+        - quantity: quantidade (métrica principal para forecast)
+        - store_location: loja (dimensão geográfica)
+
+    Args:
+        json_path: Caminho do arquivo JSON gerado no Estágio 1.
+
+    Returns:
+        pd.DataFrame: DataFrame com as colunas transformadas.
+    """
+    KEY_COLUMNS = [
+        "timestamp",
+        "product_category",
+        "price",
+        "quantity",
+        "store_location",
+    ]
+
+    print(f"[transform_inventory] Carregando JSON do disco: {json_path}")
+
+    # Abre o JSON persistido no estágio 1
+    with open(json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    rows_loaded = len(data)
+    print(f"[transform_inventory] Linhas carregadas do JSON: {rows_loaded}")
+
+    df = pd.DataFrame(data)
+
+    # Seleciona apenas as colunas chave
+    df_transformed = df[KEY_COLUMNS].copy()
+
+    # Converte timestamp para datetime
+    df_transformed["timestamp"] = pd.to_datetime(df_transformed["timestamp"])
+
+    print(f"[transform_inventory] Colunas selecionadas: {list(df_transformed.columns)}")
+    print(f"[transform_inventory] Linhas após transformacao: {len(df_transformed)}")
+
+    return df_transformed
+
+
+def save_staging_csv(df: pd.DataFrame, filepath: str) -> None:
+    """
+    Salva o DataFrame transformado em formato CSV.
+
+    Args:
+        df: DataFrame com os dados transformados.
         filepath: Caminho do arquivo CSV de saída.
     """
-    df = pd.DataFrame(data)
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     df.to_csv(filepath, index=False, encoding="utf-8")
     print(f"[save_staging_csv] CSV salvo em: {filepath} ({len(df)} linhas)")
 
 
+# =============================================================================
+# Estágio 3: Artefatos para dbt
+# =============================================================================
+
 def generate_metadata(data: list[dict]) -> list[dict]:
     """
-    Gera o schema dos dados no formato:
+    Gera o schema simples dos dados no formato:
     [
         {
             "column_name": "nome_da_coluna",
-            "type": "tipo_python/tipo_banco",
-            "description": "Descrição da coluna",
-            "nullable": true/false,
-            "sample_values": ["valor1", "valor2", ...]
+            "name": "Nome Amigavel",
+            "type": "tipo_do_dado"
         },
         ...
     ]
 
+    Schema simples (coluna/nome/tipo) para consumo pelo dbt e
+    documentacao automatica.
+
     Args:
-        data: Lista de dicionários com os dados.
+        data: Lista de dicionarios com os dados.
 
     Returns:
-        list[dict]: Schema das colunas.
+        list[dict]: Schema simplificado das colunas.
     """
     if not data:
         return []
 
     df = pd.DataFrame(data)
-    metadata = []
 
+    COLUMN_NAMES = {
+        "order_id": "ID do Pedido",
+        "timestamp": "Data do Pedido",
+        "customer_id": "ID do Cliente",
+        "product_category": "Categoria do Produto",
+        "price": "Preco Unitario",
+        "quantity": "Quantidade",
+        "store_location": "Loja",
+    }
+
+    metadata = []
     for col in df.columns:
         col_type = df[col].dtype
-        null_count = int(df[col].isna().sum())
-        sample_vals = df[col].dropna().unique()[:3].tolist()
-        sample_vals = [str(v) for v in sample_vals]
 
-        # Mapeia dtype pandas para tipo legível
         if pd.api.types.is_integer_dtype(col_type):
             type_name = "integer"
         elif pd.api.types.is_float_dtype(col_type):
@@ -107,10 +195,8 @@ def generate_metadata(data: list[dict]) -> list[dict]:
 
         metadata.append({
             "column_name": col,
+            "name": COLUMN_NAMES.get(col, col.replace("_", " ").title()),
             "type": type_name,
-            "description": "",  # Preenchido manualmente ou em estágio futuro
-            "nullable": null_count > 0,
-            "sample_values": sample_vals,
         })
 
     return metadata
@@ -119,11 +205,12 @@ def generate_metadata(data: list[dict]) -> list[dict]:
 def save_metadata(metadata: list[dict], filepath: str, total_records: int) -> None:
     """
     Salva o schema dos dados em um arquivo JSON.
+    Chamada APOS salvar o CSV, como parte do pipeline.
 
     Args:
         metadata: Lista com schema das colunas.
-        filepath: Caminho do arquivo JSON de saída.
-        total_records: Número total de registros processados.
+        filepath: Caminho do arquivo JSON de saida.
+        total_records: Numero total de registros processados.
     """
     payload = {
         "project_id": PROJECT_ID,
@@ -137,78 +224,57 @@ def save_metadata(metadata: list[dict], filepath: str, total_records: int) -> No
     print(f"[save_metadata] Metadados salvos em: {filepath}")
 
 
-def transform_inventory(data: list[dict]) -> pd.DataFrame:
-    """
-    Transforma os dados brutos da API selecionando as colunas chave
-    para análise de forecast de estoque.
-
-    Colunas selecionadas:
-        - timestamp: data/hora do pedido (para séries temporais)
-        - product_category: categoria do produto (dimensão de análise)
-        - price: preço unitário
-        - quantity: quantidade (métrica principal para forecast)
-        - store_location: loja (dimensão geográfica)
-
-    Args:
-        data: Lista de dicionários com os dados brutos da API.
-
-    Returns:
-        pd.DataFrame: DataFrame com as colunas transformadas.
-    """
-    KEY_COLUMNS = [
-        "timestamp",
-        "product_category",
-        "price",
-        "quantity",
-        "store_location",
-    ]
-
-    df = pd.DataFrame(data)
-    rows_before = len(df)
-
-    # Seleciona apenas as colunas chave
-    df_transformed = df[KEY_COLUMNS].copy()
-
-    # Converte timestamp para datetime
-    df_transformed["timestamp"] = pd.to_datetime(df_transformed["timestamp"])
-
-    rows_after = len(df_transformed)
-    print(f"[transform_inventory] Linhas carregadas: {rows_after}")
-    print(f"[transform_inventory] Colunas selecionadas: {list(df_transformed.columns)}")
-
-    return df_transformed
-
+# =============================================================================
+# Pipeline principal
+# =============================================================================
 
 def main():
     """
-    Pipeline principal:
-    Estágio 1: Ingestão bruta via API
-    Estágio 2: Transformação e seleção de colunas chave
+    Pipeline principal em 3 estagios:
+
+    Estagio 1: Busca dados da API e persiste JSON bruto no disco
+    Estagio 2: Le JSON do disco, transforma, salva CSV
+    Estagio 3: Gera metadados e artefatos para dbt
     """
     print("=" * 60)
-    print("  Lojas Emanuella — Ingestão de Inventário")
+    print("  Lojas Emanuella — Ingestao de Inventario (3 estagios)")
     print("=" * 60)
 
-    # --- Estágio 1: Fetch dados brutos da API ---
-    print("\n--- Estágio 1: Ingestão ---")
+    # ------------------------------------------------------------------
+    # Estagio 1: Ingestao via API + persistencia do JSON bruto
+    # ------------------------------------------------------------------
+    print("\n--- Estagio 1: Ingestao via API ---")
     raw_data = fetch_inventory_data()
 
-    # --- Estágio 2: Transformar dados ---
-    print("\n--- Estágio 2: Transformação ---")
-    df_transformed = transform_inventory(raw_data)
+    json_path = os.path.join(DATA_DIR, "inventory_staging.json")
+    save_raw_json(raw_data, json_path)
 
-    # Salvar CSV transformado como staging
+    # ------------------------------------------------------------------
+    # Estagio 2: Carregar JSON do disco, transformar, salvar CSV
+    # ------------------------------------------------------------------
+    print("\n--- Estagio 2: Transformacao (a partir do JSON em disco) ---")
+    df_transformed = transform_inventory(json_path)
+
     csv_path = os.path.join(DATA_DIR, "inventory_staging.csv")
-    save_staging_csv(df_transformed.to_dict(orient="records"), csv_path)
+    save_staging_csv(df_transformed, csv_path)
 
-    # Gerar e salvar metadados do schema
-    metadata = generate_metadata(raw_data)
+    # ------------------------------------------------------------------
+    # Estagio 3: Gerar metadados APOS salvar o CSV
+    # ------------------------------------------------------------------
+    print("\n--- Estagio 3: Artefatos para dbt ---")
+    # Recarrega o JSON bruto do disco para gerar metadata completa
+    with open(json_path, "r", encoding="utf-8") as f:
+        raw_from_disk = json.load(f)
+
+    metadata = generate_metadata(raw_from_disk)
     metadata_path = os.path.join(DATA_DIR, "inventory_metadata.json")
-    save_metadata(metadata, metadata_path, len(raw_data))
+    save_metadata(metadata, metadata_path, len(raw_from_disk))
 
-    print("\n[OK] Estagio 2 concluido com sucesso!")
-    print(f"   CSV transformado: {csv_path}")
-    print(f"   Metadados: {metadata_path}")
+    print("\n[OK] Pipeline completo (3 estagios)!")
+    print(f"   JSON bruto:    {json_path}")
+    print(f"   CSV staging:   {csv_path}")
+    print(f"   Metadados:     {metadata_path}")
+    print(f"   SQL dbt:       sql/staging_inventory.sql")
 
 
 if __name__ == "__main__":

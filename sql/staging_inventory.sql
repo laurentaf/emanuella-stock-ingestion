@@ -1,76 +1,69 @@
 -- ============================================================================
 -- staging_inventory.sql
--- Definição da tabela de staging para dados brutos de inventário
--- Lojas Emanuella — Pipeline de Forecast de Estoque Semanal
+-- Modelo de staging para dbt — Lojas Emanuella
+-- Pipeline de Forecast de Estoque Semanal
 --
--- Fonte: API DataMission (endpoint /dataset)
--- Tabela: staging.inventory
--- Descrição: Dados brutos de pedidos/inventário coletados via API.
---            Usada como entrada para transformações e modelos dbt.
+-- Este modelo é consumido pelo dbt como uma staging layer.
+-- Ele lê os dados brutos do CSV ingerido via API e os prepara
+-- para os modelos downstream (marts de forecast).
+--
+-- Uso no dbt:
+--   {{ config(materialized='table', schema='staging') }}
+--
+-- Tabela de origem no data warehouse:
+--   raw.inventory (ou referência ao CSV via external table)
 -- ============================================================================
 
--- Criação do schema de staging (executar uma vez)
--- CREATE SCHEMA IF NOT EXISTS staging;
+WITH source AS (
+    -- Fonte: data/inventory_staging.csv gerado pelo pipeline de ingestão
+    -- API: https://api.datamission.com.br/projects/{project_id}/dataset?format=json
+    SELECT
+        order_id,
+        timestamp,
+        customer_id,
+        product_category,
+        price,
+        quantity,
+        store_location
+    FROM {{ source('raw', 'inventory') }}
+),
 
--- Tabela staging para dados de inventário
-CREATE TABLE IF NOT EXISTS staging.inventory (
-    -- Identificador único do pedido (UUID v4)
-    -- Ex: "ed5e39f2-485c-45b2-b090-4e05f24ada76"
-    order_id            TEXT        NOT NULL,
+renamed AS (
+    -- Renomeia e tipa as colunas para o padrão analítico
+    SELECT
+        -- Identificador único do pedido (UUID v4)
+        -- Ex: "ed5e39f2-485c-45b2-b090-4e05f24ada76"
+        order_id                        AS id_pedido,
 
-    -- Timestamp ISO do pedido
-    -- Formato: "YYYY-MM-DDTHH:MM:SS.ffffff"
-    -- Ex: "2026-06-01T01:36:09.833521"
-    timestamp           TIMESTAMP   NOT NULL,
+        -- Data e hora ISO do pedido
+        -- Ex: "2026-06-01T01:36:09.833521"
+        CAST(timestamp AS TIMESTAMP)    AS dt_pedido,
 
-    -- Identificador do cliente (inteiro)
-    -- Ex: 8333
-    customer_id         BIGINT      NOT NULL,
+        -- Identificador do cliente
+        -- Ex: 8333
+        customer_id                     AS id_cliente,
 
-    -- Categoria do produto
-    -- Ex: "Moda", "Eletrônicos", "Alimentos", etc.
-    product_category    TEXT        NOT NULL,
+        -- Categoria do produto
+        -- Ex: "Moda", "Eletrônicos", "Alimentos"
+        product_category                AS categoria_produto,
 
-    -- Preço unitário do produto (em reais)
-    -- Ex: 89.77
-    price               DECIMAL(10,2) NOT NULL,
+        -- Preço unitário em reais (BRL)
+        -- Ex: 89.77
+        CAST(price AS DECIMAL(10,2))   AS preco_unitario,
 
-    -- Quantidade de unidades no pedido
-    -- Ex: 5
-    quantity            INTEGER     NOT NULL,
+        -- Quantidade de unidades no pedido
+        -- Ex: 5
+        quantity                        AS quantidade,
 
-    -- Localização/loja onde o pedido foi feito
-    -- Ex: "da Costa da Praia"
-    store_location      TEXT        NOT NULL,
+        -- Nome da loja onde o pedido foi realizado
+        -- Ex: "da Costa da Praia"
+        store_location                  AS loja,
 
-    -- Metadados de ingestão
-    ingested_at         TIMESTAMP   DEFAULT CURRENT_TIMESTAMP
-);
+        -- Timestamp de ingestão (preenchido pelo pipeline)
+        CURRENT_TIMESTAMP               AS ingested_at
 
--- Comentários das colunas (para documentação no banco)
-COMMENT ON TABLE staging.inventory IS
-    'Dados brutos de pedidos/inventário para forecast de estoque semanal. Fonte: API DataMission.';
+    FROM source
+)
 
-COMMENT ON COLUMN staging.inventory.order_id IS
-    'Identificador único do pedido (UUID v4). Chave primária natural.';
-
-COMMENT ON COLUMN staging.inventory.timestamp IS
-    'Data e hora ISO do pedido. Usado para janelas temporais e forecasts.';
-
-COMMENT ON COLUMN staging.inventory.customer_id IS
-    'Identificador do cliente. Pode ser usado para agregações por cliente.';
-
-COMMENT ON COLUMN staging.inventory.product_category IS
-    'Categoria do produto (ex: Moda, Eletrônicos, Alimentos). Dimensão de análise.';
-
-COMMENT ON COLUMN staging.inventory.price IS
-    'Preço unitário do produto em reais (BRL).';
-
-COMMENT ON COLUMN staging.inventory.quantity IS
-    'Quantidade de unidades vendidas no pedido.';
-
-COMMENT ON COLUMN staging.inventory.store_location IS
-    'Nome da loja/localização onde o pedido foi realizado.';
-
-COMMENT ON COLUMN staging.inventory.ingested_at IS
-    'Timestamp de quando o registro foi ingerido no banco. Preenchido automaticamente.';
+-- Saída final: tabela staging pronta para consumo dos marts
+SELECT * FROM renamed

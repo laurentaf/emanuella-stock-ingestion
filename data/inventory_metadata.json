@@ -1,84 +1,42 @@
 {
   "project_id": "1751329c-152c-42dd-822d-ad62f1328c01",
-  "generated_at": "2026-06-03T04:30:51.312519Z",
+  "generated_at": "2026-06-03T04:33:31.268711Z",
   "total_records": 1000,
   "columns": [
     {
       "column_name": "order_id",
-      "type": "string",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "2bfc235d-1c78-4c6c-99b5-d9e002654f25",
-        "8aac557c-4564-4703-ade3-d76e77873bff",
-        "eb8a9aaf-2028-44a9-83f0-d0a5f82fb56b"
-      ]
+      "name": "ID do Pedido",
+      "type": "string"
     },
     {
       "column_name": "timestamp",
-      "type": "string",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "2026-06-02T18:23:04.326455",
-        "2026-06-02T08:12:13.903475",
-        "2026-06-01T11:06:54.433182"
-      ]
+      "name": "Data do Pedido",
+      "type": "string"
     },
     {
       "column_name": "customer_id",
-      "type": "integer",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "2677",
-        "1103",
-        "9338"
-      ]
+      "name": "ID do Cliente",
+      "type": "integer"
     },
     {
       "column_name": "product_category",
-      "type": "string",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "Alimentos",
-        "Eletrônicos",
-        "Casa"
-      ]
+      "name": "Categoria do Produto",
+      "type": "string"
     },
     {
       "column_name": "price",
-      "type": "float",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "9.46",
-        "56.49",
-        "65.45"
-      ]
+      "name": "Preco Unitario",
+      "type": "float"
     },
     {
       "column_name": "quantity",
-      "type": "integer",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "2",
-        "1",
-        "4"
-      ]
+      "name": "Quantidade",
+      "type": "integer"
     },
     {
       "column_name": "store_location",
-      "type": "string",
-      "description": "",
-      "nullable": false,
-      "sample_values": [
-        "Caldeira da Praia",
-        "Lima",
-        "Montenegro da Praia"
-      ]
+      "name": "Loja",
+      "type": "string"
     }
   ]
 }
